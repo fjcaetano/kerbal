@@ -57,8 +57,8 @@ GAME
 	}
 	FLIGHTSTATE
 	{
-		version = 0.18.2
-		UT = 433777696.220369
+		version = 0.18.4
+		UT = 433791859.119026
 		activeVessel = 5
 		CREW
 		{
@@ -1737,10 +1737,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 132.183841880945
-				LAN = 198.265672816895
-				MNA = 0
-				EPH = 433777695.940369
+				LPE = 131.788066832026
+				LAN = 74.3169837659225
+				MNA = -8.40714670366795
+				EPH = 433791859.019026
 				REF = 2
 				OBJ = 1
 			}
@@ -1869,13 +1869,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 132.183472910034
-				LAN = 198.265672816895
-				MNA = -8.40714670366795
-				EPH = 433777695.940369
+				LPE = 131.787943538897
+				LAN = 74.3169837659225
+				MNA = 0
+				EPH = 433791859.019026
 				REF = 2
 				OBJ = 1
 			}
@@ -1982,13 +1982,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 132.263691405577
-				LAN = 198.265672816895
+				LPE = 131.838784074114
+				LAN = 74.3169837659225
 				MNA = -8.40714670366795
-				EPH = 433777695.940369
+				EPH = 433791859.019026
 				REF = 2
 				OBJ = 0
 			}
@@ -3680,22 +3680,22 @@ GAME
 		VESSEL
 		{
 			pid = a4c0336eeb394c8da5be5e30a3dba89f
-			name = KSSM1 (core)
+			name = KSS
 			type = Station
 			sit = ORBITING
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 34260.4418533444
+			met = 51157.354416132
 			lct = 433740701.64461
 			root = 0
-			lat = -0.110909926348165
-			lon = 11.4069158445388
-			alt = 290781.618947096
+			lat = -0.109212500648199
+			lon = 95.3044298245044
+			alt = 289984.754515774
 			hgt = -1
-			nrm = 0.7882155,-0.4147897,-0.4546053
-			rot = 0.410011,0.6871233,0.5955958,-0.07083955
-			CoM = 3.58172,-5.045333,0.9514413
+			nrm = -0.8273929,-0.3598691,0.431179
+			rot = -0.7143155,-0.2328281,0.112592,0.6502827
+			CoM = 3.580394,-5.046391,0.9512238
 			stg = 2
 			prst = False
 			eva = False
@@ -3705,13 +3705,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 893390.850879749
-				ECC = 0.00966315962662044
-				INC = 179.888584197364
-				LPE = 190.67436821374
-				LAN = 67.7512475310715
-				MNA = 1.25508655510639
-				EPH = 433774962.126463
+				SMA = 893388.689899774
+				ECC = 0.00959523566837153
+				INC = 179.888582414547
+				LPE = 191.022194866019
+				LAN = 67.7468760138807
+				MNA = 1.15355654150731
+				EPH = 433791858.999026
 				REF = 1
 				OBJ = 0
 			}
@@ -3732,7 +3732,7 @@ GAME
 				attN = bottom, 1
 				attN = top, 63
 				mass = 2.5
-				temp = -198.6613
+				temp = -196.355
 				expt = 0.5
 				state = 1
 				connected = True
@@ -3760,7 +3760,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -3783,7 +3783,7 @@ GAME
 				attN = top, 0
 				attN = bottom, 2
 				mass = 2.5
-				temp = -197.9809
+				temp = -195.6855
 				expt = 0.5
 				state = 1
 				connected = True
@@ -3812,7 +3812,7 @@ GAME
 				attN = top, 1
 				attN = bottom, 3
 				mass = 0.08
-				temp = -197.1121
+				temp = -194.8246
 				expt = 0.5
 				state = 1
 				connected = True
@@ -3841,7 +3841,7 @@ GAME
 				attN = top, 2
 				attN = bottom, 4
 				mass = 0.1
-				temp = -195.9647
+				temp = -193.6799
 				expt = 0.5
 				state = 1
 				connected = True
@@ -3870,7 +3870,7 @@ GAME
 				attN = bottom, 5
 				attN = top, 3
 				mass = 0.07
-				temp = -195.7744
+				temp = -193.4896
 				expt = 0.5
 				state = 1
 				connected = True
@@ -3903,7 +3903,7 @@ GAME
 				attN = top, 6
 				attN = bottom, 7
 				mass = 1.5
-				temp = -196.4293
+				temp = -194.1397
 				expt = 0.5
 				state = 1
 				connected = True
@@ -3932,7 +3932,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = -195.261
+				temp = -192.9871
 				expt = 0.5
 				state = 1
 				connected = True
@@ -4071,7 +4071,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = -195.6163
+				temp = -193.3358
 				expt = 0.5
 				state = 1
 				connected = True
@@ -4086,7 +4086,7 @@ GAME
 				{
 					name = ModuleDockingNode
 					isEnabled = True
-					state = Docked (dockee)
+					state = Ready
 					dockUId = 2515892406
 					dockNodeIdx = 0
 					EVENTS
@@ -4191,12 +4191,6 @@ GAME
 							actionGroup = None
 						}
 					}
-					DOCKEDVESSEL
-					{
-						vesselName = KSSM1 (core)
-						vesselType = 6
-						rootUId = 1496806657
-					}
 				}
 			}
 			PART
@@ -4216,7 +4210,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = -195.4372
+				temp = -193.1579
 				expt = 0.5
 				state = 1
 				connected = True
@@ -4231,7 +4225,7 @@ GAME
 				{
 					name = ModuleDockingNode
 					isEnabled = True
-					state = Docked (dockee)
+					state = Ready
 					dockUId = 1300662654
 					dockNodeIdx = 0
 					EVENTS
@@ -4336,12 +4330,6 @@ GAME
 							actionGroup = None
 						}
 					}
-					DOCKEDVESSEL
-					{
-						vesselName = KSSM1 (core)
-						vesselType = 6
-						rootUId = 1496806657
-					}
 				}
 			}
 			PART
@@ -4361,7 +4349,7 @@ GAME
 				attN = top, 10
 				attN = bottom, 5
 				mass = 0.05
-				temp = -195.3031
+				temp = -193.0283
 				expt = 0.5
 				state = 1
 				connected = True
@@ -4500,7 +4488,7 @@ GAME
 				attN = top, 9
 				attN = bottom, 11
 				mass = 0.1
-				temp = -195.8429
+				temp = -193.5633
 				expt = 0.5
 				state = 1
 				connected = True
@@ -4529,7 +4517,7 @@ GAME
 				attN = top, 10
 				attN = bottom, 12
 				mass = 2
-				temp = -198.1062
+				temp = -195.813
 				expt = 0.5
 				state = 1
 				connected = True
@@ -4574,7 +4562,7 @@ GAME
 				attN = top, 11
 				attN = bottom, 13
 				mass = 1
-				temp = -197.1801
+				temp = -194.8952
 				expt = 0.5
 				state = 1
 				connected = True
@@ -4619,7 +4607,7 @@ GAME
 				attN = top, 12
 				attN = None, -1
 				mass = 6
-				temp = -195.5835
+				temp = -193.3099
 				expt = 0.5
 				state = 1
 				connected = True
@@ -4769,7 +4757,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0399999991059303
+					amount = 0.0394636644542888
 					maxAmount = 0.0399999991059303
 					flowState = True
 					flowMode = Both
@@ -4793,7 +4781,7 @@ GAME
 				sym = 17
 				srfN = srfAttach, 12
 				mass = 0.05
-				temp = -195.4353
+				temp = -193.1656
 				expt = 0
 				state = 1
 				connected = True
@@ -4823,7 +4811,7 @@ GAME
 				sym = 17
 				srfN = srfAttach, 12
 				mass = 0.05
-				temp = -195.2277
+				temp = -192.963
 				expt = 0
 				state = 1
 				connected = True
@@ -4853,7 +4841,7 @@ GAME
 				sym = 17
 				srfN = srfAttach, 12
 				mass = 0.05
-				temp = -195.0206
+				temp = -192.7609
 				expt = 0
 				state = 1
 				connected = True
@@ -4883,7 +4871,7 @@ GAME
 				sym = 16
 				srfN = srfAttach, 12
 				mass = 0.05
-				temp = -194.8139
+				temp = -192.559
 				expt = 0
 				state = 1
 				connected = True
@@ -4913,7 +4901,7 @@ GAME
 				sym = 21
 				srfN = srfAttach, 12
 				mass = 0.05
-				temp = -194.6084
+				temp = -192.3585
 				expt = 0
 				state = 1
 				connected = True
@@ -4943,7 +4931,7 @@ GAME
 				sym = 21
 				srfN = srfAttach, 12
 				mass = 0.05
-				temp = -194.4039
+				temp = -192.1588
 				expt = 0
 				state = 1
 				connected = True
@@ -4968,13 +4956,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_11; pos: -0.0005134419,0.6238515,0.08846997; dir: -3.615554E-06,0.9901268,0.1401741
+				cData = tgt: fuelTank1-2_11; pos: -0.000352949,0.6238165,0.088633; dir: -3.615554E-06,0.9901268,0.1401741
 				sym = 18
 				sym = 19
 				sym = 21
 				srfN = srfAttach, 12
 				mass = 0.05
-				temp = -194.1998
+				temp = -191.9596
 				expt = 0
 				state = 1
 				connected = True
@@ -4999,13 +4987,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_11; pos: 7.620081E-05,0.6249893,0.08828375; dir: -3.615554E-06,0.9901268,0.1401741
+				cData = tgt: fuelTank1-2_11; pos: 5.973718E-06,0.6251946,0.08841574; dir: -3.615554E-06,0.9901268,0.1401741
 				sym = 18
 				sym = 19
 				sym = 20
 				srfN = srfAttach, 12
 				mass = 0.05
-				temp = -193.9962
+				temp = -191.7605
 				expt = 0
 				state = 1
 				connected = True
@@ -5030,7 +5018,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: largeAdapter_10; pos: 0.01543952,0.813925,-0.006173796; dir: 0.01917047,0.9997787,-0.008668059
+				cData = tgt: largeAdapter_10; pos: 0.01538269,0.8141599,-0.006346348; dir: 0.01917047,0.9997787,-0.008668059
 				sym = 23
 				sym = 24
 				sym = 25
@@ -5040,7 +5028,7 @@ GAME
 				sym = 29
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -195.8794
+				temp = -193.6009
 				expt = 0
 				state = 1
 				connected = True
@@ -5065,7 +5053,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_11; pos: 0.01035715,0.5101902,-0.003902955; dir: 0.01917047,0.9997787,-0.008668059
+				cData = tgt: fuelTank1-2_11; pos: 0.0103641,0.5100961,-0.003864855; dir: 0.01917047,0.9997787,-0.008668059
 				sym = 22
 				sym = 24
 				sym = 25
@@ -5075,7 +5063,7 @@ GAME
 				sym = 29
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -195.6858
+				temp = -193.4117
 				expt = 0
 				state = 1
 				connected = True
@@ -5100,7 +5088,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: largeAdapter_10; pos: 0.01466614,0.8138208,-0.006765896; dir: 0.01917047,0.9997787,-0.008668059
+				cData = tgt: largeAdapter_10; pos: 0.01465176,0.8136588,-0.006774438; dir: 0.01917047,0.9997787,-0.008668059
 				sym = 22
 				sym = 23
 				sym = 25
@@ -5110,7 +5098,7 @@ GAME
 				sym = 29
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -195.4926
+				temp = -193.2233
 				expt = 0
 				state = 1
 				connected = True
@@ -5135,7 +5123,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_11; pos: 0.009428967,0.5082873,-0.003680972; dir: 0.01917047,0.9997787,-0.008668059
+				cData = tgt: fuelTank1-2_11; pos: 0.009484214,0.5080423,-0.003641787; dir: 0.01917047,0.9997787,-0.008668059
 				sym = 22
 				sym = 23
 				sym = 24
@@ -5145,7 +5133,7 @@ GAME
 				sym = 29
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -195.2999
+				temp = -193.0351
 				expt = 0
 				state = 1
 				connected = True
@@ -5170,7 +5158,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: largeAdapter_10; pos: 0.01572037,0.8115717,-0.007279149; dir: 0.01917047,0.9997787,-0.008668059
+				cData = tgt: largeAdapter_10; pos: 0.01585101,0.8113139,-0.007290596; dir: 0.01917047,0.9997787,-0.008668059
 				sym = 22
 				sym = 23
 				sym = 24
@@ -5180,7 +5168,7 @@ GAME
 				sym = 29
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -195.1076
+				temp = -192.8476
 				expt = 0
 				state = 1
 				connected = True
@@ -5205,7 +5193,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_11; pos: 0.009001535,0.5084723,-0.004097787; dir: 0.01917047,0.9997787,-0.008668059
+				cData = tgt: fuelTank1-2_11; pos: 0.009028865,0.5085744,-0.00409165; dir: 0.01917047,0.9997787,-0.008668059
 				sym = 22
 				sym = 23
 				sym = 24
@@ -5215,7 +5203,7 @@ GAME
 				sym = 29
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -194.9156
+				temp = -192.6602
 				expt = 0
 				state = 1
 				connected = True
@@ -5240,7 +5228,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: largeAdapter_10; pos: 0.01642671,0.8116182,-0.006702885; dir: 0.01917047,0.9997787,-0.008668059
+				cData = tgt: largeAdapter_10; pos: 0.01625074,0.8119239,-0.006597914; dir: 0.01917047,0.9997787,-0.008668059
 				sym = 22
 				sym = 23
 				sym = 24
@@ -5250,7 +5238,7 @@ GAME
 				sym = 29
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -194.7241
+				temp = -192.4734
 				expt = 0
 				state = 1
 				connected = True
@@ -5275,7 +5263,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_11; pos: 0.01011175,0.5090286,-0.004547978; dir: 0.01917047,0.9997787,-0.008668059
+				cData = tgt: fuelTank1-2_11; pos: 0.01007397,0.5087917,-0.004513696; dir: 0.01917047,0.9997787,-0.008668059
 				sym = 22
 				sym = 23
 				sym = 24
@@ -5285,7 +5273,7 @@ GAME
 				sym = 28
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -194.5331
+				temp = -192.2868
 				expt = 0
 				state = 1
 				connected = True
@@ -5310,7 +5298,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_11; pos: 0.0004931001,0.0006253729,0.0006497519; dir: 0.01038222,0.9998452,-0.01420201
+				cData = tgt: fuelTank1-2_11; pos: 0.0005164827,0.0006842624,0.0007639231; dir: 0.01038222,0.9998452,-0.01420201
 				sym = 31
 				sym = 32
 				sym = 33
@@ -5318,7 +5306,7 @@ GAME
 				sym = 35
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -194.3584
+				temp = -192.1168
 				expt = 0
 				state = 1
 				connected = True
@@ -5343,7 +5331,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: largeAdapter_10; pos: 0.003111378,0.4145705,-0.005956998; dir: 0.01038222,0.9998452,-0.01420201
+				cData = tgt: largeAdapter_10; pos: 0.003166713,0.4145854,-0.005964298; dir: 0.01038222,0.9998452,-0.01420201
 				sym = 30
 				sym = 32
 				sym = 33
@@ -5351,7 +5339,7 @@ GAME
 				sym = 35
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -194.1811
+				temp = -191.9438
 				expt = 0
 				state = 1
 				connected = True
@@ -5376,7 +5364,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: largeAdapter_10; pos: 0.003880133,0.4139608,-0.006488269; dir: 0.01038222,0.9998452,-0.01420201
+				cData = tgt: largeAdapter_10; pos: 0.003962209,0.4137713,-0.006344164; dir: 0.01038222,0.9998452,-0.01420201
 				sym = 30
 				sym = 31
 				sym = 33
@@ -5384,7 +5372,7 @@ GAME
 				sym = 35
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -194.0043
+				temp = -191.7712
 				expt = 0
 				state = 1
 				connected = True
@@ -5409,7 +5397,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: largeAdapter_10; pos: 0.004507831,0.4144702,-0.005998097; dir: 0.01038222,0.9998452,-0.01420201
+				cData = tgt: largeAdapter_10; pos: 0.004476616,0.4144968,-0.005799014; dir: 0.01038222,0.9998452,-0.01420201
 				sym = 30
 				sym = 31
 				sym = 32
@@ -5417,7 +5405,7 @@ GAME
 				sym = 35
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -193.8278
+				temp = -191.5991
 				expt = 0
 				state = 1
 				connected = True
@@ -5442,7 +5430,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: largeAdapter_10; pos: 0.005296675,0.4150355,-0.005585565; dir: 0.01038222,0.9998452,-0.01420201
+				cData = tgt: largeAdapter_10; pos: 0.005141178,0.4153755,-0.00548464; dir: 0.01038222,0.9998452,-0.01420201
 				sym = 30
 				sym = 31
 				sym = 32
@@ -5450,7 +5438,7 @@ GAME
 				sym = 35
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -193.6517
+				temp = -191.4274
 				expt = 0
 				state = 1
 				connected = True
@@ -5475,7 +5463,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_11; pos: 0.0005339381,0.0001512777,-6.806855E-05; dir: 0.01038222,0.9998452,-0.01420201
+				cData = tgt: fuelTank1-2_11; pos: 0.0005577799,0.0001635563,-4.111227E-05; dir: 0.01038222,0.9998452,-0.01420201
 				sym = 30
 				sym = 31
 				sym = 32
@@ -5483,7 +5471,7 @@ GAME
 				sym = 34
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -193.4761
+				temp = -191.2559
 				expt = 0
 				state = 1
 				connected = True
@@ -5512,7 +5500,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 5
 				mass = 0.05
-				temp = -194.396
+				temp = -192.1422
 				expt = 0.5
 				state = 1
 				connected = True
@@ -5647,13 +5635,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: stationHub_5; pos: -1.094195,-0.8809329,-0.02435913; dir: -0.7787954,-0.6270305,-0.01762028
+				cData = tgt: stationHub_5; pos: -1.094375,-0.8810252,-0.02444498; dir: -0.7787954,-0.6270305,-0.01762028
 				sym = 38
 				sym = 39
 				sym = 40
 				srfN = srfAttach, 2
 				mass = 0.05
-				temp = -195.3688
+				temp = -193.0991
 				expt = 0
 				state = 1
 				connected = True
@@ -5678,13 +5666,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: stationHub_5; pos: -1.093425,-0.8806492,-0.02393273; dir: -0.7787954,-0.6270305,-0.01762028
+				cData = tgt: stationHub_5; pos: -1.093563,-0.8808687,-0.02398787; dir: -0.7787954,-0.6270305,-0.01762028
 				sym = 37
 				sym = 39
 				sym = 40
 				srfN = srfAttach, 2
 				mass = 0.05
-				temp = -195.1575
+				temp = -192.8924
 				expt = 0
 				state = 1
 				connected = True
@@ -5709,13 +5697,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: stationHub_5; pos: -1.09276,-0.8800362,-0.02391707; dir: -0.7787954,-0.6270305,-0.01762028
+				cData = tgt: stationHub_5; pos: -1.092899,-0.8800745,-0.0239652; dir: -0.7787954,-0.6270305,-0.01762028
 				sym = 37
 				sym = 38
 				sym = 40
 				srfN = srfAttach, 2
 				mass = 0.05
-				temp = -194.9466
+				temp = -192.6865
 				expt = 0
 				state = 1
 				connected = True
@@ -5740,13 +5728,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: stationHub_5; pos: -1.093955,-0.8801634,-0.02441038; dir: -0.7787954,-0.6270305,-0.01762028
+				cData = tgt: stationHub_5; pos: -1.094193,-0.8801821,-0.02441638; dir: -0.7787954,-0.6270305,-0.01762028
 				sym = 37
 				sym = 38
 				sym = 39
 				srfN = srfAttach, 2
 				mass = 0.05
-				temp = -194.736
+				temp = -192.481
 				expt = 0
 				state = 1
 				connected = True
@@ -5773,7 +5761,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 2
 				mass = 0.005
-				temp = -194.5204
+				temp = -192.2703
 				expt = 0.5
 				state = 1
 				connected = True
@@ -5827,7 +5815,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 2
 				mass = 0.005
-				temp = -194.3033
+				temp = -192.0583
 				expt = 0.5
 				state = 1
 				connected = True
@@ -5881,7 +5869,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 2
 				mass = 0.005
-				temp = -194.0906
+				temp = -191.8507
 				expt = 0.5
 				state = 1
 				connected = True
@@ -5933,7 +5921,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: crewCabin_1; pos: 0.002180696,-0.09276009,0.001950711; dir: 0.02282926,-0.9995685,0.01848776
+				cData = tgt: crewCabin_1; pos: 0.002182484,-0.09292144,0.001949314; dir: 0.02282926,-0.9995685,0.01848776
 				sym = 45
 				sym = 46
 				sym = 47
@@ -5941,7 +5929,7 @@ GAME
 				sym = 49
 				srfN = srfAttach, 1
 				mass = 0.05
-				temp = -195.7828
+				temp = -193.5041
 				expt = 0
 				state = 1
 				connected = True
@@ -5966,7 +5954,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: crewCabin_1; pos: 0.002190086,-0.09242338,0.001960855; dir: 0.02282926,-0.9995685,0.01848776
+				cData = tgt: crewCabin_1; pos: 0.002216507,-0.09225047,0.002020213; dir: 0.02282926,-0.9995685,0.01848776
 				sym = 44
 				sym = 46
 				sym = 47
@@ -5974,7 +5962,7 @@ GAME
 				sym = 49
 				srfN = srfAttach, 1
 				mass = 0.05
-				temp = -195.5761
+				temp = -193.3023
 				expt = 0
 				state = 1
 				connected = True
@@ -5999,7 +5987,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: crewCabin_1; pos: 0.002044351,-0.09208053,0.001894778; dir: 0.02282926,-0.9995685,0.01848776
+				cData = tgt: crewCabin_1; pos: 0.001999091,-0.09187597,0.001984144; dir: 0.02282926,-0.9995685,0.01848776
 				sym = 44
 				sym = 45
 				sym = 47
@@ -6007,7 +5995,7 @@ GAME
 				sym = 49
 				srfN = srfAttach, 1
 				mass = 0.05
-				temp = -195.3701
+				temp = -193.101
 				expt = 0
 				state = 1
 				connected = True
@@ -6032,7 +6020,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: crewCabin_1; pos: 0.00270414,-0.09296358,0.001699871; dir: 0.02282926,-0.9995685,0.01848776
+				cData = tgt: crewCabin_1; pos: 0.002690434,-0.09300518,0.001675766; dir: 0.02282926,-0.9995685,0.01848776
 				sym = 44
 				sym = 45
 				sym = 46
@@ -6040,7 +6028,7 @@ GAME
 				sym = 49
 				srfN = srfAttach, 1
 				mass = 0.05
-				temp = -195.1645
+				temp = -192.9004
 				expt = 0
 				state = 1
 				connected = True
@@ -6065,7 +6053,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: crewCabin_1; pos: 0.001898113,-0.0921877,0.001727895; dir: 0.02282926,-0.9995685,0.01848776
+				cData = tgt: crewCabin_1; pos: 0.001943232,-0.09199983,0.001624488; dir: 0.02282926,-0.9995685,0.01848776
 				sym = 44
 				sym = 45
 				sym = 46
@@ -6073,7 +6061,7 @@ GAME
 				sym = 49
 				srfN = srfAttach, 1
 				mass = 0.05
-				temp = -194.9592
+				temp = -192.6998
 				expt = 0
 				state = 1
 				connected = True
@@ -6098,7 +6086,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: crewCabin_1; pos: 0.002282199,-0.09177065,0.001677731; dir: 0.02282926,-0.9995685,0.01848776
+				cData = tgt: crewCabin_1; pos: 0.002347228,-0.09190071,0.001643894; dir: 0.02282926,-0.9995685,0.01848776
 				sym = 44
 				sym = 45
 				sym = 46
@@ -6106,7 +6094,7 @@ GAME
 				sym = 48
 				srfN = srfAttach, 1
 				mass = 0.05
-				temp = -194.7544
+				temp = -192.5
 				expt = 0
 				state = 1
 				connected = True
@@ -6133,7 +6121,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.005
-				temp = -194.5473
+				temp = -192.2978
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6190,7 +6178,7 @@ GAME
 				sym = 54
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = -194.3568
+				temp = -192.1122
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6266,7 +6254,7 @@ GAME
 				sym = 54
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = -194.1644
+				temp = -191.9243
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6342,7 +6330,7 @@ GAME
 				sym = 54
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = -193.9723
+				temp = -191.7369
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6418,7 +6406,7 @@ GAME
 				sym = 53
 				srfN = srfAttach, 1
 				mass = 0.015
-				temp = -193.7807
+				temp = -191.5499
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6496,7 +6484,7 @@ GAME
 				sym = 60
 				srfN = srfAttach, 0
 				mass = 0.005
-				temp = -196.114
+				temp = -193.8257
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6510,7 +6498,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -6536,7 +6524,7 @@ GAME
 				sym = 60
 				srfN = srfAttach, 0
 				mass = 0.005
-				temp = -195.9001
+				temp = -193.617
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6550,7 +6538,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -6576,7 +6564,7 @@ GAME
 				sym = 60
 				srfN = srfAttach, 0
 				mass = 0.005
-				temp = -195.6865
+				temp = -193.4088
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6590,7 +6578,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -6616,7 +6604,7 @@ GAME
 				sym = 60
 				srfN = srfAttach, 0
 				mass = 0.005
-				temp = -195.4738
+				temp = -193.2007
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6630,7 +6618,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -6656,7 +6644,7 @@ GAME
 				sym = 60
 				srfN = srfAttach, 0
 				mass = 0.005
-				temp = -195.2614
+				temp = -192.9934
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6670,7 +6658,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -6696,7 +6684,7 @@ GAME
 				sym = 59
 				srfN = srfAttach, 0
 				mass = 0.005
-				temp = -195.0495
+				temp = -192.7865
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6710,7 +6698,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -6732,7 +6720,7 @@ GAME
 				sym = 62
 				srfN = srfAttach, 0
 				mass = 0.14
-				temp = -194.8381
+				temp = -192.5802
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6747,7 +6735,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.5148786, -0.5148219, -0.4846811, 0.4847087)
+					currentRotation = (0.3318192, 0.3318435, -0.6244224, 0.6243978)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -6809,7 +6797,7 @@ GAME
 				sym = 61
 				srfN = srfAttach, 0
 				mass = 0.14
-				temp = -194.6278
+				temp = -192.3748
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6824,7 +6812,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.4847575, -0.4846817, -0.5147799, 0.5148743)
+					currentRotation = (-0.6243828, -0.6244338, 0.3318732, -0.3317963)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -6887,7 +6875,7 @@ GAME
 				attN = top, 64
 				attN = bottom, 0
 				mass = 0.4
-				temp = -195.8344
+				temp = -193.5702
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6924,7 +6912,7 @@ GAME
 				attN = top, 65
 				attN = bottom, 63
 				mass = 0.05
-				temp = -195.2012
+				temp = -192.9436
 				expt = 0.5
 				state = 1
 				connected = True
@@ -6938,7 +6926,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 500
+					amount = 499.999463665348
 					maxAmount = 500
 					flowState = True
 					flowMode = Both
@@ -6961,7 +6949,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 64
 				mass = 0.05
-				temp = -194.6855
+				temp = -192.4367
 				expt = 0.5
 				state = 1
 				connected = True
@@ -7101,7 +7089,7 @@ GAME
 				sym = 69
 				srfN = srfAttach, 63
 				mass = 0.05
-				temp = -194.7769
+				temp = -192.5266
 				expt = 0.5
 				state = 1
 				connected = True
@@ -7169,7 +7157,7 @@ GAME
 				sym = 69
 				srfN = srfAttach, 63
 				mass = 0.05
-				temp = -194.5723
+				temp = -192.3271
 				expt = 0.5
 				state = 1
 				connected = True
@@ -7237,7 +7225,7 @@ GAME
 				sym = 69
 				srfN = srfAttach, 63
 				mass = 0.05
-				temp = -194.3683
+				temp = -192.1276
 				expt = 0.5
 				state = 1
 				connected = True
@@ -7305,7 +7293,7 @@ GAME
 				sym = 68
 				srfN = srfAttach, 63
 				mass = 0.05
-				temp = -194.1648
+				temp = -191.929
 				expt = 0.5
 				state = 1
 				connected = True
@@ -7373,7 +7361,7 @@ GAME
 				sym = 73
 				srfN = srfAttach, 0
 				mass = 0.015
-				temp = -194.2269
+				temp = -191.9835
 				expt = 0.5
 				state = 1
 				connected = True
@@ -7449,7 +7437,7 @@ GAME
 				sym = 73
 				srfN = srfAttach, 0
 				mass = 0.015
-				temp = -194.0293
+				temp = -191.7906
 				expt = 0.5
 				state = 1
 				connected = True
@@ -7525,7 +7513,7 @@ GAME
 				sym = 73
 				srfN = srfAttach, 0
 				mass = 0.015
-				temp = -193.8321
+				temp = -191.5981
 				expt = 0.5
 				state = 1
 				connected = True
@@ -7601,7 +7589,7 @@ GAME
 				sym = 72
 				srfN = srfAttach, 0
 				mass = 0.015
-				temp = -193.6352
+				temp = -191.4061
 				expt = 0.5
 				state = 1
 				connected = True
@@ -7675,7 +7663,7 @@ GAME
 				srfN = None, -1
 				attN = bottom, 75
 				mass = 0.1
-				temp = -195.8541
+				temp = -193.5738
 				expt = 0.5
 				state = 0
 				connected = True
@@ -7849,7 +7837,7 @@ GAME
 				attN = bottom, 76
 				attN = top, 74
 				mass = 4
-				temp = -197.0403
+				temp = -194.7578
 				expt = 0.5
 				state = 0
 				connected = True
@@ -7878,7 +7866,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 150
+					amount = 149.999463665348
 					maxAmount = 150
 					flowState = True
 					flowMode = Both
@@ -7901,7 +7889,7 @@ GAME
 				attN = top, 75
 				attN = bottom, 77
 				mass = 0.4
-				temp = -196.3625
+				temp = -194.0847
 				expt = 0.5
 				state = 0
 				connected = True
@@ -7938,7 +7926,7 @@ GAME
 				attN = top, 76
 				attN = bottom, 78
 				mass = 0.5
-				temp = -195.6272
+				temp = -193.3526
 				expt = 0.5
 				state = 0
 				connected = True
@@ -7967,7 +7955,7 @@ GAME
 				attN = top, 77
 				attN = bottom, 79
 				mass = 2.5
-				temp = -195.5518
+				temp = -193.2794
 				expt = 0.5
 				state = 0
 				connected = True
@@ -7996,7 +7984,7 @@ GAME
 				attN = top, 78
 				attN = bottom, 88
 				mass = 2
-				temp = -196.7199
+				temp = -194.4436
 				expt = 0.5
 				state = 0
 				connected = True
@@ -8042,7 +8030,7 @@ GAME
 				sym = 83
 				srfN = srfAttach, 79
 				mass = 0.015
-				temp = -195.3891
+				temp = -193.1225
 				expt = 0.5
 				state = 0
 				connected = True
@@ -8118,7 +8106,7 @@ GAME
 				sym = 83
 				srfN = srfAttach, 79
 				mass = 0.015
-				temp = -195.2063
+				temp = -192.9438
 				expt = 0.5
 				state = 0
 				connected = True
@@ -8194,7 +8182,7 @@ GAME
 				sym = 83
 				srfN = srfAttach, 79
 				mass = 0.015
-				temp = -195.0236
+				temp = -192.7658
 				expt = 0.5
 				state = 0
 				connected = True
@@ -8270,7 +8258,7 @@ GAME
 				sym = 82
 				srfN = srfAttach, 79
 				mass = 0.015
-				temp = -194.8413
+				temp = -192.5881
 				expt = 0.5
 				state = 0
 				connected = True
@@ -8346,7 +8334,7 @@ GAME
 				sym = 87
 				srfN = srfAttach, 79
 				mass = 0.05
-				temp = -194.6643
+				temp = -192.4155
 				expt = 0
 				state = 0
 				connected = True
@@ -8376,7 +8364,7 @@ GAME
 				sym = 87
 				srfN = srfAttach, 79
 				mass = 0.05
-				temp = -194.4909
+				temp = -192.2464
 				expt = 0
 				state = 0
 				connected = True
@@ -8406,7 +8394,7 @@ GAME
 				sym = 87
 				srfN = srfAttach, 79
 				mass = 0.05
-				temp = -194.3179
+				temp = -192.0777
 				expt = 0
 				state = 0
 				connected = True
@@ -8436,7 +8424,7 @@ GAME
 				sym = 86
 				srfN = srfAttach, 79
 				mass = 0.05
-				temp = -194.1451
+				temp = -191.9093
 				expt = 0
 				state = 0
 				connected = True
@@ -8465,7 +8453,7 @@ GAME
 				attN = top, 79
 				attN = None, -1
 				mass = 2.5
-				temp = -194.0479
+				temp = -191.8156
 				expt = 0.5
 				state = 1
 				connected = True
@@ -8615,7 +8603,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0199999995529652
+					amount = 0.0194636649013236
 					maxAmount = 0.0199999995529652
 					flowState = True
 					flowMode = Both
@@ -8639,7 +8627,7 @@ GAME
 				sym = 92
 				srfN = srfAttach, 76
 				mass = 0.05
-				temp = -195.0204
+				temp = -192.7595
 				expt = 0.5
 				state = 0
 				connected = True
@@ -8707,7 +8695,7 @@ GAME
 				sym = 92
 				srfN = srfAttach, 76
 				mass = 0.05
-				temp = -194.8157
+				temp = -192.5595
 				expt = 0.5
 				state = 0
 				connected = True
@@ -8775,7 +8763,7 @@ GAME
 				sym = 92
 				srfN = srfAttach, 76
 				mass = 0.05
-				temp = -194.6115
+				temp = -192.3602
 				expt = 0.5
 				state = 0
 				connected = True
@@ -8843,7 +8831,7 @@ GAME
 				sym = 91
 				srfN = srfAttach, 76
 				mass = 0.05
-				temp = -194.4079
+				temp = -192.1613
 				expt = 0.5
 				state = 0
 				connected = True
@@ -8911,7 +8899,7 @@ GAME
 				sym = 96
 				srfN = srfAttach, 75
 				mass = 0.015
-				temp = -195.3419
+				temp = -193.0754
 				expt = 0.5
 				state = 0
 				connected = True
@@ -8987,7 +8975,7 @@ GAME
 				sym = 96
 				srfN = srfAttach, 75
 				mass = 0.015
-				temp = -195.1341
+				temp = -192.8725
 				expt = 0.5
 				state = 0
 				connected = True
@@ -9063,7 +9051,7 @@ GAME
 				sym = 96
 				srfN = srfAttach, 75
 				mass = 0.015
-				temp = -194.9268
+				temp = -192.6701
 				expt = 0.5
 				state = 0
 				connected = True
@@ -9139,7 +9127,7 @@ GAME
 				sym = 95
 				srfN = srfAttach, 75
 				mass = 0.015
-				temp = -194.7199
+				temp = -192.4683
 				expt = 0.5
 				state = 0
 				connected = True
@@ -9215,7 +9203,7 @@ GAME
 				sym = 100
 				srfN = srfAttach, 75
 				mass = 0.15
-				temp = -194.5072
+				temp = -192.2605
 				expt = 0.5
 				state = 0
 				connected = True
@@ -9299,7 +9287,7 @@ GAME
 				sym = 100
 				srfN = srfAttach, 75
 				mass = 0.15
-				temp = -194.2945
+				temp = -192.0526
 				expt = 0.5
 				state = 0
 				connected = True
@@ -9383,7 +9371,7 @@ GAME
 				sym = 100
 				srfN = srfAttach, 75
 				mass = 0.15
-				temp = -194.082
+				temp = -191.8452
 				expt = 0.5
 				state = 0
 				connected = True
@@ -9467,7 +9455,7 @@ GAME
 				sym = 99
 				srfN = srfAttach, 75
 				mass = 0.15
-				temp = -193.8702
+				temp = -191.6382
 				expt = 0.5
 				state = 0
 				connected = True
@@ -9549,7 +9537,7 @@ GAME
 				srfN = None, -1
 				attN = bottom, 102
 				mass = 0.1
-				temp = -195.7584
+				temp = -193.4747
 				expt = 0.5
 				state = 1
 				connected = True
@@ -9723,7 +9711,7 @@ GAME
 				attN = bottom, 107
 				attN = top, 101
 				mass = 0.08
-				temp = -196.8014
+				temp = -194.5085
 				expt = 0
 				state = 1
 				connected = True
@@ -9749,7 +9737,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 5
+					amount = 4.99946366534835
 					maxAmount = 5
 					flowState = True
 					flowMode = Both
@@ -9773,7 +9761,7 @@ GAME
 				sym = 106
 				srfN = srfAttach, 102
 				mass = 0.05
-				temp = -195.4447
+				temp = -193.1669
 				expt = 0.5
 				state = 1
 				connected = True
@@ -9841,7 +9829,7 @@ GAME
 				sym = 106
 				srfN = srfAttach, 102
 				mass = 0.05
-				temp = -195.217
+				temp = -192.9445
 				expt = 0.5
 				state = 1
 				connected = True
@@ -9909,7 +9897,7 @@ GAME
 				sym = 106
 				srfN = srfAttach, 102
 				mass = 0.05
-				temp = -194.9895
+				temp = -192.7225
 				expt = 0.5
 				state = 1
 				connected = True
@@ -9977,7 +9965,7 @@ GAME
 				sym = 105
 				srfN = srfAttach, 102
 				mass = 0.05
-				temp = -194.7627
+				temp = -192.5011
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10044,7 +10032,7 @@ GAME
 				attN = bottom, 122
 				attN = top, 102
 				mass = 0.6
-				temp = -198.5765
+				temp = -196.2719
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10072,7 +10060,7 @@ GAME
 				sym = 109
 				srfN = srfAttach, 107
 				mass = 0.14
-				temp = -196.3079
+				temp = -194.016
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10087,7 +10075,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.02174157, 0.02163759, -0.7066895, 0.7068586)
+					currentRotation = (-0.6703997, -0.6705583, -0.2246569, 0.2246)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -10149,7 +10137,7 @@ GAME
 				sym = 108
 				srfN = srfAttach, 107
 				mass = 0.14
-				temp = -196.0783
+				temp = -193.7918
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10164,7 +10152,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.7068607, -0.7066875, 0.02164263, -0.02173703)
+					currentRotation = (-0.2246176, -0.2246625, -0.6705553, 0.670395)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -10226,7 +10214,7 @@ GAME
 				sym = 111
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -195.8273
+				temp = -193.546
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10240,7 +10228,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10262,7 +10250,7 @@ GAME
 				sym = 110
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -195.6166
+				temp = -193.3406
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10276,7 +10264,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10298,7 +10286,7 @@ GAME
 				sym = 113
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -195.4131
+				temp = -193.142
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10312,7 +10300,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10334,7 +10322,7 @@ GAME
 				sym = 112
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -195.1921
+				temp = -192.926
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10348,7 +10336,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10370,7 +10358,7 @@ GAME
 				sym = 115
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -194.9708
+				temp = -192.7098
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10384,7 +10372,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10406,7 +10394,7 @@ GAME
 				sym = 114
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -194.7452
+				temp = -192.4892
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10420,7 +10408,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10442,7 +10430,7 @@ GAME
 				sym = 117
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -194.52
+				temp = -192.2695
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10456,7 +10444,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10478,7 +10466,7 @@ GAME
 				sym = 116
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -194.2955
+				temp = -192.0501
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10492,7 +10480,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10514,7 +10502,7 @@ GAME
 				sym = 119
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -194.0786
+				temp = -191.8385
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10528,7 +10516,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10550,7 +10538,7 @@ GAME
 				sym = 118
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -193.8596
+				temp = -191.6246
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10564,7 +10552,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10586,7 +10574,7 @@ GAME
 				sym = 121
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -193.6669
+				temp = -191.437
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10600,7 +10588,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10622,7 +10610,7 @@ GAME
 				sym = 120
 				srfN = srfAttach, 107
 				mass = 0.005
-				temp = -193.4604
+				temp = -191.2351
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10636,7 +10624,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10659,7 +10647,7 @@ GAME
 				attN = bottom, 137
 				attN = top, 107
 				mass = 0.6
-				temp = -198.531
+				temp = -196.227
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10687,7 +10675,7 @@ GAME
 				sym = 124
 				srfN = srfAttach, 122
 				mass = 0.14
-				temp = -196.2852
+				temp = -193.9942
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10702,7 +10690,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.02173146, 0.02163524, -0.70669, 0.7068585)
+					currentRotation = (-0.6703981, -0.6705438, -0.224669, 0.2246362)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -10764,7 +10752,7 @@ GAME
 				sym = 123
 				srfN = srfAttach, 122
 				mass = 0.14
-				temp = -196.0557
+				temp = -193.7697
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10779,7 +10767,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.706865, -0.7066836, 0.02163464, -0.02173064)
+					currentRotation = (-0.2245987, -0.2246288, -0.6705695, 0.6703984)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -10841,7 +10829,7 @@ GAME
 				sym = 126
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -195.8019
+				temp = -193.5215
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10855,7 +10843,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10877,7 +10865,7 @@ GAME
 				sym = 125
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -195.5937
+				temp = -193.3185
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10891,7 +10879,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10913,7 +10901,7 @@ GAME
 				sym = 128
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -195.3933
+				temp = -193.1229
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10927,7 +10915,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10949,7 +10937,7 @@ GAME
 				sym = 127
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -195.1736
+				temp = -192.9082
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10963,7 +10951,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -10985,7 +10973,7 @@ GAME
 				sym = 130
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -194.9534
+				temp = -192.693
 				expt = 0.5
 				state = 1
 				connected = True
@@ -10999,7 +10987,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11021,7 +11009,7 @@ GAME
 				sym = 129
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -194.7283
+				temp = -192.4732
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11035,7 +11023,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11057,7 +11045,7 @@ GAME
 				sym = 132
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -194.5029
+				temp = -192.2529
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11071,7 +11059,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11093,7 +11081,7 @@ GAME
 				sym = 131
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -194.278
+				temp = -192.0332
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11107,7 +11095,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11129,7 +11117,7 @@ GAME
 				sym = 134
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -194.0599
+				temp = -191.8204
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11143,7 +11131,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11165,7 +11153,7 @@ GAME
 				sym = 133
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -193.8403
+				temp = -191.6059
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11179,7 +11167,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11201,7 +11189,7 @@ GAME
 				sym = 136
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -193.6423
+				temp = -191.4129
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11215,7 +11203,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11237,7 +11225,7 @@ GAME
 				sym = 135
 				srfN = srfAttach, 122
 				mass = 0.005
-				temp = -193.4329
+				temp = -191.2085
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11251,7 +11239,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11274,7 +11262,7 @@ GAME
 				attN = bottom, 176
 				attN = top, 122
 				mass = 0.175
-				temp = -197.3465
+				temp = -195.0502
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11304,7 +11292,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.6
-				temp = -199.1077
+				temp = -196.8019
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11329,11 +11317,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: batteryPack_151; pos: -0.1145745,0.1027994,-0.003019817; dir: -0.7463195,0.665396,-0.01598071
+				cData = tgt: batteryPack_151; pos: -0.114587,0.1027209,-0.003160807; dir: -0.7463195,0.665396,-0.01598071
 				sym = 158
 				srfN = srfAttach, 138
 				mass = 0.05
-				temp = -196.5086
+				temp = -194.2144
 				expt = 0
 				state = 1
 				connected = True
@@ -11358,11 +11346,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: largeSolarPanel_187; pos: -2.657372,-2.383373,-0.01839589; dir: -0.7443053,-0.6678226,-0.004753876
+				cData = tgt: largeSolarPanel_187; pos: -2.657297,-2.383535,-0.01839431; dir: -0.7443053,-0.6678226,-0.004753876
 				sym = 159
 				srfN = srfAttach, 138
 				mass = 0.05
-				temp = -196.3152
+				temp = -194.0258
 				expt = 0
 				state = 1
 				connected = True
@@ -11390,7 +11378,7 @@ GAME
 				sym = 160
 				srfN = srfAttach, 138
 				mass = 0.05
-				temp = -196.1221
+				temp = -193.8373
 				expt = 0
 				state = 1
 				connected = True
@@ -11415,11 +11403,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: batteryPack_154; pos: -0.001185092,-2.136168,-0.003729525; dir: -1.512056E-07,-0.9999992,-0.00127645
+				cData = tgt: batteryPack_154; pos: -0.001131846,-2.136218,-0.003760843; dir: -1.512056E-07,-0.9999992,-0.00127645
 				sym = 161
 				srfN = srfAttach, 138
 				mass = 0.05
-				temp = -195.8871
+				temp = -193.6075
 				expt = 0
 				state = 1
 				connected = True
@@ -11444,11 +11432,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: trussPiece3x_138; pos: -0.001334816,-0.0008001325,-0.000183016; dir: 0.6071205,0.4147066,-0.6778075
+				cData = tgt: trussPiece3x_138; pos: -0.001304835,-0.0009305476,-8.873668E-05; dir: 0.6071205,0.4147066,-0.6778075
 				sym = 162
 				srfN = srfAttach, 138
 				mass = 0.05
-				temp = -195.6876
+				temp = -193.4131
 				expt = 0
 				state = 1
 				connected = True
@@ -11473,11 +11461,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: batteryPack_153; pos: 0.1127741,-0.1123072,-0.001132063; dir: 0.7073076,-0.7068754,-0.006566254
+				cData = tgt: batteryPack_153; pos: 0.1126987,-0.1123364,-0.001274161; dir: 0.7073076,-0.7068754,-0.006566254
 				sym = 163
 				srfN = srfAttach, 138
 				mass = 0.05
-				temp = -195.4767
+				temp = -193.207
 				expt = 0
 				state = 1
 				connected = True
@@ -11505,7 +11493,7 @@ GAME
 				sym = 164
 				srfN = srfAttach, 138
 				mass = 0.14
-				temp = -195.2825
+				temp = -193.0175
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11582,7 +11570,7 @@ GAME
 				sym = 165
 				srfN = srfAttach, 138
 				mass = 0.14
-				temp = -195.0554
+				temp = -192.7957
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11659,7 +11647,7 @@ GAME
 				sym = 166
 				srfN = srfAttach, 138
 				mass = 0.005
-				temp = -194.8351
+				temp = -192.5806
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11673,7 +11661,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11695,7 +11683,7 @@ GAME
 				sym = 167
 				srfN = srfAttach, 138
 				mass = 0.005
-				temp = -194.6174
+				temp = -192.368
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11709,7 +11697,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11731,7 +11719,7 @@ GAME
 				sym = 168
 				srfN = srfAttach, 138
 				mass = 0.005
-				temp = -194.3918
+				temp = -192.1475
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11745,7 +11733,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11767,7 +11755,7 @@ GAME
 				sym = 169
 				srfN = srfAttach, 138
 				mass = 0.005
-				temp = -194.1717
+				temp = -191.9326
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11781,7 +11769,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11803,7 +11791,7 @@ GAME
 				sym = 170
 				srfN = srfAttach, 138
 				mass = 0.005
-				temp = -193.9732
+				temp = -191.7388
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11817,7 +11805,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11839,7 +11827,7 @@ GAME
 				sym = 171
 				srfN = srfAttach, 138
 				mass = 0.005
-				temp = -193.7725
+				temp = -191.5431
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11853,7 +11841,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11875,7 +11863,7 @@ GAME
 				sym = 172
 				srfN = srfAttach, 138
 				mass = 0.005
-				temp = -193.5513
+				temp = -191.3268
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11889,7 +11877,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11911,7 +11899,7 @@ GAME
 				sym = 173
 				srfN = srfAttach, 138
 				mass = 0.005
-				temp = -193.3268
+				temp = -191.1073
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11925,7 +11913,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11947,7 +11935,7 @@ GAME
 				sym = 174
 				srfN = srfAttach, 138
 				mass = 0.005
-				temp = -193.101
+				temp = -190.8865
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11961,7 +11949,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -11983,7 +11971,7 @@ GAME
 				sym = 175
 				srfN = srfAttach, 138
 				mass = 0.005
-				temp = -192.8696
+				temp = -190.6605
 				expt = 0.5
 				state = 1
 				connected = True
@@ -11997,7 +11985,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12021,7 +12009,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.6
-				temp = -199.0759
+				temp = -196.7708
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12046,11 +12034,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: batteryPack_170; pos: -0.117059,0.1038593,-0.002026379; dir: -0.7463195,0.665396,-0.01598071
+				cData = tgt: batteryPack_170; pos: -0.1170505,0.1038947,-0.001817038; dir: -0.7463195,0.665396,-0.01598071
 				sym = 139
 				srfN = srfAttach, 157
 				mass = 0.05
-				temp = -196.4938
+				temp = -194.2003
 				expt = 0
 				state = 1
 				connected = True
@@ -12075,11 +12063,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: largeSolarPanel_188; pos: -2.65524,-2.383094,-0.01679025; dir: -0.7443053,-0.6678226,-0.004753876
+				cData = tgt: largeSolarPanel_188; pos: -2.655386,-2.383343,-0.01693901; dir: -0.7443053,-0.6678226,-0.004753876
 				sym = 140
 				srfN = srfAttach, 157
 				mass = 0.05
-				temp = -196.3004
+				temp = -194.0116
 				expt = 0
 				state = 1
 				connected = True
@@ -12107,7 +12095,7 @@ GAME
 				sym = 141
 				srfN = srfAttach, 157
 				mass = 0.05
-				temp = -196.1071
+				temp = -193.8231
 				expt = 0
 				state = 1
 				connected = True
@@ -12132,11 +12120,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: batteryPack_173; pos: 0.001184416,-2.135722,-0.002558183; dir: -1.512056E-07,-0.9999992,-0.00127645
+				cData = tgt: batteryPack_173; pos: 0.00116367,-2.135764,-0.002355508; dir: -1.512056E-07,-0.9999992,-0.00127645
 				sym = 142
 				srfN = srfAttach, 157
 				mass = 0.05
-				temp = -195.8722
+				temp = -193.5936
 				expt = 0
 				state = 1
 				connected = True
@@ -12161,11 +12149,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: trussPiece3x_157; pos: 0.001211464,-4.767871E-06,-0.0002226534; dir: 0.6071205,0.4147066,-0.6778075
+				cData = tgt: trussPiece3x_157; pos: 0.001300395,-0.0001169441,-2.05041E-05; dir: 0.6071205,0.4147066,-0.6778075
 				sym = 143
 				srfN = srfAttach, 157
 				mass = 0.05
-				temp = -195.673
+				temp = -193.3989
 				expt = 0
 				state = 1
 				connected = True
@@ -12190,11 +12178,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: batteryPack_172; pos: 0.1140006,-0.1147899,-0.001096719; dir: 0.7073076,-0.7068754,-0.006566254
+				cData = tgt: batteryPack_172; pos: 0.1138388,-0.1147996,-0.001050067; dir: 0.7073076,-0.7068754,-0.006566254
 				sym = 144
 				srfN = srfAttach, 157
 				mass = 0.05
-				temp = -195.462
+				temp = -193.1932
 				expt = 0
 				state = 1
 				connected = True
@@ -12222,7 +12210,7 @@ GAME
 				sym = 145
 				srfN = srfAttach, 157
 				mass = 0.14
-				temp = -195.2673
+				temp = -193.003
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12299,7 +12287,7 @@ GAME
 				sym = 146
 				srfN = srfAttach, 157
 				mass = 0.14
-				temp = -195.0403
+				temp = -192.7812
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12376,7 +12364,7 @@ GAME
 				sym = 147
 				srfN = srfAttach, 157
 				mass = 0.005
-				temp = -194.8203
+				temp = -192.5665
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12390,7 +12378,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12412,7 +12400,7 @@ GAME
 				sym = 148
 				srfN = srfAttach, 157
 				mass = 0.005
-				temp = -194.6024
+				temp = -192.3539
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12426,7 +12414,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12448,7 +12436,7 @@ GAME
 				sym = 149
 				srfN = srfAttach, 157
 				mass = 0.005
-				temp = -194.3769
+				temp = -192.1331
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12462,7 +12450,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12484,7 +12472,7 @@ GAME
 				sym = 150
 				srfN = srfAttach, 157
 				mass = 0.005
-				temp = -194.1568
+				temp = -191.9185
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12498,7 +12486,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12520,7 +12508,7 @@ GAME
 				sym = 151
 				srfN = srfAttach, 157
 				mass = 0.005
-				temp = -193.9584
+				temp = -191.725
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12534,7 +12522,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12556,7 +12544,7 @@ GAME
 				sym = 152
 				srfN = srfAttach, 157
 				mass = 0.005
-				temp = -193.7581
+				temp = -191.5292
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12570,7 +12558,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12592,7 +12580,7 @@ GAME
 				sym = 153
 				srfN = srfAttach, 157
 				mass = 0.005
-				temp = -193.5368
+				temp = -191.313
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12606,7 +12594,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12628,7 +12616,7 @@ GAME
 				sym = 154
 				srfN = srfAttach, 157
 				mass = 0.005
-				temp = -193.312
+				temp = -191.0935
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12642,7 +12630,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12664,7 +12652,7 @@ GAME
 				sym = 155
 				srfN = srfAttach, 157
 				mass = 0.005
-				temp = -193.086
+				temp = -190.8724
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12678,7 +12666,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12700,7 +12688,7 @@ GAME
 				sym = 156
 				srfN = srfAttach, 157
 				mass = 0.005
-				temp = -192.8548
+				temp = -190.6463
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12714,7 +12702,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12737,7 +12725,7 @@ GAME
 				attN = bottom, 191
 				attN = top, 137
 				mass = 0.6
-				temp = -198.7016
+				temp = -196.394
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12765,7 +12753,7 @@ GAME
 				sym = 178
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -196.3511
+				temp = -194.0571
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12779,7 +12767,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12801,7 +12789,7 @@ GAME
 				sym = 177
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -196.1302
+				temp = -193.8413
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12815,7 +12803,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12837,7 +12825,7 @@ GAME
 				sym = 180
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -195.9201
+				temp = -193.636
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12851,7 +12839,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12873,7 +12861,7 @@ GAME
 				sym = 179
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -195.6926
+				temp = -193.4137
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12887,7 +12875,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12909,7 +12897,7 @@ GAME
 				sym = 182
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -195.4661
+				temp = -193.1928
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12923,7 +12911,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12945,7 +12933,7 @@ GAME
 				sym = 181
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -195.2388
+				temp = -192.9707
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12959,7 +12947,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -12981,7 +12969,7 @@ GAME
 				sym = 184
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -195.0128
+				temp = -192.7498
 				expt = 0.5
 				state = 1
 				connected = True
@@ -12995,7 +12983,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13017,7 +13005,7 @@ GAME
 				sym = 183
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -194.7925
+				temp = -192.5349
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13031,7 +13019,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13053,7 +13041,7 @@ GAME
 				sym = 186
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -194.5819
+				temp = -192.3293
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13067,7 +13055,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13089,7 +13077,7 @@ GAME
 				sym = 185
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -194.3747
+				temp = -192.1267
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13103,7 +13091,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13125,7 +13113,7 @@ GAME
 				sym = 188
 				srfN = srfAttach, 176
 				mass = 0.14
-				temp = -194.1425
+				temp = -191.8995
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13140,7 +13128,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.7068623, -0.706686, 0.02163178, -0.02174274)
+					currentRotation = (-0.2246102, -0.2246652, -0.6705655, 0.6703863)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -13202,7 +13190,7 @@ GAME
 				sym = 187
 				srfN = srfAttach, 176
 				mass = 0.14
-				temp = -193.9182
+				temp = -191.6806
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13217,7 +13205,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.02172861, 0.02163771, -0.7066689, 0.7068797)
+					currentRotation = (-0.6703966, -0.6706024, -0.2245768, 0.2245576)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -13279,7 +13267,7 @@ GAME
 				sym = 190
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -193.7379
+				temp = -191.5051
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13293,7 +13281,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13315,7 +13303,7 @@ GAME
 				sym = 189
 				srfN = srfAttach, 176
 				mass = 0.005
-				temp = -193.5347
+				temp = -191.3069
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13329,7 +13317,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13352,7 +13340,7 @@ GAME
 				attN = bottom, 206
 				attN = top, 176
 				mass = 0.6
-				temp = -198.1972
+				temp = -195.9065
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13380,7 +13368,7 @@ GAME
 				sym = 193
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -196.1175
+				temp = -193.8364
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13394,7 +13382,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13416,7 +13404,7 @@ GAME
 				sym = 192
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -195.8973
+				temp = -193.6212
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13430,7 +13418,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13452,7 +13440,7 @@ GAME
 				sym = 195
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -195.6847
+				temp = -193.4139
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13466,7 +13454,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13488,7 +13476,7 @@ GAME
 				sym = 194
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -195.4577
+				temp = -193.1919
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13502,7 +13490,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13524,7 +13512,7 @@ GAME
 				sym = 197
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -195.2315
+				temp = -192.9711
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13538,7 +13526,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13560,7 +13548,7 @@ GAME
 				sym = 196
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -195.0049
+				temp = -192.7495
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13574,7 +13562,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13596,7 +13584,7 @@ GAME
 				sym = 199
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -194.7816
+				temp = -192.5314
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13610,7 +13598,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13632,7 +13620,7 @@ GAME
 				sym = 198
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -194.562
+				temp = -192.3168
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13646,7 +13634,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13668,7 +13656,7 @@ GAME
 				sym = 201
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -194.3565
+				temp = -192.1165
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13682,7 +13670,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13704,7 +13692,7 @@ GAME
 				sym = 200
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -194.1496
+				temp = -191.9146
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13718,7 +13706,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13740,7 +13728,7 @@ GAME
 				sym = 203
 				srfN = srfAttach, 191
 				mass = 0.14
-				temp = -193.9109
+				temp = -191.6808
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13755,7 +13743,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.7068784, -0.7066704, 0.02163149, -0.02172743)
+					currentRotation = (-0.224603, -0.2246409, -0.6705891, 0.6703733)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -13817,7 +13805,7 @@ GAME
 				sym = 202
 				srfN = srfAttach, 191
 				mass = 0.14
-				temp = -193.6875
+				temp = -191.4625
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13832,7 +13820,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.02173147, 0.02163801, -0.7066792, 0.7068692)
+					currentRotation = (-0.6703771, -0.6705769, -0.2246529, 0.2246161)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -13894,7 +13882,7 @@ GAME
 				sym = 205
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -193.5153
+				temp = -191.2952
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13908,7 +13896,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13930,7 +13918,7 @@ GAME
 				sym = 204
 				srfN = srfAttach, 191
 				mass = 0.005
-				temp = -193.3127
+				temp = -191.0974
 				expt = 0.5
 				state = 1
 				connected = True
@@ -13944,7 +13932,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 100
+					amount = 99.9994636653483
 					maxAmount = 100
 					flowState = True
 					flowMode = Both
@@ -13967,7 +13955,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 191
 				mass = 0.02
-				temp = -193.1362
+				temp = -190.9255
 				expt = 0.5
 				state = 1
 				connected = True
@@ -14112,7 +14100,7 @@ GAME
 		}
 		VESSEL
 		{
-			pid = fd815363053c4f9e9f4e32031e708fc1
+			pid = ede3ae77fe9940e89b081157dfeff064
 			name = Goliath II
 			type = Probe
 			sit = PRELAUNCH
@@ -14120,38 +14108,38 @@ GAME
 			landedAt = LaunchPad
 			splashed = False
 			met = 0
-			lct = 433777696.220369
+			lct = 433791859.119026
 			root = 0
-			lat = -0.102662729585431
+			lat = -0.102662729585609
 			lon = -74.5753903941951
 			alt = 110.723022159189
 			hgt = 42.40321
-			nrm = -2.980232E-08,1,-2.553861E-08
+			nrm = -1.28122E-08,1,-1.898843E-07
 			rot = -0.7009887,-0.09221787,-0.0972654,0.7004643
-			CoM = -0.002350807,-15.74829,-0.002440079
+			CoM = -0.002272224,-15.75311,-0.002359606
 			stg = 7
 			prst = False
 			eva = False
-			ref = 2898966138
+			ref = 2460456300
 			cPch = 0
 			cHdg = 0
 			cMod = 1
 			ORBIT
 			{
-				SMA = 300826.285830745
-				ECC = 0.994822271168766
-				INC = 0.10266311189509
-				LPE = 90.0000000000002
-				LAN = 213.694949514428
+				SMA = 300826.263294351
+				ECC = 0.994822404603696
+				INC = 0.102663104304963
+				LPE = 89.9999985856108
+				LAN = 89.7432618815428
 				MNA = 3.14159265358979
-				EPH = 433777696.220369
+				EPH = 433791859.119026
 				REF = 1
 				OBJ = 0
 			}
 			PART
 			{
 				name = probeCoreOcto
-				uid = 2898966138
+				uid = 2460456300
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -14200,7 +14188,7 @@ GAME
 			PART
 			{
 				name = dockingPort1
-				uid = 2273346383
+				uid = 2989833200
 				parent = 0
 				position = 0,0.192390441894531,0
 				rotation = 0,0,0,1
@@ -14367,7 +14355,7 @@ GAME
 			PART
 			{
 				name = advSasModule
-				uid = 1916843976
+				uid = 3667005478
 				parent = 0
 				position = 0,-0.386100769042969,0
 				rotation = 0,0,0,1
@@ -14379,7 +14367,7 @@ GAME
 				attm = 0
 				srfN = None, -1
 				attN = top, 0
-				attN = bottom, 7
+				attN = bottom, 3
 				mass = 0.1
 				temp = 19.18984
 				expt = 0.5
@@ -14395,280 +14383,8 @@ GAME
 			}
 			PART
 			{
-				name = RCSBlock
-				uid = 571096303
-				parent = 2
-				position = -0.661315083503723,-0.387081146240234,0.000742286443710327
-				rotation = 0,-8.42937E-08,0,-1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 4
-				sym = 5
-				sym = 6
-				srfN = srfAttach, 2
-				mass = 0.05
-				temp = 19.18937
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleRCS
-					isEnabled = True
-					isEnabled = True
-					EVENTS
-					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = RCSBlock
-				uid = 1172559990
-				parent = 2
-				position = 0.000742390751838684,-0.387081146240234,0.661315143108368
-				rotation = 0,-0.7071069,0,-0.7071067
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 3
-				sym = 5
-				sym = 6
-				srfN = srfAttach, 2
-				mass = 0.05
-				temp = 19.18984
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleRCS
-					isEnabled = True
-					isEnabled = True
-					EVENTS
-					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = RCSBlock
-				uid = 1519501978
-				parent = 2
-				position = 0.661315143108368,-0.387081146240234,-0.000742372125387192
-				rotation = 0,-1,0,8.42937E-08
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 3
-				sym = 4
-				sym = 6
-				srfN = srfAttach, 2
-				mass = 0.05
-				temp = 19.18937
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleRCS
-					isEnabled = True
-					isEnabled = True
-					EVENTS
-					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = RCSBlock
-				uid = 439363403
-				parent = 2
-				position = -0.000742323696613312,-0.387081146240234,-0.661315143108368
-				rotation = 0,0.7071068,0,-0.7071068
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 3
-				sym = 4
-				sym = 5
-				srfN = srfAttach, 2
-				mass = 0.05
-				temp = 19.18984
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleRCS
-					isEnabled = True
-					isEnabled = True
-					EVENTS
-					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
 				name = largeAdapter
-				uid = 2138595578
+				uid = 3775071952
 				parent = 2
 				position = 0,-1.33512878417969,0
 				rotation = 0,0,0,1
@@ -14680,7 +14396,7 @@ GAME
 				attm = 0
 				srfN = None, -1
 				attN = top, 2
-				attN = bottom, 8
+				attN = bottom, 4
 				mass = 0.1
 				temp = 19.19631
 				expt = 0.5
@@ -14697,8 +14413,8 @@ GAME
 			PART
 			{
 				name = RCSTank1-2
-				uid = 3088504420
-				parent = 7
+				uid = 3635679676
+				parent = 3
 				position = 0,-2.59012985229492,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -14708,8 +14424,8 @@ GAME
 				sidx = -1
 				attm = 0
 				srfN = None, -1
-				attN = top, 7
-				attN = bottom, 17
+				attN = top, 3
+				attN = bottom, 13
 				mass = 0.4
 				temp = 19.20603
 				expt = 0.5
@@ -14734,8 +14450,8 @@ GAME
 			PART
 			{
 				name = solarPanels5
-				uid = 660601195
-				parent = 8
+				uid = 2632404735
+				parent = 4
 				position = 0.315058022737503,-2.54994964599609,-1.17581284046173
 				rotation = 0,0.9914449,0,0.1305262
 				mirror = 1,1,1
@@ -14744,14 +14460,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 6
+				sym = 7
+				sym = 8
+				sym = 9
 				sym = 10
 				sym = 11
 				sym = 12
-				sym = 13
-				sym = 14
-				sym = 15
-				sym = 16
-				srfN = srfAttach, 8
+				srfN = srfAttach, 4
 				mass = 0.005
 				temp = 19.2051
 				expt = 0.5
@@ -14817,8 +14533,8 @@ GAME
 			PART
 			{
 				name = solarPanels5
-				uid = 4177315552
-				parent = 8
+				uid = 2312633056
+				parent = 4
 				position = -0.608645498752594,-2.54994964599609,-1.05420482158661
 				rotation = 0,0.9659259,0,-0.2588191
 				mirror = 1,1,1
@@ -14827,14 +14543,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 5
+				sym = 7
+				sym = 8
 				sym = 9
+				sym = 10
 				sym = 11
 				sym = 12
-				sym = 13
-				sym = 14
-				sym = 15
-				sym = 16
-				srfN = srfAttach, 8
+				srfN = srfAttach, 4
 				mass = 0.005
 				temp = 19.2051
 				expt = 0.5
@@ -14900,8 +14616,8 @@ GAME
 			PART
 			{
 				name = solarPanels5
-				uid = 54327566
-				parent = 8
+				uid = 1305114879
+				parent = 4
 				position = -1.17581260204315,-2.54994964599609,-0.315058171749115
 				rotation = 0,0.7933533,0,-0.6087615
 				mirror = 1,1,1
@@ -14910,14 +14626,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 5
+				sym = 6
+				sym = 8
 				sym = 9
 				sym = 10
+				sym = 11
 				sym = 12
-				sym = 13
-				sym = 14
-				sym = 15
-				sym = 16
-				srfN = srfAttach, 8
+				srfN = srfAttach, 4
 				mass = 0.005
 				temp = 19.20556
 				expt = 0.5
@@ -14983,8 +14699,8 @@ GAME
 			PART
 			{
 				name = solarPanels5
-				uid = 3635301372
-				parent = 8
+				uid = 3384806646
+				parent = 4
 				position = -1.05420458316803,-2.54994964599609,0.608645737171173
 				rotation = 0,0.5,0,-0.8660254
 				mirror = 1,1,1
@@ -14993,14 +14709,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 5
+				sym = 6
+				sym = 7
 				sym = 9
 				sym = 10
 				sym = 11
-				sym = 13
-				sym = 14
-				sym = 15
-				sym = 16
-				srfN = srfAttach, 8
+				sym = 12
+				srfN = srfAttach, 4
 				mass = 0.005
 				temp = 19.2051
 				expt = 0.5
@@ -15066,8 +14782,8 @@ GAME
 			PART
 			{
 				name = solarPanels5
-				uid = 1495954877
-				parent = 8
+				uid = 2140778581
+				parent = 4
 				position = -0.315057992935181,-2.54994964599609,1.1758131980896
 				rotation = 0,0.1305261,0,-0.9914449
 				mirror = 1,1,1
@@ -15076,14 +14792,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 9
+				sym = 5
+				sym = 6
+				sym = 7
+				sym = 8
 				sym = 10
 				sym = 11
 				sym = 12
-				sym = 14
-				sym = 15
-				sym = 16
-				srfN = srfAttach, 8
+				srfN = srfAttach, 4
 				mass = 0.005
 				temp = 19.20556
 				expt = 0.5
@@ -15149,8 +14865,8 @@ GAME
 			PART
 			{
 				name = solarPanels5
-				uid = 259091832
-				parent = 8
+				uid = 3283014784
+				parent = 4
 				position = 0.608645617961884,-2.54994964599609,1.05420517921448
 				rotation = 0,-0.2588191,0,-0.9659259
 				mirror = 1,1,1
@@ -15159,14 +14875,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 5
+				sym = 6
+				sym = 7
+				sym = 8
 				sym = 9
-				sym = 10
 				sym = 11
 				sym = 12
-				sym = 13
-				sym = 15
-				sym = 16
-				srfN = srfAttach, 8
+				srfN = srfAttach, 4
 				mass = 0.005
 				temp = 19.20556
 				expt = 0.5
@@ -15232,8 +14948,8 @@ GAME
 			PART
 			{
 				name = solarPanels5
-				uid = 959078505
-				parent = 8
+				uid = 3778903481
+				parent = 4
 				position = 1.17581331729889,-2.54994964599609,0.315057724714279
 				rotation = 0,-0.6087616,0,-0.7933533
 				mirror = 1,1,1
@@ -15242,14 +14958,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 5
+				sym = 6
+				sym = 7
+				sym = 8
 				sym = 9
 				sym = 10
-				sym = 11
 				sym = 12
-				sym = 13
-				sym = 14
-				sym = 16
-				srfN = srfAttach, 8
+				srfN = srfAttach, 4
 				mass = 0.005
 				temp = 19.20556
 				expt = 0.5
@@ -15315,8 +15031,8 @@ GAME
 			PART
 			{
 				name = solarPanels5
-				uid = 3826214181
-				parent = 8
+				uid = 1329243983
+				parent = 4
 				position = 1.0542049407959,-2.54994964599609,-0.608645677566528
 				rotation = 0,0.8660254,0,0.5
 				mirror = 1,1,1
@@ -15325,14 +15041,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 5
+				sym = 6
+				sym = 7
+				sym = 8
 				sym = 9
 				sym = 10
 				sym = 11
-				sym = 12
-				sym = 13
-				sym = 14
-				sym = 15
-				srfN = srfAttach, 8
+				srfN = srfAttach, 4
 				mass = 0.005
 				temp = 19.2051
 				expt = 0.5
@@ -15398,8 +15114,8 @@ GAME
 			PART
 			{
 				name = fuelTank3-2
-				uid = 2429041142
-				parent = 8
+				uid = 2836422923
+				parent = 4
 				position = 0,-6.84012985229492,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -15409,8 +15125,8 @@ GAME
 				sidx = -1
 				attm = 0
 				srfN = None, -1
-				attN = top, 8
-				attN = bottom, 36
+				attN = top, 4
+				attN = bottom, 32
 				mass = 4
 				temp = 19.23701
 				expt = 0.5
@@ -15443,8 +15159,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2313078215
-				parent = 17
+				uid = 758715134
+				parent = 13
 				position = -1.20748364925385,-4.57270812988281,4.84287738800049E-08
 				rotation = 0,-2.980232E-08,0,-1
 				mirror = 1,1,1
@@ -15453,13 +15169,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_17; pos: 7.641315E-05,0.0005195141,5.159303E-06; dir: 0.1449172,0.989392,0.01011719
+				cData = tgt: fuelTank3-2_13; pos: 7.653236E-05,0.0005195141,5.390786E-06; dir: 0.1449172,0.989392,0.01011719
+				sym = 15
+				sym = 16
+				sym = 17
+				sym = 18
 				sym = 19
-				sym = 20
-				sym = 21
-				sym = 22
-				sym = 23
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.22036
 				expt = 0
@@ -15476,8 +15192,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 201868560
-				parent = 17
+				uid = 938680889
+				parent = 13
 				position = -0.603741586208344,-4.57270812988281,1.04571115970612
 				rotation = 0,-0.5000001,0,-0.8660254
 				mirror = 1,1,1
@@ -15486,13 +15202,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_17; pos: 7.623142E-05,0.0005221367,5.198035E-06; dir: 0.1449172,0.989392,0.01011719
+				cData = tgt: fuelTank3-2_13; pos: 7.574503E-05,0.0005180836,5.547675E-06; dir: 0.1449172,0.989392,0.01011719
+				sym = 14
+				sym = 16
+				sym = 17
 				sym = 18
-				sym = 20
-				sym = 21
-				sym = 22
-				sym = 23
-				srfN = srfAttach, 17
+				sym = 19
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.22083
 				expt = 0
@@ -15509,8 +15225,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2599261216
-				parent = 17
+				uid = 4266012072
+				parent = 13
 				position = 0.603741943836212,-4.57270812988281,1.04571115970612
 				rotation = 0,-0.8660254,0,-0.5
 				mirror = 1,1,1
@@ -15519,13 +15235,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_17; pos: 7.69113E-05,0.000528574,4.830072E-06; dir: 0.1449172,0.989392,0.01011719
+				cData = tgt: fuelTank3-2_13; pos: 7.667503E-05,0.0005247593,4.762509E-06; dir: 0.1449172,0.989392,0.01011719
+				sym = 14
+				sym = 15
+				sym = 17
 				sym = 18
 				sym = 19
-				sym = 21
-				sym = 22
-				sym = 23
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.22083
 				expt = 0
@@ -15542,8 +15258,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4172427224
-				parent = 17
+				uid = 2552084634
+				parent = 13
 				position = 1.20748341083527,-4.57270812988281,-3.42726707458496E-07
 				rotation = 0,-1,0,1.112238E-07
 				mirror = 1,1,1
@@ -15552,13 +15268,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_17; pos: 7.629394E-05,0.0005209446,5.541608E-06; dir: 0.1449172,0.989392,0.01011719
+				cData = tgt: fuelTank3-2_13; pos: 7.617474E-05,0.000521183,5.428304E-06; dir: 0.1449172,0.989392,0.01011719
+				sym = 14
+				sym = 15
+				sym = 16
 				sym = 18
 				sym = 19
-				sym = 20
-				sym = 22
-				sym = 23
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.22036
 				expt = 0
@@ -15575,8 +15291,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 995614342
-				parent = 17
+				uid = 4092761830
+				parent = 13
 				position = 0.603741824626923,-4.57270812988281,-1.04571080207825
 				rotation = 0,-0.8660254,0,0.5
 				mirror = 1,1,1
@@ -15585,13 +15301,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_17; pos: 7.468072E-05,0.0005106926,5.611484E-06; dir: 0.1449172,0.989392,0.01011719
-				sym = 18
+				cData = tgt: fuelTank3-2_13; pos: 7.457747E-05,0.0005106926,5.671116E-06; dir: 0.1449172,0.989392,0.01011719
+				sym = 14
+				sym = 15
+				sym = 16
+				sym = 17
 				sym = 19
-				sym = 20
-				sym = 21
-				sym = 23
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.22083
 				expt = 0
@@ -15608,8 +15324,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 130165745
-				parent = 17
+				uid = 339568672
+				parent = 13
 				position = -0.603741765022278,-4.57270812988281,-1.04571080207825
 				rotation = 0,0.5,0,-0.8660254
 				mirror = 1,1,1
@@ -15618,13 +15334,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_17; pos: 7.528502E-05,0.0005159378,4.785883E-06; dir: 0.1449172,0.989392,0.01011719
+				cData = tgt: fuelTank3-2_13; pos: 7.546169E-05,0.0005197525,4.956683E-06; dir: 0.1449172,0.989392,0.01011719
+				sym = 14
+				sym = 15
+				sym = 16
+				sym = 17
 				sym = 18
-				sym = 19
-				sym = 20
-				sym = 21
-				sym = 22
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.22083
 				expt = 0
@@ -15641,8 +15357,8 @@ GAME
 			PART
 			{
 				name = dockingPort2
-				uid = 581514522
-				parent = 17
+				uid = 3305737370
+				parent = 13
 				position = 1.20770835876465,-6.94393157958984,-1.41561031341553E-07
 				rotation = -0.4999999,-0.5000001,0.5000001,-0.4999999
 				mirror = 1,1,1
@@ -15651,10 +15367,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 25
-				sym = 26
-				sym = 27
-				srfN = srfAttach, 17
+				sym = 21
+				sym = 22
+				sym = 23
+				srfN = srfAttach, 13
 				attN = None, -1
 				attN = None, -1
 				mass = 0.05
@@ -15783,8 +15499,8 @@ GAME
 			PART
 			{
 				name = dockingPort2
-				uid = 3911245752
-				parent = 17
+				uid = 2727781227
+				parent = 13
 				position = -3.20374965667725E-07,-6.94393157958984,-1.2077077627182
 				rotation = 9.272586E-08,-0.7071068,0.7071068,9.272586E-08
 				mirror = 1,1,1
@@ -15793,10 +15509,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 24
-				sym = 26
-				sym = 27
-				srfN = srfAttach, 17
+				sym = 20
+				sym = 22
+				sym = 23
+				srfN = srfAttach, 13
 				attN = None, -1
 				attN = None, -1
 				mass = 0.05
@@ -15925,8 +15641,8 @@ GAME
 			PART
 			{
 				name = dockingPort2
-				uid = 1391414110
-				parent = 17
+				uid = 985792085
+				parent = 13
 				position = -1.20770764350891,-6.94393157958984,2.79396772384644E-07
 				rotation = 0.5000001,-0.4999999,0.4999999,0.5000001
 				mirror = 1,1,1
@@ -15935,10 +15651,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 24
-				sym = 25
-				sym = 27
-				srfN = srfAttach, 17
+				sym = 20
+				sym = 21
+				sym = 23
+				srfN = srfAttach, 13
 				attN = None, -1
 				attN = None, -1
 				mass = 0.05
@@ -16067,8 +15783,8 @@ GAME
 			PART
 			{
 				name = dockingPort2
-				uid = 1219451354
-				parent = 17
+				uid = 4289709085
+				parent = 13
 				position = 2.16066837310791E-07,-6.94393157958984,1.20770823955536
 				rotation = -0.7071068,-6.181724E-08,6.181724E-08,-0.7071068
 				mirror = 1,1,1
@@ -16077,10 +15793,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 24
-				sym = 25
-				sym = 26
-				srfN = srfAttach, 17
+				sym = 20
+				sym = 21
+				sym = 22
+				srfN = srfAttach, 13
 				attN = None, -1
 				attN = None, -1
 				mass = 0.05
@@ -16209,8 +15925,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4191220389
-				parent = 17
+				uid = 1207360578
+				parent = 13
 				position = -1.16626667976379,-10.170238494873,-0.312499970197678
 				rotation = 0,0.1305261,0,-0.9914449
 				mirror = 1,1,1
@@ -16219,15 +15935,15 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: 1.034699E-06,-0.5183029,-0.005583121; dir: 1.22253E-06,-0.999942,-0.01077164
+				cData = tgt: fuelTank1-2_32; pos: 9.362809E-07,-0.5183027,-0.005583011; dir: 1.22253E-06,-0.999942,-0.01077164
+				sym = 25
+				sym = 26
+				sym = 27
+				sym = 28
 				sym = 29
 				sym = 30
 				sym = 31
-				sym = 32
-				sym = 33
-				sym = 34
-				sym = 35
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.26196
 				expt = 0
@@ -16244,8 +15960,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1115159359
-				parent = 17
+				uid = 211219423
+				parent = 13
 				position = -1.04564559459686,-10.170238494873,0.603703737258911
 				rotation = 0,-0.2588191,0,-0.9659258
 				mirror = 1,1,1
@@ -16254,15 +15970,15 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: 5.026814E-07,-0.5183043,-0.005582971; dir: 1.22253E-06,-0.999942,-0.01077164
+				cData = tgt: fuelTank1-2_32; pos: 5.393219E-07,-0.5183046,-0.00558303; dir: 1.22253E-06,-0.999942,-0.01077164
+				sym = 24
+				sym = 26
+				sym = 27
 				sym = 28
+				sym = 29
 				sym = 30
 				sym = 31
-				sym = 32
-				sym = 33
-				sym = 34
-				sym = 35
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.26196
 				expt = 0
@@ -16279,25 +15995,25 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1616558629
-				parent = 17
+				uid = 4047239975
+				parent = 13
 				position = -0.312500089406967,-10.170238494873,1.16626620292664
-				rotation = 0,-0.6087614,0,-0.7933533
+				rotation = 0,-0.6087615,0,-0.7933534
 				mirror = 1,1,1
 				istg = 0
 				dstg = 0
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: 1.539011E-07,-0.5183063,-0.005583046; dir: 1.22253E-06,-0.999942,-0.01077164
+				cData = tgt: fuelTank1-2_32; pos: 3.925466E-07,-0.518306,-0.005583093; dir: 1.22253E-06,-0.999942,-0.01077164
+				sym = 24
+				sym = 25
+				sym = 27
 				sym = 28
 				sym = 29
+				sym = 30
 				sym = 31
-				sym = 32
-				sym = 33
-				sym = 34
-				sym = 35
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.26196
 				expt = 0
@@ -16314,8 +16030,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 3480375009
-				parent = 17
+				uid = 3641628890
+				parent = 13
 				position = 0.603704035282135,-10.170238494873,1.04564619064331
 				rotation = 0,-0.8660254,0,-0.5
 				mirror = 1,1,1
@@ -16324,15 +16040,15 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_17; pos: -8.551748E-07,-0.02865887,-4.242935E-07; dir: 1.22253E-06,-0.999942,-0.01077164
+				cData = tgt: fuelTank3-2_13; pos: -3.857189E-07,-0.09783721,-0.0007899291; dir: 1.22253E-06,-0.999942,-0.01077164
+				sym = 24
+				sym = 25
+				sym = 26
 				sym = 28
 				sym = 29
 				sym = 30
-				sym = 32
-				sym = 33
-				sym = 34
-				sym = 35
-				srfN = srfAttach, 17
+				sym = 31
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.26196
 				expt = 0
@@ -16349,8 +16065,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2918823473
-				parent = 17
+				uid = 3125268662
+				parent = 13
 				position = 1.16626632213593,-10.170238494873,0.312499910593033
 				rotation = 0,-0.9914449,0,-0.1305261
 				mirror = 1,1,1
@@ -16359,15 +16075,15 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: 7.834751E-07,-0.5183034,-0.005583504; dir: 1.22253E-06,-0.999942,-0.01077164
-				sym = 28
+				cData = tgt: fuelTank1-2_32; pos: 8.504158E-07,-0.5183034,-0.005583305; dir: 1.22253E-06,-0.999942,-0.01077164
+				sym = 24
+				sym = 25
+				sym = 26
+				sym = 27
 				sym = 29
 				sym = 30
 				sym = 31
-				sym = 33
-				sym = 34
-				sym = 35
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.2615
 				expt = 0
@@ -16384,8 +16100,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 3766655540
-				parent = 17
+				uid = 37169939
+				parent = 13
 				position = 1.04564559459686,-10.170238494873,-0.60370397567749
 				rotation = 0,-0.9659258,0,0.2588191
 				mirror = 1,1,1
@@ -16394,15 +16110,15 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_17; pos: 1.857989E-07,-1.156222,-0.01233015; dir: 1.22253E-06,-0.999942,-0.01077164
+				cData = tgt: fuelTank3-2_13; pos: 4.942859E-08,-1.011409,-0.01084741; dir: 1.22253E-06,-0.999942,-0.01077164
+				sym = 24
+				sym = 25
+				sym = 26
+				sym = 27
 				sym = 28
-				sym = 29
 				sym = 30
 				sym = 31
-				sym = 32
-				sym = 34
-				sym = 35
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.26196
 				expt = 0
@@ -16419,8 +16135,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1788136272
-				parent = 17
+				uid = 3174395133
+				parent = 13
 				position = 0.312499612569809,-10.170238494873,-1.16626679897308
 				rotation = 0,-0.7933533,0,0.6087615
 				mirror = 1,1,1
@@ -16429,15 +16145,15 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: 6.61239E-08,-0.5182998,-0.005583548; dir: 1.22253E-06,-0.999942,-0.01077164
+				cData = tgt: fuelTank1-2_32; pos: 5.30768E-08,-0.5183001,-0.005583536; dir: 1.22253E-06,-0.999942,-0.01077164
+				sym = 24
+				sym = 25
+				sym = 26
+				sym = 27
 				sym = 28
 				sym = 29
-				sym = 30
 				sym = 31
-				sym = 32
-				sym = 33
-				sym = 35
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.26196
 				expt = 0
@@ -16454,8 +16170,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4023795852
-				parent = 17
+				uid = 1077850745
+				parent = 13
 				position = -0.603703856468201,-10.170238494873,-1.04564583301544
 				rotation = 0,0.5,0,-0.8660254
 				mirror = 1,1,1
@@ -16464,15 +16180,15 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: 2.142042E-06,-1.805497,-0.01946234; dir: 1.22253E-06,-0.999942,-0.01077164
+				cData = tgt: fuelTank1-2_32; pos: 2.179475E-06,-1.828383,-0.01972623; dir: 1.22253E-06,-0.999942,-0.01077164
+				sym = 24
+				sym = 25
+				sym = 26
+				sym = 27
 				sym = 28
 				sym = 29
 				sym = 30
-				sym = 31
-				sym = 32
-				sym = 33
-				sym = 34
-				srfN = srfAttach, 17
+				srfN = srfAttach, 13
 				mass = 0.05
 				temp = 19.26196
 				expt = 0
@@ -16489,8 +16205,8 @@ GAME
 			PART
 			{
 				name = fuelTank1-2
-				uid = 968368452
-				parent = 17
+				uid = 121783643
+				parent = 13
 				position = 0,-12.4651298522949,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -16500,8 +16216,8 @@ GAME
 				sidx = -1
 				attm = 0
 				srfN = None, -1
-				attN = top, 17
-				attN = bottom, 37
+				attN = top, 13
+				attN = bottom, 33
 				mass = 2
 				temp = 19.27859
 				expt = 0.5
@@ -16534,8 +16250,8 @@ GAME
 			PART
 			{
 				name = dockingPort2
-				uid = 4266593120
-				parent = 36
+				uid = 1656124853
+				parent = 32
 				position = 0,-14.3401298522949,0
 				rotation = 0,0,-1,0
 				mirror = 1,1,1
@@ -16545,8 +16261,8 @@ GAME
 				sidx = -1
 				attm = 0
 				srfN = None, -1
-				attN = top, 38
-				attN = bottom, 36
+				attN = top, 34
+				attN = bottom, 32
 				mass = 0.05
 				temp = 19.29244
 				expt = 0.5
@@ -16673,8 +16389,8 @@ GAME
 			PART
 			{
 				name = dockingPort3
-				uid = 1586439313
-				parent = 37
+				uid = 4003004316
+				parent = 33
 				position = 0,-14.7704200744629,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -16684,8 +16400,8 @@ GAME
 				sidx = -1
 				attm = 0
 				srfN = None, -1
-				attN = top, 37
-				attN = bottom, 39
+				attN = top, 33
+				attN = bottom, 35
 				mass = 0.02
 				temp = 19.29567
 				expt = 0.5
@@ -16812,8 +16528,8 @@ GAME
 			PART
 			{
 				name = liquidEngine2-2
-				uid = 3625789256
-				parent = 38
+				uid = 4109823376
+				parent = 34
 				position = 0,-15.4973602294922,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -16823,8 +16539,8 @@ GAME
 				sidx = 0
 				attm = 0
 				srfN = None, -1
-				attN = top, 38
-				attN = bottom, 40
+				attN = top, 34
+				attN = bottom, 36
 				mass = 2.5
 				temp = 19.30121
 				expt = 0.5
@@ -16976,7 +16692,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0199999995529652
+					amount = 0.0149999996647239
 					maxAmount = 0.0199999995529652
 					flowState = True
 					flowMode = Both
@@ -16985,8 +16701,8 @@ GAME
 			PART
 			{
 				name = stackDecoupler
-				uid = 2494109756
-				parent = 39
+				uid = 1109213419
+				parent = 35
 				position = 0,-16.2978496551514,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -16996,8 +16712,8 @@ GAME
 				sidx = 1
 				attm = 0
 				srfN = None, -1
-				attN = bottom, 43
-				attN = top, 39
+				attN = bottom, 39
+				attN = top, 35
 				mass = 0.05
 				temp = 19.30721
 				expt = 0.5
@@ -17041,8 +16757,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4248012727
-				parent = 40
+				uid = 1750021221
+				parent = 36
 				position = 0.442895114421844,-16.3731288909912,-0.442895084619522
 				rotation = 3.85424E-07,-0.9238796,4.65485E-13,0.3826834
 				mirror = 1,1,1
@@ -17051,9 +16767,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: -0.2112619,-0.1561209,-0.255054; dir: -0.5769987,-0.4263979,-0.6966041
-				sym = 42
-				srfN = srfAttach, 40
+				cData = tgt: fuelTank1-2_39; pos: -0.2112623,-0.1561208,-0.2550541; dir: -0.5769987,-0.4263979,-0.6966041
+				sym = 38
+				srfN = srfAttach, 36
 				mass = 0.05
 				temp = 19.30768
 				expt = 0
@@ -17070,8 +16786,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2168479022
-				parent = 40
+				uid = 1649409047
+				parent = 36
 				position = -0.442895174026489,-16.3731288909912,0.442895025014877
 				rotation = -4.823324E-13,-0.3826834,3.85424E-07,-0.9238796
 				mirror = 1,1,1
@@ -17080,9 +16796,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: -0.211264,-0.1561224,-0.2550565; dir: -0.5769987,-0.4263979,-0.6966041
-				sym = 41
-				srfN = srfAttach, 40
+				cData = tgt: fuelTank1-2_39; pos: -0.2112642,-0.1561224,-0.2550563; dir: -0.5769987,-0.4263979,-0.6966041
+				sym = 37
+				srfN = srfAttach, 36
 				mass = 0.05
 				temp = 19.30768
 				expt = 0
@@ -17099,8 +16815,8 @@ GAME
 			PART
 			{
 				name = fuelTank1-2
-				uid = 621163906
-				parent = 40
+				uid = 3767031127
+				parent = 36
 				position = 0,-18.3058395385742,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -17110,8 +16826,8 @@ GAME
 				sidx = -1
 				attm = 0
 				srfN = None, -1
-				attN = top, 40
-				attN = bottom, 50
+				attN = top, 36
+				attN = bottom, 46
 				mass = 2
 				temp = 19.32198
 				expt = 0.5
@@ -17144,8 +16860,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1825842524
-				parent = 43
+				uid = 3229799110
+				parent = 39
 				position = -1.20766866207123,-17.9165687561035,4.84287738800049E-08
 				rotation = 0,-2.980232E-08,0,-1
 				mirror = 1,1,1
@@ -17154,13 +16870,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.0003024258,2.972439,0.1369484; dir: 0.0001016985,0.9989403,0.04602395
+				cData = tgt: liquidEngine2-2_35; pos: 0.0003025447,2.972439,0.1369486; dir: 0.0001016985,0.9989403,0.04602395
+				sym = 41
+				sym = 42
+				sym = 43
+				sym = 44
 				sym = 45
-				sym = 46
-				sym = 47
-				sym = 48
-				sym = 49
-				srfN = srfAttach, 43
+				srfN = srfAttach, 39
 				mass = 0.05
 				temp = 19.31921
 				expt = 0
@@ -17177,8 +16893,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4099006765
-				parent = 43
+				uid = 4052265238
+				parent = 39
 				position = -0.60383415222168,-17.9165687561035,1.04587113857269
 				rotation = 0,-0.5000001,0,-0.8660254
 				mirror = 1,1,1
@@ -17187,13 +16903,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.0003025904,2.972431,0.1369481; dir: 0.0001016985,0.9989403,0.04602395
+				cData = tgt: liquidEngine2-2_35; pos: 0.0003025517,2.972431,0.1369486; dir: 0.0001016985,0.9989403,0.04602395
+				sym = 40
+				sym = 42
+				sym = 43
 				sym = 44
-				sym = 46
-				sym = 47
-				sym = 48
-				sym = 49
-				srfN = srfAttach, 43
+				sym = 45
+				srfN = srfAttach, 39
 				mass = 0.05
 				temp = 19.31875
 				expt = 0
@@ -17210,8 +16926,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1105401628
-				parent = 43
+				uid = 2835150707
+				parent = 39
 				position = 0.603834450244904,-17.9165687561035,1.04587113857269
 				rotation = 0,-0.8660254,0,-0.5
 				mirror = 1,1,1
@@ -17220,13 +16936,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.0003023967,2.972433,0.1369483; dir: 0.0001016985,0.9989403,0.04602395
+				cData = tgt: liquidEngine2-2_35; pos: 0.000302387,2.972431,0.136948; dir: 0.0001016985,0.9989403,0.04602395
+				sym = 40
+				sym = 41
+				sym = 43
 				sym = 44
 				sym = 45
-				sym = 47
-				sym = 48
-				sym = 49
-				srfN = srfAttach, 43
+				srfN = srfAttach, 39
 				mass = 0.05
 				temp = 19.31921
 				expt = 0
@@ -17243,8 +16959,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2061234743
-				parent = 43
+				uid = 2687035132
+				parent = 39
 				position = 1.20766830444336,-17.9165687561035,-3.42726707458496E-07
 				rotation = 0,-1,0,1.112238E-07
 				mirror = 1,1,1
@@ -17253,13 +16969,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.0003027187,2.972438,0.1369487; dir: 0.0001016985,0.9989403,0.04602395
+				cData = tgt: liquidEngine2-2_35; pos: 0.0003026435,2.972438,0.1369485; dir: 0.0001016985,0.9989403,0.04602395
+				sym = 40
+				sym = 41
+				sym = 42
 				sym = 44
 				sym = 45
-				sym = 46
-				sym = 48
-				sym = 49
-				srfN = srfAttach, 43
+				srfN = srfAttach, 39
 				mass = 0.05
 				temp = 19.31921
 				expt = 0
@@ -17276,8 +16992,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2813946710
-				parent = 43
+				uid = 2567669365
+				parent = 39
 				position = 0.603834450244904,-17.9165687561035,-1.04587185382843
 				rotation = 0,-0.8660254,0,0.5
 				mirror = 1,1,1
@@ -17286,13 +17002,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.0003022142,2.972443,0.1369487; dir: 0.0001016985,0.9989403,0.04602395
-				sym = 44
+				cData = tgt: liquidEngine2-2_35; pos: 0.0003022438,2.972443,0.1369488; dir: 0.0001016985,0.9989403,0.04602395
+				sym = 40
+				sym = 41
+				sym = 42
+				sym = 43
 				sym = 45
-				sym = 46
-				sym = 47
-				sym = 49
-				srfN = srfAttach, 43
+				srfN = srfAttach, 39
 				mass = 0.05
 				temp = 19.31921
 				expt = 0
@@ -17309,8 +17025,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2452688330
-				parent = 43
+				uid = 3074451172
+				parent = 39
 				position = -0.603834390640259,-17.9165687561035,-1.04587185382843
 				rotation = 0,0.5,0,-0.8660254
 				mirror = 1,1,1
@@ -17319,13 +17035,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.0003021508,2.972443,0.1369485; dir: 0.0001016985,0.9989403,0.04602395
+				cData = tgt: liquidEngine2-2_35; pos: 0.0003023262,2.972443,0.1369485; dir: 0.0001016985,0.9989403,0.04602395
+				sym = 40
+				sym = 41
+				sym = 42
+				sym = 43
 				sym = 44
-				sym = 45
-				sym = 46
-				sym = 47
-				sym = 48
-				srfN = srfAttach, 43
+				srfN = srfAttach, 39
 				mass = 0.05
 				temp = 19.31875
 				expt = 0
@@ -17342,8 +17058,8 @@ GAME
 			PART
 			{
 				name = fuelTank3-2
-				uid = 1786063693
-				parent = 43
+				uid = 2291115496
+				parent = 39
 				position = 0,-23.9308395385742,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -17353,8 +17069,8 @@ GAME
 				sidx = -1
 				attm = 0
 				srfN = None, -1
-				attN = top, 43
-				attN = bottom, 143
+				attN = top, 39
+				attN = bottom, 139
 				mass = 4
 				temp = 19.36349
 				expt = 0.5
@@ -17387,8 +17103,8 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 1389865709
-				parent = 50
+				uid = 181453071
+				parent = 46
 				position = -0.877156972885132,-27.6569404602051,-1.51928079128265
 				rotation = 0,0.5,0,-0.8660254
 				mirror = 1,1,1
@@ -17397,12 +17113,12 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 48
+				sym = 49
+				sym = 50
+				sym = 51
 				sym = 52
-				sym = 53
-				sym = 54
-				sym = 55
-				sym = 56
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.02
 				temp = 19.39068
 				expt = 0.1
@@ -17419,8 +17135,8 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 1908246670
-				parent = 50
+				uid = 3429672815
+				parent = 46
 				position = -1.754314661026,-27.6569404602051,-8.19563865661621E-08
 				rotation = 0,3.992753E-09,0,-1
 				mirror = 1,1,1
@@ -17429,12 +17145,12 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 47
+				sym = 49
+				sym = 50
 				sym = 51
-				sym = 53
-				sym = 54
-				sym = 55
-				sym = 56
-				srfN = srfAttach, 50
+				sym = 52
+				srfN = srfAttach, 46
 				mass = 0.02
 				temp = 19.39114
 				expt = 0.1
@@ -17451,8 +17167,8 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 391835067
-				parent = 50
+				uid = 2124524607
+				parent = 46
 				position = -0.877157151699066,-27.6569404602051,1.51928114891052
 				rotation = 0,-0.5000001,0,-0.8660254
 				mirror = 1,1,1
@@ -17461,12 +17177,12 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 47
+				sym = 48
+				sym = 50
 				sym = 51
 				sym = 52
-				sym = 54
-				sym = 55
-				sym = 56
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.02
 				temp = 19.39114
 				expt = 0.1
@@ -17483,8 +17199,8 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 761095051
-				parent = 50
+				uid = 825997092
+				parent = 46
 				position = 0.877157330513,-27.6569404602051,1.51928019523621
 				rotation = 0,-0.8660254,0,-0.4999999
 				mirror = 1,1,1
@@ -17493,12 +17209,12 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 47
+				sym = 48
+				sym = 49
 				sym = 51
 				sym = 52
-				sym = 53
-				sym = 55
-				sym = 56
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.02
 				temp = 19.39114
 				expt = 0.1
@@ -17515,8 +17231,8 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 4049849763
-				parent = 50
+				uid = 599832245
+				parent = 46
 				position = 1.75431430339813,-27.6569404602051,4.17232513427734E-07
 				rotation = 0,-1,0,-8.142146E-08
 				mirror = 1,1,1
@@ -17525,12 +17241,12 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 51
+				sym = 47
+				sym = 48
+				sym = 49
+				sym = 50
 				sym = 52
-				sym = 53
-				sym = 54
-				sym = 56
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.02
 				temp = 19.39114
 				expt = 0.1
@@ -17547,8 +17263,8 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 2374739255
-				parent = 50
+				uid = 1129651508
+				parent = 46
 				position = 0.877157330513,-27.6569404602051,-1.51928079128265
 				rotation = 0,0.8660254,0,-0.5
 				mirror = 1,1,1
@@ -17557,12 +17273,12 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
+				sym = 47
+				sym = 48
+				sym = 49
+				sym = 50
 				sym = 51
-				sym = 52
-				sym = 53
-				sym = 54
-				sym = 55
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.02
 				temp = 19.39114
 				expt = 0.1
@@ -17579,8 +17295,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1313476363
-				parent = 50
+				uid = 3338055692
+				parent = 46
 				position = -1.04574465751648,-20.431079864502,-0.603760957717896
 				rotation = 0,0.258819,0,-0.9659259
 				mirror = 1,1,1
@@ -17589,13 +17305,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_106; pos: -0.6824805,-0.8998597,-0.401631; dir: -0.5693591,-0.7507094,-0.3350606
+				cData = tgt: fuelTank3-2_102; pos: -0.6824799,-0.8998597,-0.4016309; dir: -0.5693591,-0.7507094,-0.3350606
+				sym = 54
+				sym = 55
+				sym = 56
+				sym = 57
 				sym = 58
-				sym = 59
-				sym = 60
-				sym = 61
-				sym = 62
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.3372
 				expt = 0
@@ -17612,8 +17328,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 3635277276
-				parent = 50
+				uid = 3343173017
+				parent = 46
 				position = -1.04574465751648,-20.431079864502,0.60376113653183
 				rotation = 0,-0.2588192,0,-0.9659258
 				mirror = 1,1,1
@@ -17622,13 +17338,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_130; pos: -0.6795779,-0.8960335,-0.399924; dir: -0.5693591,-0.7507094,-0.3350606
+				cData = tgt: fuelTank3-2_126; pos: -0.6795781,-0.8960333,-0.3999243; dir: -0.5693591,-0.7507094,-0.3350606
+				sym = 53
+				sym = 55
+				sym = 56
 				sym = 57
-				sym = 59
-				sym = 60
-				sym = 61
-				sym = 62
-				srfN = srfAttach, 50
+				sym = 58
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.3372
 				expt = 0
@@ -17645,8 +17361,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2251415416
-				parent = 50
+				uid = 3135307396
+				parent = 46
 				position = 2.16066837310791E-07,-20.431079864502,1.20752215385437
 				rotation = 0,-0.7071069,0,-0.7071067
 				mirror = 1,1,1
@@ -17655,13 +17371,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_70; pos: -0.6730952,-0.8874874,-0.3961079; dir: -0.5693591,-0.7507094,-0.3350606
+				cData = tgt: fuelTank3-2_66; pos: -0.6730937,-0.8874834,-0.396107; dir: -0.5693591,-0.7507094,-0.3350606
+				sym = 53
+				sym = 54
+				sym = 56
 				sym = 57
 				sym = 58
-				sym = 60
-				sym = 61
-				sym = 62
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.33767
 				expt = 0
@@ -17678,8 +17394,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 574336294
-				parent = 50
+				uid = 1155491543
+				parent = 46
 				position = 1.04574501514435,-20.431079864502,0.603760719299316
 				rotation = 0,-0.9659259,0,-0.2588189
 				mirror = 1,1,1
@@ -17688,13 +17404,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_94; pos: -0.6824781,-0.8998618,-0.4016305; dir: -0.5693591,-0.7507094,-0.3350606
+				cData = tgt: fuelTank3-2_90; pos: -0.6824801,-0.8998618,-0.4016311; dir: -0.5693591,-0.7507094,-0.3350606
+				sym = 53
+				sym = 54
+				sym = 55
 				sym = 57
 				sym = 58
-				sym = 59
-				sym = 61
-				sym = 62
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.3372
 				expt = 0
@@ -17711,8 +17427,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 302382060
-				parent = 50
+				uid = 12239146
+				parent = 46
 				position = 1.04574489593506,-20.431079864502,-0.603761076927185
 				rotation = 0,-0.9659259,0,0.2588191
 				mirror = 1,1,1
@@ -17721,13 +17437,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_118; pos: -0.6795836,-0.89604,-0.399925; dir: -0.5693591,-0.7507094,-0.3350606
-				sym = 57
+				cData = tgt: fuelTank3-2_114; pos: -0.6795831,-0.8960402,-0.3999242; dir: -0.5693591,-0.7507094,-0.3350606
+				sym = 53
+				sym = 54
+				sym = 55
+				sym = 56
 				sym = 58
-				sym = 59
-				sym = 60
-				sym = 62
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.33767
 				expt = 0
@@ -17744,8 +17460,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 644997715
-				parent = 50
+				uid = 1205696282
+				parent = 46
 				position = -1.04308128356934E-07,-20.431079864502,-1.2075217962265
 				rotation = 0,0.7071068,0,-0.7071068
 				mirror = 1,1,1
@@ -17754,13 +17470,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank3-2_82; pos: -0.6730988,-0.8874879,-0.396109; dir: -0.5693591,-0.7507094,-0.3350606
+				cData = tgt: fuelTank3-2_78; pos: -0.6730993,-0.88749,-0.396109; dir: -0.5693591,-0.7507094,-0.3350606
+				sym = 53
+				sym = 54
+				sym = 55
+				sym = 56
 				sym = 57
-				sym = 58
-				sym = 59
-				sym = 60
-				sym = 61
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.33767
 				expt = 0
@@ -17777,8 +17493,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2796140048
-				parent = 50
+				uid = 496257061
+				parent = 46
 				position = -1.20922458171844,-20.6943798065186,1.86264514923096E-08
 				rotation = 0,-2.980232E-08,0,-1
 				mirror = 1,1,1
@@ -17787,13 +17503,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.002286076,5.749034,0.004438172; dir: 0.0003976545,0.9999996,0.000772063
+				cData = tgt: liquidEngine2-2_35; pos: 0.002285957,5.749034,0.004438633; dir: 0.0003976545,0.9999996,0.000772063
+				sym = 60
+				sym = 61
+				sym = 62
+				sym = 63
 				sym = 64
-				sym = 65
-				sym = 66
-				sym = 67
-				sym = 68
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.33951
 				expt = 0
@@ -17810,8 +17526,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1341575860
-				parent = 50
+				uid = 1960250156
+				parent = 46
 				position = -0.604612052440643,-20.6943798065186,1.04721915721893
 				rotation = 0,-0.5000001,0,-0.8660254
 				mirror = 1,1,1
@@ -17820,13 +17536,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.002286268,5.749029,0.004438553; dir: 0.0003976545,0.9999996,0.000772063
+				cData = tgt: liquidEngine2-2_35; pos: 0.002285908,5.749029,0.004438702; dir: 0.0003976545,0.9999996,0.000772063
+				sym = 59
+				sym = 61
+				sym = 62
 				sym = 63
-				sym = 65
-				sym = 66
-				sym = 67
-				sym = 68
-				srfN = srfAttach, 50
+				sym = 64
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.33951
 				expt = 0
@@ -17843,8 +17559,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 3170855980
-				parent = 50
+				uid = 3766126735
+				parent = 46
 				position = 0.604612350463867,-20.6943798065186,1.04721915721893
 				rotation = 0,-0.8660254,0,-0.5
 				mirror = 1,1,1
@@ -17853,13 +17569,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.002286369,5.749031,0.004438534; dir: 0.0003976545,0.9999996,0.000772063
+				cData = tgt: liquidEngine2-2_35; pos: 0.002286256,5.749032,0.004437968; dir: 0.0003976545,0.9999996,0.000772063
+				sym = 59
+				sym = 60
+				sym = 62
 				sym = 63
 				sym = 64
-				sym = 66
-				sym = 67
-				sym = 68
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.33951
 				expt = 0
@@ -17876,8 +17592,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 3402730799
-				parent = 50
+				uid = 3161171977
+				parent = 46
 				position = 1.20922434329987,-20.6943798065186,-3.12924385070801E-07
 				rotation = 0,-1,0,1.112238E-07
 				mirror = 1,1,1
@@ -17886,13 +17602,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.002285871,5.749035,0.004439138; dir: 0.0003976545,0.9999996,0.000772063
+				cData = tgt: liquidEngine2-2_35; pos: 0.002286075,5.749035,0.004438756; dir: 0.0003976545,0.9999996,0.000772063
+				sym = 59
+				sym = 60
+				sym = 61
 				sym = 63
 				sym = 64
-				sym = 65
-				sym = 67
-				sym = 68
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.33951
 				expt = 0
@@ -17909,8 +17625,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 422534660
-				parent = 50
+				uid = 3086576196
+				parent = 46
 				position = 0.604612350463867,-20.6943798065186,-1.04721879959106
 				rotation = 0,-0.8660254,0,0.5
 				mirror = 1,1,1
@@ -17919,13 +17635,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.002285631,5.749038,0.004439329; dir: 0.0003976545,0.9999996,0.000772063
-				sym = 63
+				cData = tgt: liquidEngine2-2_35; pos: 0.002285853,5.749039,0.004438549; dir: 0.0003976545,0.9999996,0.000772063
+				sym = 59
+				sym = 60
+				sym = 61
+				sym = 62
 				sym = 64
-				sym = 65
-				sym = 66
-				sym = 68
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.33951
 				expt = 0
@@ -17942,8 +17658,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1302070979
-				parent = 50
+				uid = 2554561353
+				parent = 46
 				position = -0.604612290859222,-20.6943798065186,-1.04721879959106
 				rotation = 0,0.5,0,-0.8660254
 				mirror = 1,1,1
@@ -17952,13 +17668,13 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: liquidEngine2-2_39; pos: 0.002285372,5.749039,0.004438553; dir: 0.0003976545,0.9999996,0.000772063
+				cData = tgt: liquidEngine2-2_35; pos: 0.002285649,5.74904,0.00443866; dir: 0.0003976545,0.9999996,0.000772063
+				sym = 59
+				sym = 60
+				sym = 61
+				sym = 62
 				sym = 63
-				sym = 64
-				sym = 65
-				sym = 66
-				sym = 67
-				srfN = srfAttach, 50
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.33951
 				expt = 0
@@ -17975,8 +17691,8 @@ GAME
 			PART
 			{
 				name = radialDecoupler2
-				uid = 885469038
-				parent = 50
+				uid = 4135152728
+				parent = 46
 				position = 2.16066837310791E-07,-24.0071792602539,1.17741322517395
 				rotation = 0,-0.7071069,0,-0.7071067
 				mirror = 1,1,1
@@ -17985,8 +17701,8 @@ GAME
 				sqor = 4
 				sidx = 0
 				attm = 1
-				sym = 81
-				srfN = srfAttach, 50
+				sym = 77
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.36395
 				expt = 0.5
@@ -18030,8 +17746,8 @@ GAME
 			PART
 			{
 				name = fuelTank3-2
-				uid = 2358478565
-				parent = 69
+				uid = 1487973259
+				parent = 65
 				position = 1.11013650894165E-06,-23.8954200744629,3.04611921310425
 				rotation = 0,-0.7071069,0,-0.7071067
 				mirror = 1,1,1
@@ -18040,10 +17756,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 82
-				srfN = srfAttach, 69
-				attN = top, 71
-				attN = bottom, 75
+				sym = 78
+				srfN = srfAttach, 65
+				attN = top, 67
+				attN = bottom, 71
 				mass = 4
 				temp = 19.36303
 				expt = 0.5
@@ -18076,20 +17792,20 @@ GAME
 			PART
 			{
 				name = fuelTank1-2
-				uid = 3445090133
-				parent = 70
+				uid = 815444087
+				parent = 66
 				position = 1.11013650894165E-06,-18.2704200744629,3.04611921310425
-				rotation = 0,1,0,-8.940697E-08
+				rotation = 0,1,0,-8.42937E-08
 				mirror = 1,1,1
 				istg = 4
 				dstg = 4
 				sqor = -1
 				sidx = -1
 				attm = 0
-				sym = 83
+				sym = 79
 				srfN = None, -1
 				attN = None, -1
-				attN = bottom, 70
+				attN = bottom, 66
 				mass = 2
 				temp = 19.32152
 				expt = 0.5
@@ -18122,19 +17838,19 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1106628678
-				parent = 71
+				uid = 337507434
+				parent = 67
 				position = 0.200824826955795,-16.4938297271729,3.04612040519714
-				rotation = -0.7071068,0.7071068,-9.23872E-07,-8.940697E-07
+				rotation = -0.7071069,0.7071068,-9.221174E-07,-9.112705E-07
 				mirror = 1,1,1
 				istg = 4
 				dstg = 4
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: -4.72692,0.1878317,1.838702; dir: -0.931336,0.03700842,0.3622757
-				sym = 84
-				srfN = srfAttach, 71
+				cData = tgt: fuelTank1-2_32; pos: -4.726922,0.1878316,1.838702; dir: -0.931336,0.03700842,0.3622757
+				sym = 80
+				srfN = srfAttach, 67
 				mass = 0.05
 				temp = 19.3086
 				expt = 0
@@ -18151,8 +17867,8 @@ GAME
 			PART
 			{
 				name = launchClamp1
-				uid = 4175866390
-				parent = 71
+				uid = 3498098509
+				parent = 67
 				position = -1.43357861042023,-19.3577098846436,4.47970008850098
 				rotation = -1.348068E-07,-0.9238796,5.031019E-07,-0.3826837
 				mirror = 1,1,1
@@ -18161,8 +17877,8 @@ GAME
 				sqor = 6
 				sidx = 0
 				attm = 1
-				sym = 85
-				srfN = srfAttach, 71
+				sym = 81
+				srfN = srfAttach, 67
 				mass = 0.1
 				temp = 19.32936
 				expt = 0.1
@@ -18255,8 +17971,8 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 506032950
-				parent = 70
+				uid = 3593332921
+				parent = 66
 				position = 1.51991844177246E-06,-27.337589263916,4.80317306518555
 				rotation = 0,-0.7071068,0,-0.7071068
 				mirror = 1,1,1
@@ -18265,8 +17981,8 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 86
-				srfN = srfAttach, 70
+				sym = 82
+				srfN = srfAttach, 66
 				mass = 0.02
 				temp = 19.38837
 				expt = 0.1
@@ -18283,8 +17999,8 @@ GAME
 			PART
 			{
 				name = liquidEngine1-2
-				uid = 985688930
-				parent = 70
+				uid = 1344105003
+				parent = 66
 				position = 1.11013650894165E-06,-28.710729598999,3.04611921310425
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -18293,9 +18009,9 @@ GAME
 				sqor = 6
 				sidx = 1
 				attm = 0
-				sym = 87
+				sym = 83
 				srfN = None, -1
-				attN = top, 70
+				attN = top, 66
 				attN = None, -1
 				mass = 6
 				temp = 19.39851
@@ -18448,7 +18164,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0399999991059303
+					amount = 0.0149999996647239
 					maxAmount = 0.0399999991059303
 					flowState = True
 					flowMode = Both
@@ -18457,8 +18173,8 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 2717339850
-				parent = 70
+				uid = 1033768918
+				parent = 66
 				position = -1.18300759792328,-21.9065704345703,2.72913432121277
 				rotation = -0.5609854,0.5609857,0.4304599,-0.430459
 				mirror = 1,1,1
@@ -18467,8 +18183,8 @@ GAME
 				sqor = 4
 				sidx = 1
 				attm = 1
-				sym = 88
-				srfN = srfAttach, 70
+				sym = 84
+				srfN = srfAttach, 66
 				mass = 0.15
 				temp = 19.34873
 				expt = 0.5
@@ -18543,8 +18259,8 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 1350845966
-				parent = 70
+				uid = 547766036
+				parent = 66
 				position = 1.2067973613739,-22.0289993286133,2.72275924682617
 				rotation = -0.5609855,-0.5609857,-0.4304597,-0.430459
 				mirror = 1,1,1
@@ -18553,8 +18269,8 @@ GAME
 				sqor = 4
 				sidx = 2
 				attm = 1
-				sym = 89
-				srfN = srfAttach, 70
+				sym = 85
+				srfN = srfAttach, 66
 				mass = 0.15
 				temp = 19.34966
 				expt = 0.5
@@ -18629,19 +18345,19 @@ GAME
 			PART
 			{
 				name = fuelLine
-				uid = 2716746504
-				parent = 70
+				uid = 3759731149
+				parent = 66
 				position = 1.21357238292694,-27.1596183776855,3.04611921310425
-				rotation = 0,-1,0,1.788139E-07
+				rotation = 0,-1,0,1.685874E-07
 				mirror = 1,1,1
 				istg = 4
 				dstg = 4
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_95; pos: -1.46205,7.825146,0.3125507; dir: -0.1835203,0.9822327,0.03923235; rot: 0.4999989,-0.5,-0.5,-0.5000011
-				sym = 90
-				srfN = srfAttach, 70
+				cData = tgt: fuelTank1-2_91; pos: -1.462047,7.825128,0.3125512; dir: -0.1835203,0.9822327,0.03923235; rot: 0.4999988,-0.5,-0.5,-0.5000013
+				sym = 86
+				srfN = srfAttach, 66
 				mass = 0.05
 				temp = 19.38745
 				expt = 0
@@ -18658,8 +18374,8 @@ GAME
 			PART
 			{
 				name = radialDecoupler
-				uid = 4114895910
-				parent = 70
+				uid = 625867372
+				parent = 66
 				position = 0.873785793781281,-24.2484188079834,3.91990327835083
 				rotation = -1.093563E-07,0.9238796,-2.930189E-08,0.3826835
 				mirror = 1,1,1
@@ -18668,8 +18384,8 @@ GAME
 				sqor = 5
 				sidx = 1
 				attm = 1
-				sym = 91
-				srfN = srfAttach, 70
+				sym = 87
+				srfN = srfAttach, 66
 				mass = 0.025
 				temp = 19.36579
 				expt = 0.5
@@ -18713,18 +18429,18 @@ GAME
 			PART
 			{
 				name = solidBooster
-				uid = 825239160
-				parent = 79
-				position = 1.26911425590515,-24.0833587646484,4.60462760925293
-				rotation = -1.043081E-07,0.2588191,1.373245E-08,0.9659258
+				uid = 867759077
+				parent = 75
+				position = 1.26911425590515,-24.0833587646484,4.60462808609009
+				rotation = -1.043081E-07,0.2588192,1.373245E-08,0.9659259
 				mirror = 1,1,1
 				istg = 6
 				dstg = 6
 				sqor = 6
 				sidx = 18
 				attm = 1
-				sym = 92
-				srfN = srfAttach, 79
+				sym = 88
+				srfN = srfAttach, 75
 				attN = None, -1
 				attN = None, -1
 				mass = 0.5
@@ -18745,7 +18461,7 @@ GAME
 					isEnabled = True
 					EngineIgnited = False
 					engineShutdown = False
-					currentThrottle = 0.9870037
+					currentThrottle = 0.9667475
 					flameout = False
 					staged = False
 					EVENTS
@@ -18812,8 +18528,8 @@ GAME
 			PART
 			{
 				name = radialDecoupler2
-				uid = 561558827
-				parent = 50
+				uid = 1097794003
+				parent = 46
 				position = -1.04308128356934E-07,-24.0071792602539,-1.17741286754608
 				rotation = 0,0.7071068,0,-0.7071068
 				mirror = 1,1,1
@@ -18822,8 +18538,8 @@ GAME
 				sqor = 4
 				sidx = 3
 				attm = 1
-				sym = 69
-				srfN = srfAttach, 50
+				sym = 65
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.36395
 				expt = 0.5
@@ -18867,8 +18583,8 @@ GAME
 			PART
 			{
 				name = fuelTank3-2
-				uid = 3640187948
-				parent = 81
+				uid = 2899025669
+				parent = 77
 				position = -2.23517417907715E-07,-23.8954200744629,-3.04612016677856
 				rotation = 0,0.7071068,0,-0.7071068
 				mirror = 1,1,1
@@ -18877,10 +18593,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 70
-				srfN = srfAttach, 81
-				attN = top, 83
-				attN = bottom, 87
+				sym = 66
+				srfN = srfAttach, 77
+				attN = top, 79
+				attN = bottom, 83
 				mass = 4
 				temp = 19.36303
 				expt = 0.5
@@ -18913,8 +18629,8 @@ GAME
 			PART
 			{
 				name = fuelTank1-2
-				uid = 3795403549
-				parent = 82
+				uid = 1476041644
+				parent = 78
 				position = -2.23517417907715E-07,-18.2704200744629,-3.04612016677856
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -18923,10 +18639,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 0
-				sym = 71
+				sym = 67
 				srfN = None, -1
 				attN = None, -1
-				attN = bottom, 82
+				attN = bottom, 78
 				mass = 2
 				temp = 19.32152
 				expt = 0.5
@@ -18959,19 +18675,19 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1260568938
-				parent = 83
+				uid = 1530726979
+				parent = 79
 				position = -0.200824528932571,-16.4938297271729,-3.04612016677856
-				rotation = 1.013279E-06,9.536743E-07,-0.7071069,0.7071068
+				rotation = 1.011524E-06,9.90451E-07,-0.7071069,0.7071069
 				mirror = 1,1,1
 				istg = 4
 				dstg = 4
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: -4.726924,0.1878337,1.838701; dir: -0.931336,0.03700842,0.3622757
-				sym = 72
-				srfN = srfAttach, 83
+				cData = tgt: fuelTank1-2_32; pos: -4.726925,0.1878344,1.838701; dir: -0.931336,0.03700842,0.3622757
+				sym = 68
+				srfN = srfAttach, 79
 				mass = 0.05
 				temp = 19.3086
 				expt = 0
@@ -18988,18 +18704,18 @@ GAME
 			PART
 			{
 				name = launchClamp1
-				uid = 2189460103
-				parent = 83
-				position = 1.43358051776886,-19.3577098846436,-4.47970342636108
-				rotation = -5.031017E-07,0.3826836,-1.348069E-07,-0.9238795
+				uid = 3059087945
+				parent = 79
+				position = 1.43358075618744,-19.3577098846436,-4.47970342636108
+				rotation = -5.031018E-07,0.3826837,-1.348069E-07,-0.9238797
 				mirror = 1,1,1
 				istg = 6
 				dstg = 4
 				sqor = 6
 				sidx = 2
 				attm = 1
-				sym = 73
-				srfN = srfAttach, 83
+				sym = 69
+				srfN = srfAttach, 79
 				mass = 0.1
 				temp = 19.32936
 				expt = 0.1
@@ -19016,7 +18732,7 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 9.395083
+					scaleFactor = 9.395082
 					height = 23.70565
 					towerRot = 0,0,0,1
 					EVENTS
@@ -19092,9 +18808,9 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 3598780452
-				parent = 82
-				position = 9.68575477600098E-08,-27.337589263916,-4.80319786071777
+				uid = 2976191832
+				parent = 78
+				position = 9.68575477600098E-08,-27.337589263916,-4.80319976806641
 				rotation = 0,0.7071068,0,-0.7071068
 				mirror = 1,1,1
 				istg = 4
@@ -19102,8 +18818,8 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 74
-				srfN = srfAttach, 82
+				sym = 70
+				srfN = srfAttach, 78
 				mass = 0.02
 				temp = 19.38837
 				expt = 0.1
@@ -19120,19 +18836,19 @@ GAME
 			PART
 			{
 				name = liquidEngine1-2
-				uid = 1036786027
-				parent = 82
+				uid = 2489648917
+				parent = 78
 				position = -2.23517417907715E-07,-28.710729598999,-3.04612016677856
-				rotation = 0,-1,0,-1.192093E-07
+				rotation = 0,-1,0,-8.42937E-08
 				mirror = 1,1,1
 				istg = 6
 				dstg = 4
 				sqor = 6
 				sidx = 3
 				attm = 0
-				sym = 75
+				sym = 71
 				srfN = None, -1
-				attN = top, 82
+				attN = top, 78
 				attN = None, -1
 				mass = 6
 				temp = 19.39851
@@ -19285,7 +19001,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0399999991059303
+					amount = 0.0149999996647239
 					maxAmount = 0.0399999991059303
 					flowState = True
 					flowMode = Both
@@ -19294,9 +19010,9 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 4016776616
-				parent = 82
-				position = 1.1830085515976,-21.9065704345703,-2.72913312911987
+				uid = 4260025010
+				parent = 78
+				position = 1.18300867080688,-21.9065704345703,-2.72913312911987
 				rotation = -0.4304598,0.4304591,-0.5609854,0.5609857
 				mirror = 1,1,1
 				istg = 4
@@ -19304,8 +19020,8 @@ GAME
 				sqor = 4
 				sidx = 4
 				attm = 1
-				sym = 76
-				srfN = srfAttach, 82
+				sym = 72
+				srfN = srfAttach, 78
 				mass = 0.15
 				temp = 19.34873
 				expt = 0.5
@@ -19380,9 +19096,9 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 98717009
-				parent = 82
-				position = -1.20679688453674,-22.0289993286133,-2.7227611541748
+				uid = 3145824032
+				parent = 78
+				position = -1.20679700374603,-22.0289993286133,-2.7227611541748
 				rotation = 0.4304598,0.4304591,-0.5609854,-0.5609857
 				mirror = 1,1,1
 				istg = 4
@@ -19390,8 +19106,8 @@ GAME
 				sqor = 4
 				sidx = 5
 				attm = 1
-				sym = 77
-				srfN = srfAttach, 82
+				sym = 73
+				srfN = srfAttach, 78
 				mass = 0.15
 				temp = 19.3492
 				expt = 0.5
@@ -19466,8 +19182,8 @@ GAME
 			PART
 			{
 				name = fuelLine
-				uid = 1061045332
-				parent = 82
+				uid = 378153265
+				parent = 78
 				position = -1.21357190608978,-27.1596183776855,-3.04612016677856
 				rotation = 0,0,0,-1
 				mirror = 1,1,1
@@ -19476,9 +19192,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_107; pos: -1.462053,7.825155,0.3125509; dir: -0.1835203,0.9822327,0.03923235; rot: -0.5000001,0.499999,0.500001,0.4999999
-				sym = 78
-				srfN = srfAttach, 82
+				cData = tgt: fuelTank1-2_103; pos: -1.462054,7.825158,0.3125513; dir: -0.1835203,0.9822327,0.03923235; rot: -0.5,0.499999,0.500001,0.5
+				sym = 74
+				srfN = srfAttach, 78
 				mass = 0.05
 				temp = 19.38699
 				expt = 0
@@ -19495,9 +19211,9 @@ GAME
 			PART
 			{
 				name = radialDecoupler
-				uid = 2126058089
-				parent = 82
-				position = -0.873787939548492,-24.2484188079834,-3.91990518569946
+				uid = 1489072392
+				parent = 78
+				position = -0.873788356781006,-24.2484188079834,-3.91990518569946
 				rotation = 2.930191E-08,-0.3826835,-1.093563E-07,0.9238796
 				mirror = 1,1,1
 				istg = 5
@@ -19505,8 +19221,8 @@ GAME
 				sqor = 5
 				sidx = 0
 				attm = 1
-				sym = 79
-				srfN = srfAttach, 82
+				sym = 75
+				srfN = srfAttach, 78
 				mass = 0.025
 				temp = 19.36579
 				expt = 0.5
@@ -19550,18 +19266,18 @@ GAME
 			PART
 			{
 				name = solidBooster
-				uid = 815937866
-				parent = 91
-				position = -1.26911377906799,-24.0833587646484,-4.60463619232178
-				rotation = -1.373252E-08,-0.9659259,-1.043082E-07,0.2588191
+				uid = 3039748633
+				parent = 87
+				position = -1.26911401748657,-24.0833587646484,-4.60463619232178
+				rotation = -1.373252E-08,-0.9659259,-1.043082E-07,0.2588192
 				mirror = 1,1,1
 				istg = 6
 				dstg = 6
 				sqor = 6
 				sidx = 17
 				attm = 1
-				sym = 80
-				srfN = srfAttach, 91
+				sym = 76
+				srfN = srfAttach, 87
 				attN = None, -1
 				attN = None, -1
 				mass = 0.5
@@ -19582,7 +19298,7 @@ GAME
 					isEnabled = True
 					EngineIgnited = False
 					engineShutdown = False
-					currentThrottle = 0.9870037
+					currentThrottle = 0.9667475
 					flameout = False
 					staged = False
 					EVENTS
@@ -19649,8 +19365,8 @@ GAME
 			PART
 			{
 				name = radialDecoupler2
-				uid = 841675149
-				parent = 50
+				uid = 3850668404
+				parent = 46
 				position = 1.02654457092285,-23.9138202667236,0.5926753282547
 				rotation = 0,-0.9659259,0,-0.2588189
 				mirror = 1,1,1
@@ -19659,8 +19375,8 @@ GAME
 				sqor = 2
 				sidx = 0
 				attm = 1
-				sym = 105
-				srfN = srfAttach, 50
+				sym = 101
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.36349
 				expt = 0.5
@@ -19704,8 +19420,8 @@ GAME
 			PART
 			{
 				name = fuelTank3-2
-				uid = 2476994232
-				parent = 93
+				uid = 1164308062
+				parent = 89
 				position = 2.64338326454163,-23.8826789855957,1.52615714073181
 				rotation = 0,0.9659258,0,0.258819
 				mirror = 1,1,1
@@ -19714,10 +19430,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 106
-				srfN = srfAttach, 93
-				attN = top, 95
-				attN = bottom, 100
+				sym = 102
+				srfN = srfAttach, 89
+				attN = top, 91
+				attN = bottom, 96
 				mass = 4
 				temp = 19.36303
 				expt = 0.5
@@ -19750,20 +19466,20 @@ GAME
 			PART
 			{
 				name = fuelTank1-2
-				uid = 56150561
-				parent = 94
+				uid = 3015717088
+				parent = 90
 				position = 2.64338326454163,-18.2576789855957,1.52615714073181
-				rotation = 0,1,0,-4.470348E-08
+				rotation = 0,1,0,-2.878683E-08
 				mirror = 1,1,1
 				istg = 4
 				dstg = 4
 				sqor = -1
 				sidx = -1
 				attm = 0
-				sym = 107
+				sym = 103
 				srfN = None, -1
 				attN = None, -1
-				attN = bottom, 94
+				attN = bottom, 90
 				mass = 2
 				temp = 19.32106
 				expt = 0.5
@@ -19796,19 +19512,19 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 907069749
-				parent = 95
+				uid = 2974515897
+				parent = 91
 				position = 2.80916929244995,-16.4810905456543,1.52615714073181
-				rotation = -0.7071069,0.7071068,-8.046627E-07,-7.599592E-07
+				rotation = -0.7071068,0.7071068,-7.841373E-07,-7.919789E-07
 				mirror = 1,1,1
 				istg = 4
 				dstg = 4
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: -4.527087,1.768236,0.9142838; dir: -0.9154116,0.3575511,0.1848748
-				sym = 108
-				srfN = srfAttach, 95
+				cData = tgt: fuelTank1-2_32; pos: -4.52709,1.768237,0.9142835; dir: -0.9154116,0.3575511,0.1848748
+				sym = 104
+				srfN = srfAttach, 91
 				mass = 0.05
 				temp = 19.3086
 				expt = 0
@@ -19825,18 +19541,18 @@ GAME
 			PART
 			{
 				name = launchClamp1
-				uid = 3821193149
-				parent = 95
+				uid = 1547281439
+				parent = 91
 				position = 3.16877937316895,-20.1311187744141,3.48696136474609
-				rotation = -5.968559E-13,-0.991445,9.121603E-07,0.1305263
+				rotation = -5.826897E-13,-0.9914449,9.121602E-07,0.1305263
 				mirror = 1,1,1
 				istg = 6
 				dstg = 4
 				sqor = 6
 				sidx = 7
 				attm = 1
-				sym = 109
-				srfN = srfAttach, 95
+				sym = 105
+				srfN = srfAttach, 91
 				mass = 0.1
 				temp = 19.33582
 				expt = 0.1
@@ -19853,7 +19569,7 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 9.088564
+					scaleFactor = 9.088565
 					height = 22.93224
 					towerRot = 0,0,0,1
 					EVENTS
@@ -19929,9 +19645,9 @@ GAME
 			PART
 			{
 				name = fuelLine
-				uid = 567574357
-				parent = 94
-				position = 3.24710750579834,-27.0900497436523,0.480477005243301
+				uid = 1456580251
+				parent = 90
+				position = 3.24710726737976,-27.0900497436523,0.480476886034012
 				rotation = 0,-0.8660254,0,0.5000001
 				mirror = 1,1,1
 				istg = 4
@@ -19939,9 +19655,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_119; pos: -1.131461,9.809953,0.3197058; dir: -0.1145185,0.992894,0.0323585; rot: -0.6830124,-0.1830143,0.1830136,-0.6830124
-				sym = 110
-				srfN = srfAttach, 94
+				cData = tgt: fuelTank1-2_115; pos: -1.131461,9.809953,0.3197058; dir: -0.1145185,0.992894,0.0323585; rot: -0.6830124,-0.1830143,0.1830136,-0.6830124
+				sym = 106
+				srfN = srfAttach, 90
 				mass = 0.05
 				temp = 19.38653
 				expt = 0
@@ -19958,9 +19674,9 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 809415469
-				parent = 94
-				position = 4.16466999053955,-27.3359699249268,2.4044725894928
+				uid = 2248929817
+				parent = 90
+				position = 4.16466951370239,-27.3359699249268,2.40447235107422
 				rotation = 0,0.9659258,0,0.258819
 				mirror = 1,1,1
 				istg = 4
@@ -19968,8 +19684,8 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 111
-				srfN = srfAttach, 94
+				sym = 107
+				srfN = srfAttach, 90
 				mass = 0.02
 				temp = 19.38837
 				expt = 0.1
@@ -19986,19 +19702,19 @@ GAME
 			PART
 			{
 				name = liquidEngine1-2
-				uid = 207776496
-				parent = 94
+				uid = 2865534393
+				parent = 90
 				position = 2.64338326454163,-28.6979904174805,1.52615714073181
-				rotation = 0,1.490116E-08,0,1
+				rotation = 0,0,0,1
 				mirror = 1,1,1
 				istg = 6
 				dstg = 4
 				sqor = 6
 				sidx = 4
 				attm = 0
-				sym = 112
+				sym = 108
 				srfN = None, -1
-				attN = top, 94
+				attN = top, 90
 				attN = None, -1
 				mass = 6
 				temp = 19.39897
@@ -20151,7 +19867,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0399999991059303
+					amount = 0.0149999996647239
 					maxAmount = 0.0399999991059303
 					flowState = True
 					flowMode = Both
@@ -20160,18 +19876,18 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 2951065073
-				parent = 94
-				position = 1.77727818489075,-21.9094390869141,2.39226245880127
-				rotation = -0.2705976,0.2705985,0.653282,-0.6532811
+				uid = 3516453638
+				parent = 90
+				position = 1.77727818489075,-21.9094390869141,2.39226222038269
+				rotation = -0.2705976,0.2705985,0.6532819,-0.6532812
 				mirror = 1,1,1
 				istg = 2
 				dstg = 4
 				sqor = 2
 				sidx = 1
 				attm = 1
-				sym = 113
-				srfN = srfAttach, 94
+				sym = 109
+				srfN = srfAttach, 90
 				mass = 0.15
 				temp = 19.34827
 				expt = 0.5
@@ -20246,18 +19962,18 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 2406270867
-				parent = 94
-				position = 2.96099138259888,-22.0564289093018,0.340828895568848
-				rotation = -0.7010574,-0.7010574,-0.09229638,-0.09229562
+				uid = 3524230193
+				parent = 90
+				position = 2.96099138259888,-22.0564289093018,0.340828776359558
+				rotation = -0.7010574,-0.7010574,-0.09229638,-0.0922956
 				mirror = 1,1,1
 				istg = 2
 				dstg = 4
 				sqor = 2
 				sidx = 2
 				attm = 1
-				sym = 114
-				srfN = srfAttach, 94
+				sym = 110
+				srfN = srfAttach, 90
 				mass = 0.15
 				temp = 19.34966
 				expt = 0.5
@@ -20332,9 +20048,9 @@ GAME
 			PART
 			{
 				name = radialDecoupler
-				uid = 2498834042
-				parent = 94
-				position = 3.84054136276245,-23.5537300109863,1.20537996292114
+				uid = 2574476817
+				parent = 90
+				position = 3.84054136276245,-23.5537300109863,1.20538020133972
 				rotation = 1.500034E-07,-0.9914449,-4.019333E-08,0.1305262
 				mirror = 1,1,1
 				istg = 3
@@ -20342,8 +20058,8 @@ GAME
 				sqor = 3
 				sidx = 0
 				attm = 1
-				sym = 115
-				srfN = srfAttach, 94
+				sym = 111
+				srfN = srfAttach, 90
 				mass = 0.025
 				temp = 19.36072
 				expt = 0.5
@@ -20387,18 +20103,18 @@ GAME
 			PART
 			{
 				name = solidBooster1-1
-				uid = 1887664199
-				parent = 103
-				position = 4.61074256896973,-23.9807395935059,0.999005258083344
-				rotation = 7.428226E-14,-0.7933534,-1.125056E-13,-0.6087615
+				uid = 2403539171
+				parent = 99
+				position = 4.61074256896973,-23.9807395935059,0.999005377292633
+				rotation = 7.726868E-14,-0.7933534,-1.179502E-13,-0.6087615
 				mirror = 1,1,1
 				istg = 6
 				dstg = 6
 				sqor = 6
 				sidx = 15
 				attm = 1
-				sym = 116
-				srfN = srfAttach, 103
+				sym = 112
+				srfN = srfAttach, 99
 				attN = None, -1
 				attN = None, -1
 				mass = 1.75
@@ -20419,7 +20135,7 @@ GAME
 					isEnabled = True
 					EngineIgnited = False
 					engineShutdown = False
-					currentThrottle = 0.9814097
+					currentThrottle = 0.9572132
 					flameout = False
 					staged = False
 					EVENTS
@@ -20475,8 +20191,8 @@ GAME
 			PART
 			{
 				name = radialDecoupler2
-				uid = 3022527661
-				parent = 50
+				uid = 3477095070
+				parent = 46
 				position = -1.02654469013214,-23.9138202667236,-0.592675447463989
 				rotation = 0,0.258819,0,-0.9659259
 				mirror = 1,1,1
@@ -20485,8 +20201,8 @@ GAME
 				sqor = 2
 				sidx = 3
 				attm = 1
-				sym = 93
-				srfN = srfAttach, 50
+				sym = 89
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.36303
 				expt = 0.5
@@ -20530,9 +20246,9 @@ GAME
 			PART
 			{
 				name = fuelTank3-2
-				uid = 1129627983
-				parent = 105
-				position = -2.64338254928589,-23.8826789855957,-1.52615797519684
+				uid = 1498562103
+				parent = 101
+				position = -2.64338254928589,-23.8826789855957,-1.52615785598755
 				rotation = 0,-0.258819,0,0.9659259
 				mirror = 1,1,1
 				istg = 4
@@ -20540,10 +20256,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 94
-				srfN = srfAttach, 105
-				attN = top, 107
-				attN = bottom, 112
+				sym = 90
+				srfN = srfAttach, 101
+				attN = top, 103
+				attN = bottom, 108
 				mass = 4
 				temp = 19.36303
 				expt = 0.5
@@ -20576,9 +20292,9 @@ GAME
 			PART
 			{
 				name = fuelTank1-2
-				uid = 1127404552
-				parent = 106
-				position = -2.64338254928589,-18.2576789855957,-1.52615797519684
+				uid = 3828819243
+				parent = 102
+				position = -2.64338254928589,-18.2576789855957,-1.52615785598755
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				istg = 4
@@ -20586,10 +20302,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 0
-				sym = 95
+				sym = 91
 				srfN = None, -1
 				attN = None, -1
-				attN = bottom, 106
+				attN = bottom, 102
 				mass = 2
 				temp = 19.32152
 				expt = 0.5
@@ -20622,19 +20338,19 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 103097102
-				parent = 107
+				uid = 1518464786
+				parent = 103
 				position = -2.80916953086853,-16.4810905456543,-1.52615785598755
-				rotation = 8.493662E-07,7.301569E-07,-0.7071069,0.7071068
+				rotation = 8.521988E-07,7.249508E-07,-0.7071069,0.7071068
 				mirror = 1,1,1
 				istg = 4
 				dstg = 4
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: -4.527083,1.768237,0.9142807; dir: -0.9154116,0.3575511,0.1848748
-				sym = 96
-				srfN = srfAttach, 107
+				cData = tgt: fuelTank1-2_32; pos: -4.527084,1.768236,0.9142812; dir: -0.9154116,0.3575511,0.1848748
+				sym = 92
+				srfN = srfAttach, 103
 				mass = 0.05
 				temp = 19.3086
 				expt = 0
@@ -20651,18 +20367,18 @@ GAME
 			PART
 			{
 				name = launchClamp1
-				uid = 519545184
-				parent = 107
+				uid = 1684027833
+				parent = 103
 				position = -3.16877841949463,-20.1311187744141,-3.48696303367615
-				rotation = -9.121603E-07,-0.1305262,-6.394885E-13,-0.991445
+				rotation = -9.121604E-07,-0.1305262,-6.347871E-13,-0.991445
 				mirror = 1,1,1
 				istg = 6
 				dstg = 4
 				sqor = 6
 				sidx = 8
 				attm = 1
-				sym = 97
-				srfN = srfAttach, 107
+				sym = 93
+				srfN = srfAttach, 103
 				mass = 0.1
 				temp = 19.33582
 				expt = 0.1
@@ -20755,19 +20471,19 @@ GAME
 			PART
 			{
 				name = fuelLine
-				uid = 1088639241
-				parent = 106
-				position = -3.24710655212402,-27.0900497436523,-0.480477869510651
-				rotation = 0,-0.5,0,-0.8660254
+				uid = 4185455756
+				parent = 102
+				position = -3.24710655212402,-27.0900497436523,-0.480477809906006
+				rotation = 0,-0.5000002,0,-0.8660254
 				mirror = 1,1,1
 				istg = 4
 				dstg = 4
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_131; pos: -1.131465,9.809971,0.3197058; dir: -0.1145185,0.992894,0.0323585; rot: 0.6830139,0.183014,-0.183014,0.6830109
-				sym = 98
-				srfN = srfAttach, 106
+				cData = tgt: fuelTank1-2_127; pos: -1.131463,9.809958,0.3197057; dir: -0.1145185,0.992894,0.0323585; rot: 0.683014,0.1830139,-0.1830139,0.6830108
+				sym = 94
+				srfN = srfAttach, 102
 				mass = 0.05
 				temp = 19.38699
 				expt = 0
@@ -20784,9 +20500,9 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 929682107
-				parent = 106
-				position = -4.16467189788818,-27.3359699249268,-2.40447282791138
+				uid = 2985415954
+				parent = 102
+				position = -4.16467142105103,-27.3359699249268,-2.4044725894928
 				rotation = 0,-0.2588191,0,0.9659259
 				mirror = 1,1,1
 				istg = 4
@@ -20794,8 +20510,8 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 99
-				srfN = srfAttach, 106
+				sym = 95
+				srfN = srfAttach, 102
 				mass = 0.02
 				temp = 19.38884
 				expt = 0.1
@@ -20812,19 +20528,19 @@ GAME
 			PART
 			{
 				name = liquidEngine1-2
-				uid = 120465271
-				parent = 106
-				position = -2.64338254928589,-28.6979904174805,-1.52615797519684
-				rotation = 0,-1,0,-2.980232E-08
+				uid = 3496304339
+				parent = 102
+				position = -2.64338254928589,-28.6979904174805,-1.52615785598755
+				rotation = 0,-1,0,-2.878683E-08
 				mirror = 1,1,1
 				istg = 6
 				dstg = 4
 				sqor = 6
 				sidx = 5
 				attm = 0
-				sym = 100
+				sym = 96
 				srfN = None, -1
-				attN = top, 106
+				attN = top, 102
 				attN = None, -1
 				mass = 6
 				temp = 19.39851
@@ -20977,7 +20693,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0399999991059303
+					amount = 0.0149999996647239
 					maxAmount = 0.0399999991059303
 					flowState = True
 					flowMode = Both
@@ -20986,8 +20702,8 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 2279925001
-				parent = 106
+				uid = 3381298113
+				parent = 102
 				position = -1.77727866172791,-21.9094390869141,-2.39226269721985
 				rotation = -0.653282,0.653281,-0.2705976,0.2705985
 				mirror = 1,1,1
@@ -20996,8 +20712,8 @@ GAME
 				sqor = 2
 				sidx = 4
 				attm = 1
-				sym = 101
-				srfN = srfAttach, 106
+				sym = 97
+				srfN = srfAttach, 102
 				mass = 0.15
 				temp = 19.34827
 				expt = 0.5
@@ -21072,18 +20788,18 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 26017496
-				parent = 106
-				position = -2.96099138259888,-22.0564289093018,-0.340829312801361
-				rotation = 0.09229656,0.09229562,-0.7010577,-0.7010571
+				uid = 1223643669
+				parent = 102
+				position = -2.96099162101746,-22.0564289093018,-0.340829282999039
+				rotation = 0.09229658,0.09229562,-0.7010577,-0.7010571
 				mirror = 1,1,1
 				istg = 2
 				dstg = 4
 				sqor = 2
 				sidx = 5
 				attm = 1
-				sym = 102
-				srfN = srfAttach, 106
+				sym = 98
+				srfN = srfAttach, 102
 				mass = 0.15
 				temp = 19.34966
 				expt = 0.5
@@ -21158,8 +20874,8 @@ GAME
 			PART
 			{
 				name = radialDecoupler
-				uid = 3052021259
-				parent = 106
+				uid = 1849850510
+				parent = 102
 				position = -3.84054040908813,-23.5537300109863,-1.20538067817688
 				rotation = 4.019335E-08,-0.1305262,1.500034E-07,-0.991445
 				mirror = 1,1,1
@@ -21168,8 +20884,8 @@ GAME
 				sqor = 3
 				sidx = 1
 				attm = 1
-				sym = 103
-				srfN = srfAttach, 106
+				sym = 99
+				srfN = srfAttach, 102
 				mass = 0.025
 				temp = 19.36072
 				expt = 0.5
@@ -21213,18 +20929,18 @@ GAME
 			PART
 			{
 				name = solidBooster1-1
-				uid = 2738241968
-				parent = 115
+				uid = 1142132394
+				parent = 111
 				position = -4.61074161529541,-23.9807395935059,-0.999006032943726
-				rotation = -1.329989E-14,0.6087614,2.218259E-14,-0.7933534
+				rotation = -9.976324E-15,0.6087615,3.829355E-14,-0.7933535
 				mirror = 1,1,1
 				istg = 6
 				dstg = 6
 				sqor = 6
 				sidx = 16
 				attm = 1
-				sym = 104
-				srfN = srfAttach, 115
+				sym = 100
+				srfN = srfAttach, 111
 				attN = None, -1
 				attN = None, -1
 				mass = 1.75
@@ -21245,7 +20961,7 @@ GAME
 					isEnabled = True
 					EngineIgnited = False
 					engineShutdown = False
-					currentThrottle = 0.9814097
+					currentThrottle = 0.9572132
 					flameout = False
 					staged = False
 					EVENTS
@@ -21301,8 +21017,8 @@ GAME
 			PART
 			{
 				name = radialDecoupler2
-				uid = 2614399910
-				parent = 50
+				uid = 1690918640
+				parent = 46
 				position = 1.02405047416687,-23.9823799133301,-0.591235637664795
 				rotation = 0,-0.9659259,0,0.258819
 				mirror = 1,1,1
@@ -21311,8 +21027,8 @@ GAME
 				sqor = 1
 				sidx = 0
 				attm = 1
-				sym = 129
-				srfN = srfAttach, 50
+				sym = 125
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.36395
 				expt = 0.5
@@ -21356,8 +21072,8 @@ GAME
 			PART
 			{
 				name = fuelTank3-2
-				uid = 2152566442
-				parent = 117
+				uid = 2114967213
+				parent = 113
 				position = 2.64172649383545,-23.8514404296875,-1.52520108222961
 				rotation = 0,-0.9659259,0,0.258819
 				mirror = 1,1,1
@@ -21366,10 +21082,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 130
-				srfN = srfAttach, 117
-				attN = top, 119
-				attN = bottom, 123
+				sym = 126
+				srfN = srfAttach, 113
+				attN = top, 115
+				attN = bottom, 119
 				mass = 4
 				temp = 19.36303
 				expt = 0.5
@@ -21402,8 +21118,8 @@ GAME
 			PART
 			{
 				name = fuelTank1-2
-				uid = 2157452329
-				parent = 118
+				uid = 608364348
+				parent = 114
 				position = 2.64172649383545,-18.2264404296875,-1.52520108222961
 				rotation = 1,0,0,0
 				mirror = 1,1,1
@@ -21412,9 +21128,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 0
-				sym = 131
+				sym = 127
 				srfN = None, -1
-				attN = top, 118
+				attN = top, 114
 				attN = None, -1
 				mass = 2
 				temp = 19.32106
@@ -21448,19 +21164,19 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 3742177882
-				parent = 119
+				uid = 2821566080
+				parent = 115
 				position = 2.88396263122559,-16.4498500823975,-1.59010791778564
-				rotation = -0.7071072,0.7071066,6.407499E-07,7.003546E-07
+				rotation = -0.7071072,0.7071066,6.404312E-07,7.002976E-07
 				mirror = 1,1,1
 				istg = 4
 				dstg = 4
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: -4.270696,1.874981,-0.9228907; dir: -0.8982258,0.394352,-0.1941051
-				sym = 132
-				srfN = srfAttach, 119
+				cData = tgt: fuelTank1-2_32; pos: -4.2707,1.874981,-0.9228906; dir: -0.8982258,0.394352,-0.1941051
+				sym = 128
+				srfN = srfAttach, 115
 				mass = 0.05
 				temp = 19.3086
 				expt = 0
@@ -21477,18 +21193,18 @@ GAME
 			PART
 			{
 				name = launchClamp1
-				uid = 2461572599
-				parent = 119
-				position = 4.59871578216553,-19.9118900299072,-1.00082755088806
-				rotation = 5.313809E-09,0.7933534,9.203784E-09,-0.6087615
+				uid = 229465294
+				parent = 115
+				position = 4.59871768951416,-19.9118900299072,-1.00082790851593
+				rotation = 5.313809E-09,0.7933534,9.203786E-09,-0.6087615
 				mirror = 1,1,1
 				istg = 6
 				dstg = 4
 				sqor = 6
 				sidx = 9
 				attm = 1
-				sym = 133
-				srfN = srfAttach, 119
+				sym = 129
+				srfN = srfAttach, 115
 				mass = 0.1
 				temp = 19.33352
 				expt = 0.1
@@ -21581,9 +21297,9 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 3671392608
-				parent = 118
-				position = 4.15922832489014,-27.0457496643066,-2.40132617950439
+				uid = 3381900758
+				parent = 114
+				position = 4.15923023223877,-27.0457496643066,-2.40132617950439
 				rotation = 0,0.9659259,0,-0.258819
 				mirror = 1,1,1
 				istg = 4
@@ -21591,8 +21307,8 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 134
-				srfN = srfAttach, 118
+				sym = 130
+				srfN = srfAttach, 114
 				mass = 0.02
 				temp = 19.38607
 				expt = 0.1
@@ -21609,8 +21325,8 @@ GAME
 			PART
 			{
 				name = liquidEngine1-2
-				uid = 679156643
-				parent = 118
+				uid = 2621941141
+				parent = 114
 				position = 2.64172649383545,-28.6667499542236,-1.52520108222961
 				rotation = 0,0,0,-1
 				mirror = 1,1,1
@@ -21619,9 +21335,9 @@ GAME
 				sqor = 6
 				sidx = 10
 				attm = 0
-				sym = 135
+				sym = 131
 				srfN = None, -1
-				attN = top, 118
+				attN = top, 114
 				attN = None, -1
 				mass = 6
 				temp = 19.39851
@@ -21774,7 +21490,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0399999991059303
+					amount = 0.0149999996647239
 					maxAmount = 0.0399999991059303
 					flowState = True
 					flowMode = Both
@@ -21783,8 +21499,8 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 2700153250
-				parent = 118
+				uid = 784396565
+				parent = 114
 				position = 1.76828837394714,-21.8439388275146,-2.39864015579224
 				rotation = -0.653282,-0.653281,0.2705976,0.2705985
 				mirror = 1,1,1
@@ -21793,8 +21509,8 @@ GAME
 				sqor = 1
 				sidx = 2
 				attm = 1
-				sym = 136
-				srfN = srfAttach, 118
+				sym = 132
+				srfN = srfAttach, 114
 				mass = 0.15
 				temp = 19.34827
 				expt = 0.5
@@ -21869,9 +21585,9 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 3915284157
-				parent = 118
-				position = 2.96142554283142,-21.7829704284668,-0.332066535949707
+				uid = 2950789149
+				parent = 114
+				position = 2.96142578125,-21.7829704284668,-0.332066237926483
 				rotation = -0.0922963,0.0922951,-0.7010576,0.7010573
 				mirror = 1,1,1
 				istg = 1
@@ -21879,8 +21595,8 @@ GAME
 				sqor = 1
 				sidx = 3
 				attm = 1
-				sym = 137
-				srfN = srfAttach, 118
+				sym = 133
+				srfN = srfAttach, 114
 				mass = 0.15
 				temp = 19.34735
 				expt = 0.5
@@ -21955,18 +21671,18 @@ GAME
 			PART
 			{
 				name = radialDecoupler
-				uid = 3731343747
-				parent = 118
+				uid = 644981974
+				parent = 114
 				position = 2.64172649383545,-24.0281105041504,-2.74520111083984
-				rotation = 0,0.7071066,0,-0.7071068
+				rotation = 0,0.7071068,0,-0.7071069
 				mirror = 1,1,1
 				istg = 3
 				dstg = 5
 				sqor = 3
 				sidx = 2
 				attm = 1
-				sym = 138
-				srfN = srfAttach, 118
+				sym = 134
+				srfN = srfAttach, 114
 				mass = 0.025
 				temp = 19.36395
 				expt = 0.5
@@ -22010,18 +21726,18 @@ GAME
 			PART
 			{
 				name = solidBooster1-1
-				uid = 1115773964
-				parent = 126
-				position = 2.43378973007202,-24.4066104888916,-3.52123308181763
-				rotation = 1.812245E-08,-0.9914449,-1.376535E-07,0.1305261
+				uid = 476019648
+				parent = 122
+				position = 2.43378949165344,-24.4066104888916,-3.52123332023621
+				rotation = 1.812246E-08,-0.9914451,-1.376535E-07,0.1305261
 				mirror = 1,1,1
 				istg = 6
 				dstg = 6
 				sqor = 6
 				sidx = 11
 				attm = 1
-				sym = 139
-				srfN = srfAttach, 126
+				sym = 135
+				srfN = srfAttach, 122
 				attN = None, -1
 				attN = None, -1
 				mass = 1.75
@@ -22042,7 +21758,7 @@ GAME
 					isEnabled = True
 					EngineIgnited = False
 					engineShutdown = False
-					currentThrottle = 0.9814097
+					currentThrottle = 0.9572132
 					flameout = False
 					staged = False
 					EVENTS
@@ -22098,9 +21814,9 @@ GAME
 			PART
 			{
 				name = fuelLine
-				uid = 1749477079
-				parent = 118
-				position = 1.76261520385742,-27.2109489440918,-2.40431499481201
+				uid = 2899547538
+				parent = 114
+				position = 1.762615442276,-27.2109489440918,-2.40431499481201
 				rotation = -8.836469E-08,0.3826834,1.530517E-07,-0.9238796
 				mirror = 1,1,1
 				istg = 4
@@ -22108,9 +21824,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: 0.2605043,9.151546,1.748243; dir: 0.02794939,0.9818542,0.1875662; rot: -0.6123731,0.3535516,0.3535532,0.6123731
-				sym = 140
-				srfN = srfAttach, 118
+				cData = tgt: fuelTank1-2_39; pos: 0.2605045,9.151547,1.748244; dir: 0.02794939,0.9818542,0.1875662; rot: -0.612373,0.3535517,0.3535532,0.612373
+				sym = 136
+				srfN = srfAttach, 114
 				mass = 0.05
 				temp = 19.38791
 				expt = 0
@@ -22127,8 +21843,8 @@ GAME
 			PART
 			{
 				name = radialDecoupler2
-				uid = 1454108394
-				parent = 50
+				uid = 2890005301
+				parent = 46
 				position = -1.02405059337616,-23.9823799133301,0.591235518455505
 				rotation = 0,-0.258819,0,-0.9659259
 				mirror = 1,1,1
@@ -22137,8 +21853,8 @@ GAME
 				sqor = 1
 				sidx = 1
 				attm = 1
-				sym = 117
-				srfN = srfAttach, 50
+				sym = 113
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.36395
 				expt = 0.5
@@ -22182,8 +21898,8 @@ GAME
 			PART
 			{
 				name = fuelTank3-2
-				uid = 1970537487
-				parent = 129
+				uid = 4094479386
+				parent = 125
 				position = -2.64172554016113,-23.8514404296875,1.5252001285553
 				rotation = 0,-0.258819,0,-0.9659259
 				mirror = 1,1,1
@@ -22192,10 +21908,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 118
-				srfN = srfAttach, 129
-				attN = top, 131
-				attN = bottom, 135
+				sym = 114
+				srfN = srfAttach, 125
+				attN = top, 127
+				attN = bottom, 131
 				mass = 4
 				temp = 19.36257
 				expt = 0.5
@@ -22228,8 +21944,8 @@ GAME
 			PART
 			{
 				name = fuelTank1-2
-				uid = 2739146865
-				parent = 130
+				uid = 3383333489
+				parent = 126
 				position = -2.64172554016113,-18.2264404296875,1.5252001285553
 				rotation = 0,0,1,0
 				mirror = 1,1,1
@@ -22238,9 +21954,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 0
-				sym = 119
+				sym = 115
 				srfN = None, -1
-				attN = top, 130
+				attN = top, 126
 				attN = None, -1
 				mass = 2
 				temp = 19.32152
@@ -22274,19 +21990,19 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 437319755
-				parent = 131
+				uid = 2722068286
+				parent = 127
 				position = -2.88396263122559,-16.4498500823975,1.59010720252991
-				rotation = -6.407499E-07,-7.003546E-07,-0.7071072,0.7071066
+				rotation = -6.404312E-07,-7.002976E-07,-0.7071072,0.7071066
 				mirror = 1,1,1
 				istg = 4
 				dstg = 4
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_36; pos: -4.270692,1.874982,-0.9228874; dir: -0.8982258,0.394352,-0.1941051
-				sym = 120
-				srfN = srfAttach, 131
+				cData = tgt: fuelTank1-2_32; pos: -4.270692,1.874983,-0.9228872; dir: -0.8982258,0.394352,-0.1941051
+				sym = 116
+				srfN = srfAttach, 127
 				mass = 0.05
 				temp = 19.30814
 				expt = 0
@@ -22303,18 +22019,18 @@ GAME
 			PART
 			{
 				name = launchClamp1
-				uid = 3178423391
-				parent = 131
+				uid = 2539295149
+				parent = 127
 				position = -4.59871435165405,-19.9118900299072,1.00082731246948
-				rotation = -9.203784E-09,0.6087615,5.313809E-09,0.7933534
+				rotation = -9.203786E-09,0.6087615,5.313809E-09,0.7933534
 				mirror = 1,1,1
 				istg = 6
 				dstg = 4
 				sqor = 6
 				sidx = 12
 				attm = 1
-				sym = 121
-				srfN = srfAttach, 131
+				sym = 117
+				srfN = srfAttach, 127
 				mass = 0.1
 				temp = 19.33352
 				expt = 0.1
@@ -22407,8 +22123,8 @@ GAME
 			PART
 			{
 				name = R8winglet
-				uid = 1508019091
-				parent = 130
+				uid = 1364328790
+				parent = 126
 				position = -4.15921640396118,-27.0457496643066,2.40132427215576
 				rotation = 0,0.258819,0,0.9659259
 				mirror = 1,1,1
@@ -22417,8 +22133,8 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 122
-				srfN = srfAttach, 130
+				sym = 118
+				srfN = srfAttach, 126
 				mass = 0.02
 				temp = 19.38653
 				expt = 0.1
@@ -22435,8 +22151,8 @@ GAME
 			PART
 			{
 				name = liquidEngine1-2
-				uid = 3079419342
-				parent = 130
+				uid = 755285589
+				parent = 126
 				position = -2.64172554016113,-28.6667499542236,1.5252001285553
 				rotation = 0,1,0,0
 				mirror = 1,1,1
@@ -22445,9 +22161,9 @@ GAME
 				sqor = 6
 				sidx = 13
 				attm = 0
-				sym = 123
+				sym = 119
 				srfN = None, -1
-				attN = top, 130
+				attN = top, 126
 				attN = None, -1
 				mass = 6
 				temp = 19.39851
@@ -22600,7 +22316,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0399999991059303
+					amount = 0.0149999996647239
 					maxAmount = 0.0399999991059303
 					flowState = True
 					flowMode = Both
@@ -22609,8 +22325,8 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 2788589210
-				parent = 130
+				uid = 1479607722
+				parent = 126
 				position = -1.76828765869141,-21.8439388275146,2.39863920211792
 				rotation = -0.2705976,-0.2705985,-0.653282,-0.653281
 				mirror = 1,1,1
@@ -22619,8 +22335,8 @@ GAME
 				sqor = 1
 				sidx = 4
 				attm = 1
-				sym = 124
-				srfN = srfAttach, 130
+				sym = 120
+				srfN = srfAttach, 126
 				mass = 0.15
 				temp = 19.34827
 				expt = 0.5
@@ -22695,9 +22411,9 @@ GAME
 			PART
 			{
 				name = sepMotor1
-				uid = 3911593791
-				parent = 130
-				position = -2.96142578125,-21.7829704284668,0.33206707239151
+				uid = 3842304413
+				parent = 126
+				position = -2.96142578125,-21.7829704284668,0.332067161798477
 				rotation = 0.7010576,-0.7010573,-0.0922963,0.0922951
 				mirror = 1,1,1
 				istg = 1
@@ -22705,8 +22421,8 @@ GAME
 				sqor = 1
 				sidx = 5
 				attm = 1
-				sym = 125
-				srfN = srfAttach, 130
+				sym = 121
+				srfN = srfAttach, 126
 				mass = 0.15
 				temp = 19.34735
 				expt = 0.5
@@ -22781,18 +22497,18 @@ GAME
 			PART
 			{
 				name = radialDecoupler
-				uid = 3189912178
-				parent = 130
+				uid = 2836015435
+				parent = 126
 				position = -2.64172554016113,-24.0281105041504,2.74520063400269
-				rotation = 0,0.7071068,0,0.7071066
+				rotation = 0,0.7071069,0,0.7071068
 				mirror = 1,1,1
 				istg = 3
 				dstg = 5
 				sqor = 3
 				sidx = 3
 				attm = 1
-				sym = 126
-				srfN = srfAttach, 130
+				sym = 122
+				srfN = srfAttach, 126
 				mass = 0.025
 				temp = 19.36441
 				expt = 0.5
@@ -22836,18 +22552,18 @@ GAME
 			PART
 			{
 				name = solidBooster1-1
-				uid = 3457103069
-				parent = 138
-				position = -2.43378877639771,-24.4066104888916,3.52123260498047
-				rotation = 1.376535E-07,-0.1305261,1.812245E-08,-0.9914449
+				uid = 2568766263
+				parent = 134
+				position = -2.43378853797913,-24.4066104888916,3.52123260498047
+				rotation = 1.376535E-07,-0.1305261,1.812246E-08,-0.9914451
 				mirror = 1,1,1
 				istg = 6
 				dstg = 6
 				sqor = 6
 				sidx = 14
 				attm = 1
-				sym = 127
-				srfN = srfAttach, 138
+				sym = 123
+				srfN = srfAttach, 134
 				attN = None, -1
 				attN = None, -1
 				mass = 1.75
@@ -22868,7 +22584,7 @@ GAME
 					isEnabled = True
 					EngineIgnited = False
 					engineShutdown = False
-					currentThrottle = 0.9814097
+					currentThrottle = 0.9572132
 					flameout = False
 					staged = False
 					EVENTS
@@ -22924,9 +22640,9 @@ GAME
 			PART
 			{
 				name = fuelLine
-				uid = 119436632
-				parent = 130
-				position = -1.76261472702026,-27.2109489440918,2.40431213378906
+				uid = 3373307223
+				parent = 126
+				position = -1.76261460781097,-27.2109489440918,2.40431237220764
 				rotation = -1.530517E-07,0.9238796,-8.836469E-08,0.3826834
 				mirror = 1,1,1
 				istg = 4
@@ -22934,9 +22650,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: 0.2605066,9.15152,1.74824; dir: 0.02794939,0.9818542,0.1875662; rot: -0.3535541,-0.6123708,-0.6123734,0.3535541
-				sym = 128
-				srfN = srfAttach, 130
+				cData = tgt: fuelTank1-2_39; pos: 0.2605064,9.151522,1.74824; dir: 0.02794939,0.9818542,0.1875662; rot: -0.353554,-0.6123707,-0.6123736,0.353554
+				sym = 124
+				srfN = srfAttach, 126
 				mass = 0.05
 				temp = 19.38791
 				expt = 0
@@ -22953,8 +22669,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1320478892
-				parent = 50
+				uid = 3859319991
+				parent = 46
 				position = -0.604588866233826,-20.7852401733398,1.04717814922333
 				rotation = 0,-0.5000001,0,-0.8660254
 				mirror = 1,1,1
@@ -22963,9 +22679,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: 0.001766395,4.128754,-0.06230602; dir: 0.0004278141,0.999886,-0.01508889
-				sym = 142
-				srfN = srfAttach, 50
+				cData = tgt: fuelTank1-2_39; pos: 0.001766169,4.128592,-0.06230272; dir: 0.0004278141,0.999886,-0.01508889
+				sym = 138
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.34043
 				expt = 0
@@ -22982,8 +22698,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2795824806
-				parent = 50
+				uid = 3181149368
+				parent = 46
 				position = 0.60458904504776,-20.7852401733398,-1.04717886447906
 				rotation = 0,0.8660254,0,-0.5
 				mirror = 1,1,1
@@ -22992,9 +22708,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: 0.001774151,4.146934,-0.06257913; dir: 0.0004278141,0.999886,-0.01508889
-				sym = 141
-				srfN = srfAttach, 50
+				cData = tgt: fuelTank1-2_39; pos: 0.001774365,4.14711,-0.06258196; dir: 0.0004278141,0.999886,-0.01508889
+				sym = 137
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.34043
 				expt = 0
@@ -23011,8 +22727,8 @@ GAME
 			PART
 			{
 				name = liquidEngine1-2
-				uid = 25364795
-				parent = 50
+				uid = 3677792019
+				parent = 46
 				position = 0,-28.746150970459,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -23022,7 +22738,7 @@ GAME
 				sidx = 6
 				attm = 0
 				srfN = None, -1
-				attN = top, 50
+				attN = top, 46
 				attN = None, -1
 				mass = 6
 				temp = 19.39897
@@ -23175,7 +22891,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.0399999991059303
+					amount = 0.0149999996647239
 					maxAmount = 0.0399999991059303
 					flowState = True
 					flowMode = Both
@@ -23184,8 +22900,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2467327188
-				parent = 50
+				uid = 3835968004
+				parent = 46
 				position = 0.604551732540131,-21.3800201416016,1.04711413383484
 				rotation = 0,-0.8660254,0,-0.5
 				mirror = 1,1,1
@@ -23194,9 +22910,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: 0.001697367,2.430884,-0.06550685; dir: 0.0006979645,0.9996369,-0.02693842
-				sym = 145
-				srfN = srfAttach, 50
+				cData = tgt: fuelTank1-2_39; pos: 0.001697309,2.430818,-0.06550347; dir: 0.0006979645,0.9996369,-0.02693842
+				sym = 141
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.34458
 				expt = 0
@@ -23213,8 +22929,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 1685102792
-				parent = 50
+				uid = 3311326118
+				parent = 46
 				position = -0.604551553726196,-21.3800201416016,-1.04711377620697
 				rotation = 0,0.5,0,-0.8660254
 				mirror = 1,1,1
@@ -23223,9 +22939,9 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: 0.001694636,2.427818,-0.06542577; dir: 0.0006979645,0.9996369,-0.02693842
-				sym = 144
-				srfN = srfAttach, 50
+				cData = tgt: fuelTank1-2_39; pos: 0.001694673,2.42788,-0.06543007; dir: 0.0006979645,0.9996369,-0.02693842
+				sym = 140
+				srfN = srfAttach, 46
 				mass = 0.05
 				temp = 19.34458
 				expt = 0
@@ -23242,8 +22958,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 3779091199
-				parent = 36
+				uid = 694046964
+				parent = 32
 				position = -1.04623568058014,-13.5994987487793,0.604044139385223
 				rotation = 0,-0.2588191,0,-0.9659258
 				mirror = 1,1,1
@@ -23252,11 +22968,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: 0.0006798878,-3.373167,0.103228; dir: 0.0002014249,-0.9995321,0.03058648
-				sym = 147
-				sym = 148
-				sym = 149
-				srfN = srfAttach, 36
+				cData = tgt: fuelTank1-2_39; pos: 0.0006802767,-3.375223,0.1032941; dir: 0.0002014249,-0.9995321,0.03058648
+				sym = 143
+				sym = 144
+				sym = 145
+				srfN = srfAttach, 32
 				mass = 0.05
 				temp = 19.28736
 				expt = 0
@@ -23273,8 +22989,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 446702612
-				parent = 36
+				uid = 3721914427
+				parent = 32
 				position = 0.604044437408447,-13.5994987487793,1.04623520374298
 				rotation = 0,-0.8660254,0,-0.5
 				mirror = 1,1,1
@@ -23283,11 +22999,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: 0.0006787404,-3.37006,0.1031295; dir: 0.0002014249,-0.9995321,0.03058648
-				sym = 146
-				sym = 148
-				sym = 149
-				srfN = srfAttach, 36
+				cData = tgt: fuelTank1-2_39; pos: 0.0006787927,-3.370148,0.1031291; dir: 0.0002014249,-0.9995321,0.03058648
+				sym = 142
+				sym = 144
+				sym = 145
+				srfN = srfAttach, 32
 				mass = 0.05
 				temp = 19.28736
 				expt = 0
@@ -23304,8 +23020,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 183440983
-				parent = 36
+				uid = 2020357925
+				parent = 32
 				position = 1.04623508453369,-13.5994987487793,-0.604044258594513
 				rotation = 0,-0.9659258,0,0.2588191
 				mirror = 1,1,1
@@ -23314,11 +23030,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: 0.0006831586,-3.389626,0.1037256; dir: 0.0002014249,-0.9995321,0.03058648
-				sym = 146
-				sym = 147
-				sym = 149
-				srfN = srfAttach, 36
+				cData = tgt: fuelTank1-2_39; pos: 0.0006828061,-3.389596,0.1037315; dir: 0.0002014249,-0.9995321,0.03058648
+				sym = 142
+				sym = 143
+				sym = 145
+				srfN = srfAttach, 32
 				mass = 0.05
 				temp = 19.28736
 				expt = 0
@@ -23335,8 +23051,8 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 2881129596
-				parent = 36
+				uid = 3854630489
+				parent = 32
 				position = -0.604044258594513,-13.5994987487793,-1.04623484611511
 				rotation = 0,0.5,0,-0.8660254
 				mirror = 1,1,1
@@ -23345,11 +23061,11 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: fuelTank1-2_43; pos: 0.0006848909,-3.396935,0.1039495; dir: 0.0002014249,-0.9995321,0.03058648
-				sym = 146
-				sym = 147
-				sym = 148
-				srfN = srfAttach, 36
+				cData = tgt: fuelTank1-2_39; pos: 0.0006840549,-3.39566,0.1039115; dir: 0.0002014249,-0.9995321,0.03058648
+				sym = 142
+				sym = 143
+				sym = 144
+				srfN = srfAttach, 32
 				mass = 0.05
 				temp = 19.28736
 				expt = 0
@@ -23365,11 +23081,283 @@ GAME
 			}
 			PART
 			{
-				name = spotLight1
-				uid = 1649284580
-				parent = 7
-				position = -1.02083563804626,-1.03181076049805,2.98023223876953E-08
-				rotation = -0.6940948,0.1350277,-0.6940947,-0.1350277
+				name = RCSBlock
+				uid = 4103168870
+				parent = 32
+				position = -1.26393866539001,-14.1010093688965,0.000742308795452118
+				rotation = 0,-8.42937E-08,0,-1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 147
+				sym = 148
+				sym = 149
+				srfN = srfAttach, 32
+				mass = 0.05
+				temp = 19.29106
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 2800767110
+				parent = 32
+				position = 0.000742495059967041,-14.1010093688965,1.26393914222717
+				rotation = 0,-0.7071069,0,-0.7071067
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 146
+				sym = 148
+				sym = 149
+				srfN = srfAttach, 32
+				mass = 0.05
+				temp = 19.29106
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 1316589679
+				parent = 32
+				position = 1.26393830776215,-14.1010093688965,-0.000742461532354355
+				rotation = 0,-1,0,8.42937E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 146
+				sym = 147
+				sym = 149
+				srfN = srfAttach, 32
+				mass = 0.05
+				temp = 19.2906
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 127841395
+				parent = 32
+				position = -0.000742383301258087,-14.1010093688965,-1.2639387845993
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 146
+				sym = 147
+				sym = 148
+				srfN = srfAttach, 32
+				mass = 0.05
+				temp = 19.29106
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 200195473
+				parent = 4
+				position = -1.26406264305115,-2.17938995361328,0.000742308795452118
+				rotation = 0,-8.42937E-08,0,-1
 				mirror = 1,1,1
 				istg = 0
 				dstg = 0
@@ -23379,7 +23367,279 @@ GAME
 				sym = 151
 				sym = 152
 				sym = 153
-				srfN = srfAttach, 7
+				srfN = srfAttach, 4
+				mass = 0.05
+				temp = 19.20279
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 1812376742
+				parent = 4
+				position = 0.000742495059967041,-2.17938995361328,1.2640632390976
+				rotation = 0,-0.7071069,0,-0.7071067
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 150
+				sym = 152
+				sym = 153
+				srfN = srfAttach, 4
+				mass = 0.05
+				temp = 19.20279
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 3652692676
+				parent = 4
+				position = 1.26406240463257,-2.17938995361328,-0.000742461532354355
+				rotation = 0,-1,0,8.42937E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 150
+				sym = 151
+				sym = 153
+				srfN = srfAttach, 4
+				mass = 0.05
+				temp = 19.20279
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 3323702130
+				parent = 4
+				position = -0.000742383301258087,-2.17938995361328,-1.26406276226044
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 150
+				sym = 151
+				sym = 152
+				srfN = srfAttach, 4
+				mass = 0.05
+				temp = 19.20279
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = spotLight1
+				uid = 3165505643
+				parent = 3
+				position = -1.02083563804626,-1.03181076049805,2.98023223876953E-08
+				rotation = -0.6940948,0.1350277,-0.6940947,-0.1350277
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 155
+				sym = 156
+				sym = 157
+				srfN = srfAttach, 3
 				mass = 0.015
 				temp = 19.194
 				expt = 0.5
@@ -23442,8 +23702,8 @@ GAME
 			PART
 			{
 				name = spotLight1
-				uid = 3138197642
-				parent = 7
+				uid = 2315993219
+				parent = 3
 				position = 1.86264514923096E-07,-1.03181076049805,1.02083623409271
 				rotation = -0.9815983,-2.569775E-08,9.08132E-08,-0.190958
 				mirror = 1,1,1
@@ -23452,10 +23712,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 150
-				sym = 152
-				sym = 153
-				srfN = srfAttach, 7
+				sym = 154
+				sym = 156
+				sym = 157
+				srfN = srfAttach, 3
 				mass = 0.015
 				temp = 19.19446
 				expt = 0.5
@@ -23518,8 +23778,8 @@ GAME
 			PART
 			{
 				name = spotLight1
-				uid = 3526688776
-				parent = 7
+				uid = 1213753570
+				parent = 3
 				position = 1.02083587646484,-1.03181076049805,-1.52736902236938E-07
 				rotation = -0.6940947,-0.1350277,0.6940948,-0.1350277
 				mirror = 1,1,1
@@ -23528,10 +23788,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 150
-				sym = 151
-				sym = 153
-				srfN = srfAttach, 7
+				sym = 154
+				sym = 155
+				sym = 157
+				srfN = srfAttach, 3
 				mass = 0.015
 				temp = 19.19446
 				expt = 0.5
@@ -23594,8 +23854,8 @@ GAME
 			PART
 			{
 				name = spotLight1
-				uid = 1645675085
-				parent = 7
+				uid = 336860940
+				parent = 3
 				position = -8.94069671630859E-08,-1.03181076049805,-1.02083599567413
 				rotation = -4.790621E-08,0.190958,-0.9815983,-1.735071E-08
 				mirror = 1,1,1
@@ -23604,10 +23864,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 150
-				sym = 151
-				sym = 152
-				srfN = srfAttach, 7
+				sym = 154
+				sym = 155
+				sym = 156
+				srfN = srfAttach, 3
 				mass = 0.015
 				temp = 19.19446
 				expt = 0.5
@@ -23670,8 +23930,8 @@ GAME
 			PART
 			{
 				name = batteryPack
-				uid = 1519107686
-				parent = 7
+				uid = 2792382795
+				parent = 3
 				position = -0.803577303886414,-1.88172149658203,-0.803577065467834
 				rotation = -0.1764221,-0.3756415,0.07307647,-0.9068785
 				mirror = 1,1,1
@@ -23680,14 +23940,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 155
-				sym = 156
-				sym = 157
-				sym = 158
 				sym = 159
 				sym = 160
 				sym = 161
-				srfN = srfAttach, 7
+				sym = 162
+				sym = 163
+				sym = 164
+				sym = 165
+				srfN = srfAttach, 3
 				mass = 0.005
 				temp = 19.20048
 				expt = 0.5
@@ -23712,8 +23972,8 @@ GAME
 			PART
 			{
 				name = batteryPack
-				uid = 4019743121
-				parent = 7
+				uid = 3083722666
+				parent = 3
 				position = -1.13642966747284,-1.88172149658203,2.98023223876953E-08
 				rotation = -0.1350277,-0.6940948,0.1350277,-0.6940947
 				mirror = 1,1,1
@@ -23722,14 +23982,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 154
-				sym = 156
-				sym = 157
 				sym = 158
-				sym = 159
 				sym = 160
 				sym = 161
-				srfN = srfAttach, 7
+				sym = 162
+				sym = 163
+				sym = 164
+				sym = 165
+				srfN = srfAttach, 3
 				mass = 0.005
 				temp = 19.20048
 				expt = 0.5
@@ -23754,8 +24014,8 @@ GAME
 			PART
 			{
 				name = batteryPack
-				uid = 1992911215
-				parent = 7
+				uid = 3604836964
+				parent = 3
 				position = -0.803577065467834,-1.88172149658203,0.803577125072479
 				rotation = -0.07307643,-0.9068785,0.1764221,-0.3756413
 				mirror = 1,1,1
@@ -23764,14 +24024,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 154
-				sym = 155
-				sym = 157
 				sym = 158
 				sym = 159
-				sym = 160
 				sym = 161
-				srfN = srfAttach, 7
+				sym = 162
+				sym = 163
+				sym = 164
+				sym = 165
+				srfN = srfAttach, 3
 				mass = 0.005
 				temp = 19.20048
 				expt = 0.5
@@ -23796,8 +24056,8 @@ GAME
 			PART
 			{
 				name = batteryPack
-				uid = 1680157786
-				parent = 7
+				uid = 3246555930
+				parent = 3
 				position = 1.9371509552002E-07,-1.88172149658203,1.13642919063568
 				rotation = 2.569775E-08,-0.9815983,0.190958,9.08132E-08
 				mirror = 1,1,1
@@ -23806,14 +24066,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 154
-				sym = 155
-				sym = 156
 				sym = 158
 				sym = 159
 				sym = 160
-				sym = 161
-				srfN = srfAttach, 7
+				sym = 162
+				sym = 163
+				sym = 164
+				sym = 165
+				srfN = srfAttach, 3
 				mass = 0.005
 				temp = 19.20048
 				expt = 0.5
@@ -23838,8 +24098,8 @@ GAME
 			PART
 			{
 				name = batteryPack
-				uid = 4033787462
-				parent = 7
+				uid = 3242429366
+				parent = 3
 				position = 0.803577303886414,-1.88172149658203,0.803576946258545
 				rotation = 0.07307648,-0.9068785,0.1764221,0.3756415
 				mirror = 1,1,1
@@ -23848,14 +24108,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 154
-				sym = 155
-				sym = 156
-				sym = 157
+				sym = 158
 				sym = 159
 				sym = 160
 				sym = 161
-				srfN = srfAttach, 7
+				sym = 163
+				sym = 164
+				sym = 165
+				srfN = srfAttach, 3
 				mass = 0.005
 				temp = 19.20048
 				expt = 0.5
@@ -23880,8 +24140,8 @@ GAME
 			PART
 			{
 				name = batteryPack
-				uid = 3484850026
-				parent = 7
+				uid = 521552153
+				parent = 3
 				position = 1.13642930984497,-1.88172149658203,-1.60187482833862E-07
 				rotation = 0.1350277,-0.6940947,0.1350277,0.6940948
 				mirror = 1,1,1
@@ -23890,14 +24150,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 154
-				sym = 155
-				sym = 156
-				sym = 157
 				sym = 158
+				sym = 159
 				sym = 160
 				sym = 161
-				srfN = srfAttach, 7
+				sym = 162
+				sym = 164
+				sym = 165
+				srfN = srfAttach, 3
 				mass = 0.005
 				temp = 19.20048
 				expt = 0.5
@@ -23922,8 +24182,8 @@ GAME
 			PART
 			{
 				name = batteryPack
-				uid = 195483364
-				parent = 7
+				uid = 3233457339
+				parent = 3
 				position = 0.803576707839966,-1.88172149658203,-0.803577482700348
 				rotation = 0.1764222,-0.3756412,0.0730764,0.9068786
 				mirror = 1,1,1
@@ -23932,14 +24192,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 154
-				sym = 155
-				sym = 156
-				sym = 157
 				sym = 158
 				sym = 159
+				sym = 160
 				sym = 161
-				srfN = srfAttach, 7
+				sym = 162
+				sym = 163
+				sym = 165
+				srfN = srfAttach, 3
 				mass = 0.005
 				temp = 19.20048
 				expt = 0.5
@@ -23964,8 +24224,8 @@ GAME
 			PART
 			{
 				name = batteryPack
-				uid = 3105543041
-				parent = 7
+				uid = 928478370
+				parent = 3
 				position = -9.68575477600098E-08,-1.88172149658203,-1.13642978668213
 				rotation = -0.190958,-4.790621E-08,1.735071E-08,-0.9815983
 				mirror = 1,1,1
@@ -23974,14 +24234,14 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				sym = 154
-				sym = 155
-				sym = 156
-				sym = 157
 				sym = 158
 				sym = 159
 				sym = 160
-				srfN = srfAttach, 7
+				sym = 161
+				sym = 162
+				sym = 163
+				sym = 164
+				srfN = srfAttach, 3
 				mass = 0.005
 				temp = 19.20048
 				expt = 0.5
@@ -24006,7 +24266,7 @@ GAME
 			PART
 			{
 				name = longAntenna
-				uid = 2392163522
+				uid = 3911784975
 				parent = 0
 				position = 0.242966413497925,-0.0467987060546875,-0.242966368794441
 				rotation = 0.2705981,0.6532815,-0.6532815,0.2705981
@@ -24063,7 +24323,7 @@ GAME
 			PART
 			{
 				name = commDish
-				uid = 2596866871
+				uid = 2211902459
 				parent = 0
 				position = -0.173830986022949,-0.040557861328125,0.301083922386169
 				rotation = -0.6830126,0.1830128,-0.1830128,-0.6830128
@@ -24120,7 +24380,7 @@ GAME
 			PART
 			{
 				name = sensorAccelerometer
-				uid = 4093872784
+				uid = 758616579
 				parent = 0
 				position = -0.343881070613861,-0.0774688720703125,1.86264514923096E-08
 				rotation = 0,-0.7071068,0,-0.7071068
@@ -24174,7 +24434,7 @@ GAME
 			PART
 			{
 				name = sensorGravimeter
-				uid = 1951622298
+				uid = 1340039120
 				parent = 0
 				position = -0.24314096570015,-0.0201377868652344,-0.24314096570015
 				rotation = 0,-0.3826834,0,-0.9238796
@@ -24228,7 +24488,7 @@ GAME
 			PART
 			{
 				name = sensorThermometer
-				uid = 302564982
+				uid = 232242369
 				parent = 0
 				position = -2.98023223876953E-08,-0.0305404663085938,-0.343469768762589
 				rotation = 0,-4.371139E-08,0,-1
@@ -24282,7 +24542,7 @@ GAME
 			PART
 			{
 				name = sensorBarometer
-				uid = 2786375838
+				uid = 2485059091
 				parent = 0
 				position = 0.243743121623993,-0.0121498107910156,0.243743136525154
 				rotation = 0,0.9238795,0,-0.3826835
