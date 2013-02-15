@@ -4,7 +4,7 @@ I'm currently using the 0.18.4 version (latest).
 
 Feel free to explore it and suggest modifications.
 
-I'm currently using no mods and no add ons.
+The only add-on i'm using is MechJeb, but no mods.
 
 # Ships
 
@@ -48,3 +48,6 @@ I think I may build a Leonardo III to be able to bring more Kerbals home, if nec
 The Goliath II is the fuelling module. It's composed by a Rockomax Jumbo-64 Fuel Tank and a Rockomax x200-32 Fuel Tank. It's capability is of 4320 Fuel Units (holy guacamole!) and it currently has 4209 Fuel Units. It's almost full.
 
 The rocket to lift it up there was so huge I had to call it Goliath… the second.
+
+### Hydra I
+A probe scatter module! The 4 probes are composed by batteries, two Gigantor Solar Panels, and Ion Propellers. They're super fun, though not very useful and quite impossible to redock...
