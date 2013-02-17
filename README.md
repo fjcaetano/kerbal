@@ -8,9 +8,6 @@ The only mod I'm using is MechJeb.
 
 # Ships & Flights In Progress
 
-## MünRover
-This ship is a rover landed on the Mün. Unfortunately, it's rear propeller broke on the landing, but it's still drivable through RCS.
-
 ## Icarus
 The Icarus was my first satellite that I managed to put in orbit. It's orbiting eliptically at ~ 45º with Pe = 108.976Km and Ap = 604.739Km.
 
@@ -57,11 +54,31 @@ A probe scatter module! The 4 probes are composed by batteries, two Gigantor Sol
 ### Kilton
 The Kilton is not only Kerbal's Space Hotel, but it's also a safe return module. It has capacity for 15 Kerbals to safely return to Kerbin.
 
-## The Kolumbus
-My first manned lander explorer ship. It's currently landed on the Mün right next to Neil Armstrong's memorial (pure luck). It's also the begining of a Mün base I'm about to construct.
+## MunBase
+
+The MunBase is located at the coordinates 0º 42' 5" N, 2º 45' 2" E of the Mun at 300m of the Neil Armstrong memorial (almost pure luck).
 
 Crew:
 
 - Barrod Kerman
 - Mactrey Kerman
 - Alvis Kerman
+
+### The Kolumbus
+My first manned lander explorer ship. The main module of the MunBase. Theorically, has enough fuel to safely return to Kerbin.
+
+### MünRover II
+This ugly-ass unmanned rover is currently using a liquid fuel propeller, but, when the fuel is over, it can be propelled by three Ion Propellers. It has a shitload of batteries, two Xenon tanks and had 4 Gigantor Solar Pannels, though only 3 are "openable" when in rover mode and one already broke, so there are only two usable.
+
+
+# Obsolete Ships
+
+### Leonardo II
+Was KSS first safe return module. It had 7 seats for Kerbal spacemen and enough fuel to safely return to Kerbin.
+
+Safely returned home with Bob, Mactrey and Dercan Kerman who were too terrified to keep in space.
+
+## MünRover
+This ship was a rover landed on the Mün. Unfortunately, it's rear propeller broke on the landing, but it was still drivable through RCS.
+
+It was discontinued when it flipped, braking it's solar panels and a landing gear that made it unmanuverable.
