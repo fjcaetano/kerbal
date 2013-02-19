@@ -63,19 +63,16 @@ The Kommbot I is the communications module. It connects the KSS to the Skynet re
 
 ## MunBase
 
-The MunBase is located at the coordinates 0º 42' 5" N, 2º 45' 2" E of the Mun at 300m of the Neil Armstrong memorial (almost pure luck).
+The MunBase is located at the coordinates 0º 41' 50" N, 22º 50' 34" E of the Mun at 300m of the Neil Armstrong memorial (almost pure luck).
 
 Crew:
 
 - Barrod Kerman
 - Mactrey Kerman
-- Alvis Kerman
+- Bob Kerman
 
-### The Kolumbus
-My first manned lander explorer ship. The main module of the MunBase. Theorically, has enough fuel to safely return to Kerbin.
-
-### MünRover II
-This ugly-ass unmanned rover is currently using a liquid fuel propeller, but, when the fuel is over, it can be propelled by three Ion Propellers. It has a shitload of batteries, two Xenon tanks and had 4 Gigantor Solar Pannels, though only 3 are "openable" when in rover mode and one already broke, so there are only two usable.
+### Kolumbus II
+The Kolumbus II is a Skynet Mission control. It has a 9000 Km anthena which can retransmit the signal to over half the Mun.
 
 ## The Skynet
 The Skynet is a relay network composed of 4 Kommbots. The Kommbots are orbiting at 90º at a distance of ~ 4990 Km.
@@ -88,7 +85,13 @@ It also has an ISA dish to map Karbin's surface.
 
 # Obsolete Ships
 
-### Leonardo II
+## MünRover II
+This ugly-ass unmanned rover was propelled by three Ion Propellers. It had a shitload of batteries, two Xenon tanks and had 4 Gigantor Solar Pannels, though only 3 are "openable" when in rover mode and one already broke, so there are only two usable. It became obsolete when the Skynet was implemented and it lost connectivity.
+
+## The Kolumbus
+My first manned lander explorer ship. The main module of the MunBase. Theorically, has enough fuel to safely return to Kerbin.
+
+## Leonardo II
 Was KSS first safe return module. It had 7 seats for Kerbal spacemen and enough fuel to safely return to Kerbin.
 
 Safely returned home with Bob, Mactrey and Dercan Kerman who were too terrified to keep in space.
