@@ -4,7 +4,11 @@ I'm currently using the 0.18.4 version (latest).
 
 Feel free to explore it and suggest modifications.
 
-The only mod I'm using is MechJeb.
+Mods being used:
+
+- [MechJeb](http://mechjeb.com)
+- [ISA MapSat](http://kerbalspaceport.com/isa-mapsat-3-3-4/)
+- [RemoteTech](http://kerbalspaceport.com/remotetech-3/)
 
 # Ships & Flights In Progress
 
@@ -69,6 +73,14 @@ My first manned lander explorer ship. The main module of the MunBase. Theoricall
 
 ### MünRover II
 This ugly-ass unmanned rover is currently using a liquid fuel propeller, but, when the fuel is over, it can be propelled by three Ion Propellers. It has a shitload of batteries, two Xenon tanks and had 4 Gigantor Solar Pannels, though only 3 are "openable" when in rover mode and one already broke, so there are only two usable.
+
+## The Skynet
+The Skynet is a relay network composed of 4 Kommbots. The Kommbots are orbiting at 90º at a distance of ~ 4990 Km.
+
+### Kommbot II
+The Kommbot II is a manned ship built to deploy the unmanned Kommbots in orbit. After the Kommbot is deployed, the ship must return safely with it's crew to Kerbin.
+
+It also has an ISA dish to map Karbin's surface.
 
 
 # Obsolete Ships
