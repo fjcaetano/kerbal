@@ -58,6 +58,9 @@ A probe scatter module! The 4 probes are composed by batteries, two Gigantor Sol
 ### Kilton
 The Kilton is not only Kerbal's Space Hotel, but it's also a safe return module. It has capacity for 15 Kerbals to safely return to Kerbin.
 
+### Kommbot
+The Kommbot I is the communications module. It connects the KSS to the Skynet relay network and maps Kerbin's surface with an ISA dish.
+
 ## MunBase
 
 The MunBase is located at the coordinates 0º 42' 5" N, 2º 45' 2" E of the Mun at 300m of the Neil Armstrong memorial (almost pure luck).
