@@ -9,6 +9,12 @@ Mods being used:
 - [MechJeb](http://mechjeb.com)
 - [ISA MapSat](http://kerbalspaceport.com/isa-mapsat-3-3-4/)
 - [RemoteTech](http://kerbalspaceport.com/remotetech-3/)
+- [RemoteTech Probe Compatability](http://kerbalspaceport.com/remotetech-probe-compatability/)
+- [Fixed Camera Pack](http://forum.kerbalspaceprogram.com/showthread.php/12329-0-16-Multiversal-Mechatronics-Fixed-Camera-1-1]Multiversal)
+- [KW Rocketry](http://forum.kerbalspaceprogram.com/showthread.php/2448-0-16-KW-Rocketry-v0-5)
+- [DEMV Mk1](http://kerbalspaceport.com/0-18-1-demv-mark-1-archer/)
+- [DEMV Mk2](http://kerbalspaceport.com/0-18-1-demv-mark-2-pretorian/)
+- [DEMV Mk5](http://kerbalspaceport.com/0-18-demv-mk-5-ant/)
 
 # Ships & Flights In Progress
 
@@ -74,6 +80,9 @@ Crew:
 ### Kolumbus II
 The Kolumbus II is a Skynet Mission control. It has a 9000 Km anthena which can retransmit the signal to over half the Mun.
 
+### MunRover III
+This is a huge antenna dish on wheels. It's receiver antenna has a range of 250Km and it shouldn't go further then that from Kolumbus II which is the commander centre.
+
 ## The Skynet
 The Skynet is a relay network composed of 4 Kommbots. The Kommbots are orbiting at 90º at a distance of ~ 4990 Km.
 
@@ -96,7 +105,7 @@ Was KSS first safe return module. It had 7 seats for Kerbal spacemen and enough 
 
 Safely returned home with Bob, Mactrey and Dercan Kerman who were too terrified to keep in space.
 
-## MünRover
+## MünRover II
 This ship was a rover landed on the Mün. Unfortunately, it's rear propeller broke on the landing, but it was still drivable through RCS.
 
 It was discontinued when it flipped, braking it's solar panels and a landing gear that made it unmanuverable.
