@@ -15,6 +15,7 @@ Mods being used:
 - [DEMV Mk1](http://kerbalspaceport.com/0-18-1-demv-mark-1-archer/)
 - [DEMV Mk2](http://kerbalspaceport.com/0-18-1-demv-mark-2-pretorian/)
 - [DEMV Mk5](http://kerbalspaceport.com/0-18-demv-mk-5-ant/)
+- [Prometheus](http://kerbalspaceport.com/0-18-2-prometheus-solar-rover-v5-0/)
 
 # Ships & Flights In Progress
 
@@ -90,6 +91,9 @@ The Skynet is a relay network composed of 4 Kommbots. The Kommbots are orbiting 
 The Kommbot II is a manned ship built to deploy the unmanned Kommbots in orbit. After the Kommbot is deployed, the ship must return safely with it's crew to Kerbin.
 
 It also has an ISA dish to map Karbin's surface.
+
+## Prometheus
+Prometheus is a solar rover landed on Minmus.
 
 
 # Obsolete Ships
