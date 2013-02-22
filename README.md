@@ -51,9 +51,6 @@ The KSS is composed of the following modules:
 ### The Core
 The Core was built upon the Space Station Core (Stock), but it's orbiting with an empty fuel tank and a propeller.
 
-### The KSS/EM1
-The KSS Eletric Module 1 is a giant electric module (duh) with 12 Gigantor XL Solar panels, though 4 remain closed for backup purposes. It also contains a shitload of batteries which take it's electric capability up to 8000 Electric Units.
-
 ### Goliath II
 The Goliath II is the fuelling module. It's composed by a Rockomax Jumbo-64 Fuel Tank and a Rockomax x200-32 Fuel Tank. It's capability is of 4320 Fuel Units (holy guacamole!) and it currently has 4209 Fuel Units. It's almost full.
 
@@ -83,6 +80,9 @@ The Kolumbus II is a Skynet Mission control. It has a 9000 Km anthena which can 
 
 ### MunRover III
 This is a huge antenna dish on wheels. It's receiver antenna has a range of 250Km and it shouldn't go further then that from Kolumbus II which is the commander centre.
+
+### Muner
+The Munner is a HOME based ship, it's lower part is a garage where an Ant is usually parked. Now it's wandering around the Mun exploring it's anomalies.
 
 ## The Skynet
 The Skynet is a relay network composed of 4 Kommbots. The Kommbots are orbiting at 90º at a distance of ~ 4990 Km.
@@ -116,3 +116,6 @@ Safely returned home with Bob, Mactrey and Dercan Kerman who were too terrified 
 This ship was a rover landed on the Mün. Unfortunately, it's rear propeller broke on the landing, but it was still drivable through RCS.
 
 It was discontinued when it flipped, braking it's solar panels and a landing gear that made it unmanuverable.
+
+## The KSS/EM1
+The KSS Eletric Module 1 was a giant electric module (duh) with 12 Gigantor XL Solar panels, though 4 remained closed for backup purposes. It also contained a shitload of batteries which take it's electric capability up to 8000 Electric Units. It was removed from the KSS because it was a waste of material, generating way more electricity than the KSS needed and it was lagging the whole thing, since it's coupled stage had over 100 parts.
