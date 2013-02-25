@@ -16,6 +16,7 @@ Mods being used:
 - [DEMV Mk2](http://kerbalspaceport.com/0-18-1-demv-mark-2-pretorian/)
 - [DEMV Mk5](http://kerbalspaceport.com/0-18-demv-mk-5-ant/)
 - [Prometheus](http://kerbalspaceport.com/0-18-2-prometheus-solar-rover-v5-0/)
+- [Nautilus](http://kerbalspaceport.com/0-18-1-mpss-nautilus/)
 
 # Ships & Flights In Progress
 
@@ -97,6 +98,9 @@ Prometheus is a solar rover landed on Minmus.
 
 ## Toscan
 The Topography Scanner (Toscan) is currently orbiting Minmus where it has just finished mapping it's topography.
+
+## Duna Space Station
+The Duna is a Space Station that's orbiting Duna (duh!), it's at 300Km.
 
 
 # Obsolete Ships
