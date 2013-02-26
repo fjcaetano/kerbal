@@ -99,8 +99,8 @@ Prometheus is a solar rover landed on Minmus.
 ## Toscan
 The Topography Scanner (Toscan) is currently orbiting Minmus where it has just finished mapping it's topography.
 
-## Duna Space Station
-The Duna is a Space Station that's orbiting Duna (duh!), it's at 300Km.
+## Spice Space Station
+The Spice is a Space Station that's orbiting Duna at 300km and 90º.
 
 
 # Obsolete Ships
