@@ -1,0 +1,10685 @@
+ship = Whale
+version = 0.18.4
+type = VAB
+PART
+{
+	part = MpssPod_4292058608
+	partName = CommandPod
+	pos = -11.66029,13.94916,0.8487759
+	rot = 1.121827E-09,0,-1,0
+	attRot = 1.121826E-09,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = wingConnector_4292058494
+	EVENTS
+	{
+		MakeReference
+		{
+			active = True
+			guiActive = True
+			guiIcon = Control From Here
+			guiName = Control From Here
+			category = Control From Here
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+		RenameVessel
+		{
+			active = True
+			guiActive = True
+			guiIcon = Rename Vessel
+			guiName = Rename Vessel
+			category = Rename Vessel
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Open Hatch
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleKrAnimation
+		isEnabled = True
+		stage = False
+		state = False
+		EVENTS
+		{
+			ExtendAnimation
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend
+				guiName = Nav Lights On
+				category = Extend
+				guiActiveUnfocused = True
+				unfocusedRange = 0
+				externalToEVAOnly = True
+			}
+			RetractAnimation
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract
+				guiName = none
+				category = Retract
+				guiActiveUnfocused = True
+				unfocusedRange = 0
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = wingConnector_4292058494
+	partName = Winglet
+	pos = -9.461445,12.07029,0.848776
+	rot = 0.7071068,0,0.7071068,0
+	attRot = 0.7071067,0,0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058466
+	srfN = srfAttach,MpssPod_4292058608
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058466
+	partName = Winglet
+	pos = -9.461445,12.07993,-0.8408284
+	rot = 0.7071069,0,0.7071068,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058438
+	srfN = srfAttach,wingConnector_4292058494
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058438
+	partName = Winglet
+	pos = -9.461445,12.07024,-2.528986
+	rot = 0.7071068,0,0.7071068,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058410
+	srfN = srfAttach,wingConnector_4292058466
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058410
+	partName = Winglet
+	pos = -9.461446,12.07988,-4.218589
+	rot = 0.7071069,0,0.7071067,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058382
+	srfN = srfAttach,wingConnector_4292058438
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058382
+	partName = Winglet
+	pos = -9.461446,12.08423,-5.906876
+	rot = 0.7071068,0,0.7071068,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058354
+	srfN = srfAttach,wingConnector_4292058410
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058354
+	partName = Winglet
+	pos = -9.461447,12.09387,-7.596478
+	rot = 0.7071069,0,0.7071067,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058326
+	srfN = srfAttach,wingConnector_4292058382
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058326
+	partName = Winglet
+	pos = -9.461447,12.08418,-9.284635
+	rot = 0.7071069,0,0.7071068,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058298
+	srfN = srfAttach,wingConnector_4292058354
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058298
+	partName = Winglet
+	pos = -9.461448,12.09382,-10.97424
+	rot = 0.7071071,0,0.7071066,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058270
+	srfN = srfAttach,wingConnector_4292058326
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058270
+	partName = Winglet
+	pos = -9.461448,12.07921,-12.66263
+	rot = 0.3826836,0,0.9238795,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058242
+	srfN = srfAttach,wingConnector_4292058298
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058242
+	partName = Winglet
+	pos = -8.266718,12.08884,-13.85736
+	rot = 0.3826838,0,0.9238795,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058214
+	srfN = srfAttach,wingConnector_4292058270
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058214
+	partName = Winglet
+	pos = -7.073009,12.07916,-15.05107
+	rot = 0.3826838,0,0.9238795,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058186
+	srfN = srfAttach,wingConnector_4292058242
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058186
+	partName = Winglet
+	pos = -5.87828,12.08879,-16.2458
+	rot = 0.3826839,0,0.9238795,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058158
+	srfN = srfAttach,wingConnector_4292058214
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058158
+	partName = Winglet
+	pos = -4.823382,12.0945,-17.30067
+	rot = -9.052879E-08,0,1,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058130
+	srfN = srfAttach,wingConnector_4292058186
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058130
+	partName = Winglet
+	pos = -3.133778,12.10413,-17.30067
+	rot = 8.828514E-08,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058102
+	srfN = srfAttach,wingConnector_4292058158
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058102
+	partName = Winglet
+	pos = -1.445492,12.10849,-17.30067
+	rot = -9.052879E-08,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058074
+	srfN = srfAttach,wingConnector_4292058130
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058074
+	partName = Winglet
+	pos = 0.2441101,12.11812,-17.30067
+	rot = 8.828514E-08,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058046
+	srfN = srfAttach,wingConnector_4292058102
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058046
+	partName = Winglet
+	pos = 1.932268,12.10844,-17.30067
+	rot = 1.478898E-07,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292058018
+	srfN = srfAttach,wingConnector_4292058074
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292058018
+	partName = Winglet
+	pos = 3.621876,12.11807,-17.30067
+	rot = 2.372967E-07,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057990
+	srfN = srfAttach,wingConnector_4292058046
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057990
+	partName = Winglet
+	pos = 5.311687,12.10649,-17.30065
+	rot = -0.3826835,0,0.9238794,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057962
+	srfN = srfAttach,wingConnector_4292058018
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057962
+	partName = Winglet
+	pos = 6.50642,12.11613,-16.10592
+	rot = -0.3826834,0,0.9238795,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057934
+	srfN = srfAttach,wingConnector_4292057990
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057934
+	partName = Winglet
+	pos = 7.700121,12.10644,-14.91221
+	rot = -0.3826834,0,0.9238795,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057906
+	srfN = srfAttach,wingConnector_4292057962
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057906
+	partName = Winglet
+	pos = 8.894852,12.11608,-13.71748
+	rot = -0.3826834,0,0.9238795,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057878
+	srfN = srfAttach,wingConnector_4292057934
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057878
+	partName = Winglet
+	pos = 10.0868,11.89061,-12.52551
+	rot = 0,0.7071069,0,0.7071068
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057850
+	srfN = srfAttach,wingConnector_4292057906
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057850
+	partName = Winglet
+	pos = 10.0868,11.88098,-10.8359
+	rot = 0,0.7071068,0,0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057822
+	srfN = srfAttach,wingConnector_4292057878
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057822
+	partName = Winglet
+	pos = 10.08679,11.89066,-9.147753
+	rot = 0,0.7071067,0,0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057794
+	srfN = srfAttach,wingConnector_4292057850
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057794
+	partName = Winglet
+	pos = 10.08679,11.88103,-7.458146
+	rot = 0,0.7071066,0,0.707107
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057766
+	srfN = srfAttach,wingConnector_4292057822
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057766
+	partName = Winglet
+	pos = 10.0868,11.87667,-5.769863
+	rot = 0,0.7071068,0,0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057738
+	srfN = srfAttach,wingConnector_4292057794
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057738
+	partName = Winglet
+	pos = 10.0868,11.86704,-4.08026
+	rot = 0,0.7071066,0,0.707107
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057710
+	srfN = srfAttach,wingConnector_4292057766
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057710
+	partName = Winglet
+	pos = 10.0868,11.87672,-2.392104
+	rot = 0,0.7071067,0,0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057682
+	srfN = srfAttach,wingConnector_4292057738
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057682
+	partName = Winglet
+	pos = 10.0868,11.86709,-0.7025041
+	rot = 0,0.7071065,0,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057654
+	link = wingConnector_4292051774
+	srfN = srfAttach,wingConnector_4292057710
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057654
+	partName = Winglet
+	pos = 10.08679,12.02478,0.8000631
+	rot = -0.7071068,0,0.707107,0
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057626
+	link = wingConnector_4292056814
+	srfN = srfAttach,wingConnector_4292057682
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057626
+	partName = Winglet
+	pos = 10.08679,12.03442,2.489671
+	rot = -0.7071068,0,0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057598
+	srfN = srfAttach,wingConnector_4292057654
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057598
+	partName = Winglet
+	pos = 10.08679,12.02473,4.177829
+	rot = -0.7071068,0,0.707107,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057570
+	srfN = srfAttach,wingConnector_4292057626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057570
+	partName = Winglet
+	pos = 10.08678,12.03436,5.867418
+	rot = -0.7071066,0,0.7071071,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057542
+	srfN = srfAttach,wingConnector_4292057598
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057542
+	partName = Winglet
+	pos = 10.08678,12.03872,7.555716
+	rot = -0.7071068,0,0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057514
+	srfN = srfAttach,wingConnector_4292057570
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057514
+	partName = Winglet
+	pos = 10.08679,12.04835,9.245305
+	rot = -0.7071066,0,0.7071071,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057486
+	srfN = srfAttach,wingConnector_4292057542
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057486
+	partName = Winglet
+	pos = 10.08679,12.03867,10.93346
+	rot = -0.7071065,0,0.707107,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057458
+	srfN = srfAttach,wingConnector_4292057514
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057458
+	partName = Winglet
+	pos = 10.08679,12.0483,12.62307
+	rot = -0.7071065,0,0.707107,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057430
+	srfN = srfAttach,wingConnector_4292057486
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057430
+	partName = Winglet
+	pos = 10.08679,12.0337,14.31146
+	rot = -0.9238795,0,0.3826839,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057402
+	srfN = srfAttach,wingConnector_4292057458
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057402
+	partName = Winglet
+	pos = 8.892057,12.04333,15.50618
+	rot = -0.9238795,0,0.3826838,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057374
+	srfN = srfAttach,wingConnector_4292057430
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057374
+	partName = Winglet
+	pos = 7.698341,12.03365,16.69988
+	rot = -0.9238796,0,0.3826838,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057346
+	srfN = srfAttach,wingConnector_4292057402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057346
+	partName = Winglet
+	pos = 6.50362,12.04328,17.89463
+	rot = -0.9238795,0,0.3826839,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057318
+	srfN = srfAttach,wingConnector_4292057374
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057318
+	partName = Winglet
+	pos = 5.448727,12.04898,18.9495
+	rot = -1,0,1.180875E-07,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057290
+	srfN = srfAttach,wingConnector_4292057346
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057290
+	partName = Winglet
+	pos = 3.759136,12.05862,18.94951
+	rot = -1,0,1.180875E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057262
+	srfN = srfAttach,wingConnector_4292057318
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057262
+	partName = Winglet
+	pos = 2.070845,12.06297,18.94951
+	rot = -1,0,1.180875E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057234
+	srfN = srfAttach,wingConnector_4292057290
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057234
+	partName = Winglet
+	pos = 0.381238,12.07261,18.9495
+	rot = -1,0,1.776921E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057206
+	srfN = srfAttach,wingConnector_4292057262
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057206
+	partName = Winglet
+	pos = -1.306927,12.06292,18.94951
+	rot = -1,0,1.776921E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057178
+	srfN = srfAttach,wingConnector_4292057234
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057178
+	partName = Winglet
+	pos = -2.996534,12.07256,18.9495
+	rot = -1,0,2.670991E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057150
+	srfN = srfAttach,wingConnector_4292057206
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057150
+	partName = Winglet
+	pos = -4.686337,12.06098,18.94949
+	rot = -0.9238796,0,-0.3826833,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057122
+	srfN = srfAttach,wingConnector_4292057178
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057122
+	partName = Winglet
+	pos = -5.881074,12.07062,17.75474
+	rot = -0.9238796,0,-0.3826832,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057094
+	srfN = srfAttach,wingConnector_4292057150
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057094
+	partName = Winglet
+	pos = -7.074771,12.06093,16.56104
+	rot = -0.9238796,0,-0.3826833,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057066
+	srfN = srfAttach,wingConnector_4292057122
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057066
+	partName = Winglet
+	pos = -8.269506,12.07057,15.36631
+	rot = -0.9238797,0,-0.3826832,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057038
+	srfN = srfAttach,wingConnector_4292057094
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057038
+	partName = Winglet
+	pos = -9.461462,11.8451,14.17435
+	rot = 0,-0.7071068,0,0.7071069
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292057010
+	srfN = srfAttach,wingConnector_4292057066
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292057010
+	partName = Winglet
+	pos = -9.461456,11.83547,12.48474
+	rot = 0,-0.7071068,0,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056982
+	srfN = srfAttach,wingConnector_4292057038
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056982
+	partName = Winglet
+	pos = -9.461454,11.84515,10.79658
+	rot = 0,-0.7071069,0,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056954
+	srfN = srfAttach,wingConnector_4292057010
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056954
+	partName = Winglet
+	pos = -9.46145,11.83552,9.106986
+	rot = 0,-0.7071069,0,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056926
+	srfN = srfAttach,wingConnector_4292056982
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056926
+	partName = Winglet
+	pos = -9.461447,11.83116,7.41871
+	rot = 0,-0.7071068,0,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056898
+	srfN = srfAttach,wingConnector_4292056954
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056898
+	partName = Winglet
+	pos = -9.461445,11.82153,5.729099
+	rot = 0,-0.7071069,0,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056870
+	srfN = srfAttach,wingConnector_4292056926
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056870
+	partName = Winglet
+	pos = -9.461449,11.83121,4.040947
+	rot = 0,-0.7071069,0,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056842
+	srfN = srfAttach,wingConnector_4292056898
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056842
+	partName = Winglet
+	pos = -9.461448,11.82158,2.351351
+	rot = 0,-0.7071069,0,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,wingConnector_4292056870
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056814
+	partName = Winglet
+	pos = 10.08678,10.29056,0.9885302
+	rot = 0.7071069,0,-0.7071068,0
+	attRot = 0,-0.7071067,-0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056786
+	srfN = srfAttach,wingConnector_4292057654
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056786
+	partName = Winglet
+	pos = 10.08678,10.30019,2.678133
+	rot = 0.7071066,0,-0.707107,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056758
+	srfN = srfAttach,wingConnector_4292056814
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056758
+	partName = Winglet
+	pos = 10.08677,10.29051,4.36629
+	rot = 0.7071068,0,-0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056730
+	srfN = srfAttach,wingConnector_4292056786
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056730
+	partName = Winglet
+	pos = 10.08677,10.30014,6.055882
+	rot = 0.7071068,0,-0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056702
+	srfN = srfAttach,wingConnector_4292056758
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056702
+	partName = Winglet
+	pos = 10.08677,10.3045,7.744181
+	rot = 0.7071066,0,-0.707107,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056674
+	srfN = srfAttach,wingConnector_4292056730
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056674
+	partName = Winglet
+	pos = 10.08678,10.31413,9.43377
+	rot = 0.7071068,0,-0.7071068,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056646
+	srfN = srfAttach,wingConnector_4292056702
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056646
+	partName = Winglet
+	pos = 10.08678,10.30445,11.12192
+	rot = 0.7071066,0,-0.707107,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056618
+	srfN = srfAttach,wingConnector_4292056674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056618
+	partName = Winglet
+	pos = 10.08678,10.31408,12.81153
+	rot = 0.7071066,0,-0.7071071,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056590
+	srfN = srfAttach,wingConnector_4292056646
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056590
+	partName = Winglet
+	pos = 10.08677,10.29947,14.49992
+	rot = 0.9238795,0,-0.3826836,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056562
+	srfN = srfAttach,wingConnector_4292056618
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056562
+	partName = Winglet
+	pos = 8.89204,10.30911,15.69464
+	rot = 0.9238795,0,-0.3826838,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056534
+	srfN = srfAttach,wingConnector_4292056590
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056534
+	partName = Winglet
+	pos = 7.69833,10.29942,16.88836
+	rot = 0.9238796,0,-0.3826838,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056506
+	srfN = srfAttach,wingConnector_4292056562
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056506
+	partName = Winglet
+	pos = 6.503611,10.30906,18.08311
+	rot = 0.9238796,0,-0.3826839,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056478
+	srfN = srfAttach,wingConnector_4292056534
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056478
+	partName = Winglet
+	pos = 5.448704,10.31476,19.13798
+	rot = 1,0,-1.180875E-07,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056450
+	srfN = srfAttach,wingConnector_4292056506
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056450
+	partName = Winglet
+	pos = 3.759112,10.3244,19.13797
+	rot = 1,0,-1.180875E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056422
+	srfN = srfAttach,wingConnector_4292056478
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056422
+	partName = Winglet
+	pos = 2.070832,10.32875,19.13797
+	rot = 1,0,9.052879E-08,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056394
+	srfN = srfAttach,wingConnector_4292056450
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056394
+	partName = Winglet
+	pos = 0.3812265,10.33839,19.13797
+	rot = 1,0,-2.074944E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056366
+	srfN = srfAttach,wingConnector_4292056422
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056366
+	partName = Winglet
+	pos = -1.306939,10.3287,19.13797
+	rot = 1,0,-1.180875E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056338
+	srfN = srfAttach,wingConnector_4292056394
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056338
+	partName = Winglet
+	pos = -2.99655,10.33834,19.13797
+	rot = 1,0,-1.776921E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056310
+	srfN = srfAttach,wingConnector_4292056366
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056310
+	partName = Winglet
+	pos = -4.686351,10.32676,19.13796
+	rot = 0.9238794,0,0.3826838,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056282
+	srfN = srfAttach,wingConnector_4292056338
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056282
+	partName = Winglet
+	pos = -5.881087,10.33639,17.94322
+	rot = 0.9238796,0,0.3826832,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056254
+	srfN = srfAttach,wingConnector_4292056310
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056254
+	partName = Winglet
+	pos = -7.074793,10.32671,16.74951
+	rot = 0.9238796,0,0.3826834,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056226
+	srfN = srfAttach,wingConnector_4292056282
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056226
+	partName = Winglet
+	pos = -8.269521,10.33634,15.55479
+	rot = 0.9238796,0,0.3826832,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056198
+	srfN = srfAttach,wingConnector_4292056254
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056198
+	partName = Winglet
+	pos = -9.461475,10.11088,14.36281
+	rot = 0,0.7071066,0,-0.7071071
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056170
+	srfN = srfAttach,wingConnector_4292056226
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056170
+	partName = Winglet
+	pos = -9.461472,10.10124,12.6732
+	rot = 0,0.7071069,0,-0.7071067
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056142
+	srfN = srfAttach,wingConnector_4292056198
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056142
+	partName = Winglet
+	pos = -9.46147,10.11093,10.98505
+	rot = 0,0.7071069,0,-0.7071067
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056114
+	srfN = srfAttach,wingConnector_4292056170
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056114
+	partName = Winglet
+	pos = -9.46146,10.10129,9.295457
+	rot = 0,0.7071069,0,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056086
+	srfN = srfAttach,wingConnector_4292056142
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056086
+	partName = Winglet
+	pos = -9.46146,10.09694,7.607171
+	rot = 0,0.7071069,0,-0.7071067
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056058
+	srfN = srfAttach,wingConnector_4292056114
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056058
+	partName = Winglet
+	pos = -9.461462,10.08731,5.917564
+	rot = 0,0.7071069,0,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056030
+	srfN = srfAttach,wingConnector_4292056086
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056030
+	partName = Winglet
+	pos = -9.461456,10.09699,4.229422
+	rot = 0,0.7071069,0,-0.7071067
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292056002
+	srfN = srfAttach,wingConnector_4292056058
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292056002
+	partName = Winglet
+	pos = -9.461457,10.08736,2.539814
+	rot = 0,0.7071071,0,-0.7071065
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055974
+	srfN = srfAttach,wingConnector_4292056030
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055974
+	partName = Winglet
+	pos = -9.461451,10.24505,1.037246
+	rot = 0.7071071,0,0.7071066,0
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055946
+	srfN = srfAttach,wingConnector_4292056002
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055946
+	partName = Winglet
+	pos = -9.461452,10.25468,-0.6523671
+	rot = 0.7071069,0,0.7071068,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055918
+	srfN = srfAttach,wingConnector_4292055974
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055918
+	partName = Winglet
+	pos = -9.461443,10.245,-2.34051
+	rot = 0.7071071,0,0.7071066,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055890
+	srfN = srfAttach,wingConnector_4292055946
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055890
+	partName = Winglet
+	pos = -9.461443,10.25463,-4.03011
+	rot = 0.7071071,0,0.7071066,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055862
+	srfN = srfAttach,wingConnector_4292055918
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055862
+	partName = Winglet
+	pos = -9.46144,10.25899,-5.718406
+	rot = 0.7071069,0,0.7071068,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055834
+	srfN = srfAttach,wingConnector_4292055890
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055834
+	partName = Winglet
+	pos = -9.46144,10.26862,-7.407995
+	rot = 0.707107,0,0.7071065,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055806
+	srfN = srfAttach,wingConnector_4292055862
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055806
+	partName = Winglet
+	pos = -9.461443,10.25893,-9.096148
+	rot = 0.707107,0,0.7071065,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055778
+	srfN = srfAttach,wingConnector_4292055834
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055778
+	partName = Winglet
+	pos = -9.461445,10.26857,-10.78575
+	rot = 0.7071071,0,0.7071065,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055750
+	srfN = srfAttach,wingConnector_4292055806
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055750
+	partName = Winglet
+	pos = -9.461441,10.25396,-12.47414
+	rot = 0.3826839,0,0.9238797,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055722
+	srfN = srfAttach,wingConnector_4292055778
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055722
+	partName = Winglet
+	pos = -8.266705,10.2636,-13.66886
+	rot = 0.382684,0,0.9238794,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055694
+	srfN = srfAttach,wingConnector_4292055750
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055694
+	partName = Winglet
+	pos = -7.072994,10.25391,-14.86257
+	rot = 0.3826839,0,0.9238797,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055666
+	srfN = srfAttach,wingConnector_4292055722
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055666
+	partName = Winglet
+	pos = -5.878274,10.26355,-16.05731
+	rot = 0.382684,0,0.9238794,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055638
+	srfN = srfAttach,wingConnector_4292055694
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055638
+	partName = Winglet
+	pos = -4.823376,10.26925,-17.11219
+	rot = 1.776921E-07,0,1,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055610
+	srfN = srfAttach,wingConnector_4292055666
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055610
+	partName = Winglet
+	pos = -3.133785,10.27889,-17.11218
+	rot = 2.670991E-07,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055582
+	srfN = srfAttach,wingConnector_4292055638
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055582
+	partName = Winglet
+	pos = -1.445494,10.28324,-17.1122
+	rot = -1.121828E-09,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055554
+	srfN = srfAttach,wingConnector_4292055610
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055554
+	partName = Winglet
+	pos = 0.2441044,10.29288,-17.1122
+	rot = 4.161107E-07,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055526
+	srfN = srfAttach,wingConnector_4292055582
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055526
+	partName = Winglet
+	pos = 1.932277,10.28319,-17.1122
+	rot = 1.180875E-07,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055498
+	srfN = srfAttach,wingConnector_4292055554
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055498
+	partName = Winglet
+	pos = 3.621881,10.29283,-17.11218
+	rot = 1.776921E-07,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055470
+	srfN = srfAttach,wingConnector_4292055526
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055470
+	partName = Winglet
+	pos = 5.311693,10.28125,-17.11217
+	rot = -0.3826836,0,0.9238797,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055442
+	srfN = srfAttach,wingConnector_4292055498
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055442
+	partName = Winglet
+	pos = 6.50642,10.29088,-15.91744
+	rot = -0.3826833,0,0.9238798,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055414
+	srfN = srfAttach,wingConnector_4292055470
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055414
+	partName = Winglet
+	pos = 7.700109,10.2812,-14.72372
+	rot = -0.3826834,0,0.9238797,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055386
+	srfN = srfAttach,wingConnector_4292055442
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055386
+	partName = Winglet
+	pos = 8.894848,10.29083,-13.529
+	rot = -0.3826833,0,0.9238798,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055358
+	srfN = srfAttach,wingConnector_4292055414
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055358
+	partName = Winglet
+	pos = 10.08681,10.06537,-12.33705
+	rot = 0,0.707107,0,0.7071065
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055330
+	srfN = srfAttach,wingConnector_4292055386
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055330
+	partName = Winglet
+	pos = 10.08679,10.05573,-10.64743
+	rot = 0,0.7071069,0,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055302
+	srfN = srfAttach,wingConnector_4292055358
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055302
+	partName = Winglet
+	pos = 10.08679,10.06542,-8.959277
+	rot = 0,0.7071069,0,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055274
+	srfN = srfAttach,wingConnector_4292055330
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055274
+	partName = Winglet
+	pos = 10.08677,10.05578,-7.26967
+	rot = 0,0.7071069,0,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055246
+	srfN = srfAttach,wingConnector_4292055302
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055246
+	partName = Winglet
+	pos = 10.08679,10.05143,-5.581392
+	rot = 0,0.7071069,0,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055218
+	srfN = srfAttach,wingConnector_4292055274
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055218
+	partName = Winglet
+	pos = 10.08679,10.04179,-3.891794
+	rot = 0,0.7071069,0,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055190
+	srfN = srfAttach,wingConnector_4292055246
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055190
+	partName = Winglet
+	pos = 10.08679,10.05148,-2.203637
+	rot = 0,0.7071068,0,0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055162
+	srfN = srfAttach,wingConnector_4292055218
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055162
+	partName = Winglet
+	pos = 10.08678,10.04184,-0.5140379
+	rot = 0,0.7071067,0,0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055134
+	srfN = srfAttach,wingConnector_4292055190
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055134
+	partName = Winglet
+	pos = 10.08676,8.739055,0.7089052
+	rot = 0.7071069,0,-0.7071069,0
+	attRot = 0,-0.7071067,-0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055106
+	srfN = srfAttach,wingConnector_4292055162
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055106
+	partName = Winglet
+	pos = 10.08676,8.748691,2.398516
+	rot = 0.7071066,0,-0.7071071,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055078
+	srfN = srfAttach,wingConnector_4292055134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055078
+	partName = Winglet
+	pos = 10.08676,8.739004,4.086673
+	rot = 0.7071066,0,-0.7071071,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055050
+	srfN = srfAttach,wingConnector_4292055106
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055050
+	partName = Winglet
+	pos = 10.08675,8.74864,5.776251
+	rot = 0.7071069,0,-0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292055022
+	srfN = srfAttach,wingConnector_4292055078
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292055022
+	partName = Winglet
+	pos = 10.08675,8.752994,7.464552
+	rot = 0.7071066,0,-0.7071071,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054994
+	srfN = srfAttach,wingConnector_4292055050
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054994
+	partName = Winglet
+	pos = 10.08676,8.76263,9.154159
+	rot = 0.7071069,0,-0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054966
+	srfN = srfAttach,wingConnector_4292055022
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054966
+	partName = Winglet
+	pos = 10.08676,8.752944,10.84231
+	rot = 0.7071066,0,-0.7071071,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054938
+	srfN = srfAttach,wingConnector_4292054994
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054938
+	partName = Winglet
+	pos = 10.08676,8.76258,12.5319
+	rot = 0.7071069,0,-0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054910
+	srfN = srfAttach,wingConnector_4292054966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054910
+	partName = Winglet
+	pos = 10.08675,8.747972,14.22029
+	rot = 0.9238797,0,-0.3826838,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054882
+	srfN = srfAttach,wingConnector_4292054938
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054882
+	partName = Winglet
+	pos = 8.892027,8.757608,15.41501
+	rot = 0.9238797,0,-0.3826839,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054854
+	srfN = srfAttach,wingConnector_4292054910
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054854
+	partName = Winglet
+	pos = 7.698309,8.747922,16.6087
+	rot = 0.9238797,0,-0.3826836,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054826
+	srfN = srfAttach,wingConnector_4292054882
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054826
+	partName = Winglet
+	pos = 6.503597,8.757558,17.80347
+	rot = 0.9238797,0,-0.3826839,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054798
+	srfN = srfAttach,wingConnector_4292054854
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054798
+	partName = Winglet
+	pos = 5.448692,8.763261,18.85835
+	rot = 1,0,-5.848282E-08,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054770
+	srfN = srfAttach,wingConnector_4292054826
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054770
+	partName = Winglet
+	pos = 3.759094,8.772897,18.85835
+	rot = 1,0,-5.848282E-08,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054742
+	srfN = srfAttach,wingConnector_4292054798
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054742
+	partName = Winglet
+	pos = 2.070815,8.77725,18.85834
+	rot = 1,0,2.693427E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054714
+	srfN = srfAttach,wingConnector_4292054770
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054714
+	partName = Winglet
+	pos = 0.3812008,8.786886,18.85834
+	rot = 1,0,-1.776921E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054686
+	srfN = srfAttach,wingConnector_4292054742
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054686
+	partName = Winglet
+	pos = -1.306969,8.7772,18.85835
+	rot = 1,0,-1.776921E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054658
+	srfN = srfAttach,wingConnector_4292054714
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054658
+	partName = Winglet
+	pos = -2.996574,8.786836,18.85834
+	rot = 1,0,-1.776921E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054630
+	srfN = srfAttach,wingConnector_4292054686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054630
+	partName = Winglet
+	pos = -4.686373,8.775256,18.85833
+	rot = 0.9238794,0,0.3826838,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054602
+	srfN = srfAttach,wingConnector_4292054658
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054602
+	partName = Winglet
+	pos = -5.881101,8.784892,17.66359
+	rot = 0.9238796,0,0.3826835,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054574
+	srfN = srfAttach,wingConnector_4292054630
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054574
+	partName = Winglet
+	pos = -7.0748,8.775206,16.46986
+	rot = 0.9238794,0,0.3826837,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054546
+	srfN = srfAttach,wingConnector_4292054602
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054546
+	partName = Winglet
+	pos = -8.269529,8.784841,15.27515
+	rot = 0.9238798,0,0.3826831,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054518
+	srfN = srfAttach,wingConnector_4292054574
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054518
+	partName = Winglet
+	pos = -9.461493,8.559377,14.0832
+	rot = 0,0.7071071,0,-0.7071071
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054490
+	srfN = srfAttach,wingConnector_4292054546
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054490
+	partName = Winglet
+	pos = -9.461482,8.549741,12.39357
+	rot = 0,0.7071072,0,-0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054462
+	srfN = srfAttach,wingConnector_4292054518
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054462
+	partName = Winglet
+	pos = -9.46147,8.559427,10.70543
+	rot = 0,0.7071072,0,-0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054434
+	srfN = srfAttach,wingConnector_4292054490
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054434
+	partName = Winglet
+	pos = -9.46147,8.549791,9.01584
+	rot = 0,0.7071071,0,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054406
+	srfN = srfAttach,wingConnector_4292054462
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054406
+	partName = Winglet
+	pos = -9.461476,8.545438,7.327552
+	rot = 0,0.7071071,0,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054378
+	srfN = srfAttach,wingConnector_4292054434
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054378
+	partName = Winglet
+	pos = -9.461471,8.535801,5.637947
+	rot = 0,0.7071071,0,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054350
+	srfN = srfAttach,wingConnector_4292054406
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054350
+	partName = Winglet
+	pos = -9.461466,8.545487,3.949793
+	rot = 0,0.7071071,0,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054322
+	srfN = srfAttach,wingConnector_4292054378
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054322
+	partName = Winglet
+	pos = -9.461472,8.535851,2.260206
+	rot = 0,0.7071074,0,-0.707107
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054294
+	srfN = srfAttach,wingConnector_4292054350
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054294
+	partName = Winglet
+	pos = -9.461452,8.693543,0.757625
+	rot = 0.7071071,0,0.7071069,0
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054266
+	link = wingConnector_4292053454
+	srfN = srfAttach,wingConnector_4292054322
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054266
+	partName = Winglet
+	pos = -9.461451,8.703179,-0.9319853
+	rot = 0.7071071,0,0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054238
+	srfN = srfAttach,wingConnector_4292054294
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054238
+	partName = Winglet
+	pos = -9.461441,8.693493,-2.620142
+	rot = 0.7071071,0,0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054210
+	srfN = srfAttach,wingConnector_4292054266
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054210
+	partName = Winglet
+	pos = -9.461439,8.703129,-4.309722
+	rot = 0.7071073,0,0.7071067,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054182
+	srfN = srfAttach,wingConnector_4292054238
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054182
+	partName = Winglet
+	pos = -9.461439,8.707482,-5.998032
+	rot = 0.7071071,0,0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054154
+	srfN = srfAttach,wingConnector_4292054210
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054154
+	partName = Winglet
+	pos = -9.461435,8.717118,-7.687613
+	rot = 0.7071073,0,0.7071067,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054126
+	srfN = srfAttach,wingConnector_4292054182
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054126
+	partName = Winglet
+	pos = -9.461445,8.707432,-9.375759
+	rot = 0.7071073,0,0.7071067,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054098
+	srfN = srfAttach,wingConnector_4292054154
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054098
+	partName = Winglet
+	pos = -9.461451,8.717068,-11.06538
+	rot = 0.7071073,0,0.7071067,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054070
+	srfN = srfAttach,wingConnector_4292054126
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054070
+	partName = Winglet
+	pos = -9.46143,8.70246,-12.75375
+	rot = 0.3826839,0,0.9238799,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054042
+	srfN = srfAttach,wingConnector_4292054098
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054042
+	partName = Winglet
+	pos = -8.266696,8.712096,-13.94846
+	rot = 0.3826839,0,0.9238799,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292054014
+	srfN = srfAttach,wingConnector_4292054070
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292054014
+	partName = Winglet
+	pos = -7.072981,8.70241,-15.14216
+	rot = 0.3826839,0,0.9238799,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053986
+	srfN = srfAttach,wingConnector_4292054042
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053986
+	partName = Winglet
+	pos = -5.878269,8.712046,-16.33694
+	rot = 0.382684,0,0.9238794,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053958
+	srfN = srfAttach,wingConnector_4292054014
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053958
+	partName = Winglet
+	pos = -4.823366,8.717749,-17.39182
+	rot = 1.776921E-07,0,1,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053930
+	srfN = srfAttach,wingConnector_4292053986
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053930
+	partName = Winglet
+	pos = -3.13378,8.727386,-17.39181
+	rot = 1.776921E-07,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053902
+	srfN = srfAttach,wingConnector_4292053958
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053902
+	partName = Winglet
+	pos = -1.445491,8.731739,-17.39182
+	rot = -1.121828E-09,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053874
+	srfN = srfAttach,wingConnector_4292053930
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053874
+	partName = Winglet
+	pos = 0.2441196,8.741375,-17.39181
+	rot = 1.776921E-07,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053846
+	srfN = srfAttach,wingConnector_4292053902
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053846
+	partName = Winglet
+	pos = 1.932298,8.731688,-17.39182
+	rot = 4.161107E-07,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053818
+	srfN = srfAttach,wingConnector_4292053874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053818
+	partName = Winglet
+	pos = 3.621908,8.741324,-17.3918
+	rot = 5.848282E-08,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053790
+	srfN = srfAttach,wingConnector_4292053846
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053790
+	partName = Winglet
+	pos = 5.311699,8.729744,-17.39178
+	rot = -0.3826842,0,0.9238796,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053762
+	srfN = srfAttach,wingConnector_4292053818
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053762
+	partName = Winglet
+	pos = 6.506432,8.73938,-16.19705
+	rot = -0.3826835,0,0.9238799,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053734
+	srfN = srfAttach,wingConnector_4292053790
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053734
+	partName = Winglet
+	pos = 7.700123,8.729693,-15.00334
+	rot = -0.3826831,0,0.9238797,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053706
+	srfN = srfAttach,wingConnector_4292053762
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053706
+	partName = Winglet
+	pos = 8.894865,8.739329,-13.80861
+	rot = -0.3826835,0,0.9238799,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053678
+	srfN = srfAttach,wingConnector_4292053734
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053678
+	partName = Winglet
+	pos = 10.08682,8.513865,-12.61667
+	rot = 0,0.7071073,0,0.7071068
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053650
+	srfN = srfAttach,wingConnector_4292053706
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053650
+	partName = Winglet
+	pos = 10.08681,8.504229,-10.92704
+	rot = 0,0.7071071,0,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053622
+	srfN = srfAttach,wingConnector_4292053678
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053622
+	partName = Winglet
+	pos = 10.08678,8.513914,-9.238898
+	rot = 0,0.7071071,0,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053594
+	srfN = srfAttach,wingConnector_4292053650
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053594
+	partName = Winglet
+	pos = 10.08679,8.504278,-7.549294
+	rot = 0,0.7071069,0,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053566
+	srfN = srfAttach,wingConnector_4292053622
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053566
+	partName = Winglet
+	pos = 10.08679,8.499926,-5.861015
+	rot = 0,0.7071069,0,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053538
+	srfN = srfAttach,wingConnector_4292053594
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053538
+	partName = Winglet
+	pos = 10.08679,8.49029,-4.171403
+	rot = 0,0.7071069,0,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053510
+	srfN = srfAttach,wingConnector_4292053566
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053510
+	partName = Winglet
+	pos = 10.08678,8.499976,-2.483264
+	rot = 0,0.7071069,0,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053482
+	srfN = srfAttach,wingConnector_4292053538
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053482
+	partName = Winglet
+	pos = 10.08678,8.49034,-0.7936687
+	rot = 0,0.7071071,0,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,wingConnector_4292053510
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053454
+	partName = Winglet
+	pos = -9.461432,6.959319,0.5691533
+	rot = -0.7071071,0,-0.7071069,0
+	attRot = 0,-0.7071067,-0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053426
+	srfN = srfAttach,wingConnector_4292054294
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053426
+	partName = Winglet
+	pos = -9.461437,6.968955,-1.120446
+	rot = -0.707107,0,-0.7071065,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053398
+	srfN = srfAttach,wingConnector_4292053454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053398
+	partName = Winglet
+	pos = -9.461432,6.959269,-2.8086
+	rot = -0.7071072,0,-0.7071068,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053370
+	srfN = srfAttach,wingConnector_4292053426
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053370
+	partName = Winglet
+	pos = -9.461437,6.968905,-4.49819
+	rot = -0.7071071,0,-0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053342
+	srfN = srfAttach,wingConnector_4292053398
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053342
+	partName = Winglet
+	pos = -9.461422,6.973259,-6.186499
+	rot = -0.7071072,0,-0.7071068,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053314
+	srfN = srfAttach,wingConnector_4292053370
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053314
+	partName = Winglet
+	pos = -9.46142,6.982895,-7.87607
+	rot = -0.7071071,0,-0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053286
+	srfN = srfAttach,wingConnector_4292053342
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053286
+	partName = Winglet
+	pos = -9.461435,6.973208,-9.564228
+	rot = -0.7071071,0,-0.7071069,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053258
+	srfN = srfAttach,wingConnector_4292053314
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053258
+	partName = Winglet
+	pos = -9.461425,6.982844,-11.25382
+	rot = -0.7071073,0,-0.7071067,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053230
+	srfN = srfAttach,wingConnector_4292053286
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053230
+	partName = Winglet
+	pos = -9.461412,6.968237,-12.94222
+	rot = -0.3826839,0,-0.92388,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053202
+	srfN = srfAttach,wingConnector_4292053258
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053202
+	partName = Winglet
+	pos = -8.26668,6.977873,-14.13693
+	rot = -0.3826839,0,-0.9238799,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053174
+	srfN = srfAttach,wingConnector_4292053230
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053174
+	partName = Winglet
+	pos = -7.072972,6.968186,-15.33063
+	rot = -0.3826839,0,-0.9238799,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053146
+	srfN = srfAttach,wingConnector_4292053202
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053146
+	partName = Winglet
+	pos = -5.878243,6.977822,-16.52541
+	rot = -0.3826841,0,-0.9238799,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053118
+	srfN = srfAttach,wingConnector_4292053174
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053118
+	partName = Winglet
+	pos = -4.823347,6.983525,-17.58028
+	rot = -1.776921E-07,0,-1,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053090
+	srfN = srfAttach,wingConnector_4292053146
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053090
+	partName = Winglet
+	pos = -3.133769,6.993163,-17.58026
+	rot = 1.121828E-09,0,-1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053062
+	srfN = srfAttach,wingConnector_4292053118
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053062
+	partName = Winglet
+	pos = -1.445478,6.997517,-17.58028
+	rot = 1.121828E-09,0,-1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053034
+	srfN = srfAttach,wingConnector_4292053090
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053034
+	partName = Winglet
+	pos = 0.244132,7.007153,-17.58027
+	rot = 1.121828E-09,0,-1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292053006
+	srfN = srfAttach,wingConnector_4292053062
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292053006
+	partName = Winglet
+	pos = 1.932311,6.997466,-17.58026
+	rot = 1.121828E-09,0,-1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052978
+	srfN = srfAttach,wingConnector_4292053034
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052978
+	partName = Winglet
+	pos = 3.621924,7.007102,-17.58028
+	rot = -1.776921E-07,0,-1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052950
+	srfN = srfAttach,wingConnector_4292053006
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052950
+	partName = Winglet
+	pos = 5.311722,6.995522,-17.58025
+	rot = 0.3826841,0,-0.9238796,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052922
+	srfN = srfAttach,wingConnector_4292052978
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052922
+	partName = Winglet
+	pos = 6.506454,7.005157,-16.38553
+	rot = 0.3826837,0,-0.9238799,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052894
+	srfN = srfAttach,wingConnector_4292052950
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052894
+	partName = Winglet
+	pos = 7.700134,6.995471,-15.19181
+	rot = 0.3826835,0,-0.9238799,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052866
+	srfN = srfAttach,wingConnector_4292052922
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052866
+	partName = Winglet
+	pos = 8.89488,7.005106,-13.99708
+	rot = 0.3826831,0,-0.9238797,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052838
+	srfN = srfAttach,wingConnector_4292052894
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052838
+	partName = Winglet
+	pos = 10.08683,6.779643,-12.80514
+	rot = 0,-0.7071073,0,-0.7071071
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052810
+	srfN = srfAttach,wingConnector_4292052866
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052810
+	partName = Winglet
+	pos = 10.08682,6.770007,-11.11551
+	rot = 0,-0.7071071,0,-0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052782
+	srfN = srfAttach,wingConnector_4292052838
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052782
+	partName = Winglet
+	pos = 10.08681,6.779694,-9.427351
+	rot = 0,-0.7071071,0,-0.7071073
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052754
+	srfN = srfAttach,wingConnector_4292052810
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052754
+	partName = Winglet
+	pos = 10.08679,6.770058,-7.73776
+	rot = 0,-0.7071071,0,-0.7071073
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052726
+	srfN = srfAttach,wingConnector_4292052782
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052726
+	partName = Winglet
+	pos = 10.08681,6.765704,-6.04948
+	rot = 0,-0.7071071,0,-0.7071073
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052698
+	srfN = srfAttach,wingConnector_4292052754
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052698
+	partName = Winglet
+	pos = 10.08679,6.756068,-4.359875
+	rot = 0,-0.7071071,0,-0.7071073
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052670
+	srfN = srfAttach,wingConnector_4292052726
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052670
+	partName = Winglet
+	pos = 10.0868,6.765754,-2.671733
+	rot = 0,-0.7071071,0,-0.7071073
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052642
+	srfN = srfAttach,wingConnector_4292052698
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052642
+	partName = Winglet
+	pos = 10.08679,6.756118,-0.982128
+	rot = 0,-0.7071071,0,-0.7071073
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052614
+	srfN = srfAttach,wingConnector_4292052670
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052614
+	partName = Winglet
+	pos = 10.08679,6.913808,0.5204393
+	rot = 0.7071071,0,-0.7071073,0
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052586
+	srfN = srfAttach,wingConnector_4292052642
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052586
+	partName = Winglet
+	pos = 10.08677,6.923445,2.210052
+	rot = 0.7071071,0,-0.7071073,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052558
+	srfN = srfAttach,wingConnector_4292052614
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052558
+	partName = Winglet
+	pos = 10.08677,6.913758,3.898196
+	rot = 0.7071071,0,-0.7071073,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052530
+	srfN = srfAttach,wingConnector_4292052586
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052530
+	partName = Winglet
+	pos = 10.08677,6.923394,5.58777
+	rot = 0.7071069,0,-0.7071076,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052502
+	srfN = srfAttach,wingConnector_4292052558
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052502
+	partName = Winglet
+	pos = 10.08677,6.927748,7.27608
+	rot = 0.7071071,0,-0.7071073,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052474
+	srfN = srfAttach,wingConnector_4292052530
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052474
+	partName = Winglet
+	pos = 10.08676,6.937384,8.965671
+	rot = 0.7071069,0,-0.7071076,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052446
+	srfN = srfAttach,wingConnector_4292052502
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052446
+	partName = Winglet
+	pos = 10.08678,6.927698,10.65382
+	rot = 0.7071069,0,-0.7071076,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052418
+	srfN = srfAttach,wingConnector_4292052474
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052418
+	partName = Winglet
+	pos = 10.08678,6.937334,12.34341
+	rot = 0.7071069,0,-0.7071076,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052390
+	srfN = srfAttach,wingConnector_4292052446
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052390
+	partName = Winglet
+	pos = 10.08675,6.922726,14.0318
+	rot = 0.92388,0,-0.3826841,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052362
+	srfN = srfAttach,wingConnector_4292052418
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052362
+	partName = Winglet
+	pos = 8.892021,6.932362,15.22652
+	rot = 0.92388,0,-0.3826841,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052334
+	srfN = srfAttach,wingConnector_4292052390
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052334
+	partName = Winglet
+	pos = 7.69832,6.922676,16.42023
+	rot = 0.92388,0,-0.3826841,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052306
+	srfN = srfAttach,wingConnector_4292052362
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052306
+	partName = Winglet
+	pos = 6.503601,6.932311,17.61501
+	rot = 0.92388,0,-0.3826841,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052278
+	srfN = srfAttach,wingConnector_4292052334
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052278
+	partName = Winglet
+	pos = 5.448698,6.938014,18.66989
+	rot = 1,0,-3.56506E-07,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052250
+	srfN = srfAttach,wingConnector_4292052306
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052250
+	partName = Winglet
+	pos = 3.759111,6.947649,18.66987
+	rot = 1,0,-1.180875E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052222
+	srfN = srfAttach,wingConnector_4292052278
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052222
+	partName = Winglet
+	pos = 2.070832,6.952003,18.66986
+	rot = 1,0,-1.180875E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052194
+	srfN = srfAttach,wingConnector_4292052250
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052194
+	partName = Winglet
+	pos = 0.3812189,6.961639,18.66987
+	rot = 1,0,-2.372967E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052166
+	srfN = srfAttach,wingConnector_4292052222
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052166
+	partName = Winglet
+	pos = -1.306966,6.951953,18.66988
+	rot = 1,0,-1.180875E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052138
+	srfN = srfAttach,wingConnector_4292052194
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052138
+	partName = Winglet
+	pos = -2.996571,6.961589,18.66986
+	rot = 1,0,-3.56506E-07,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052110
+	srfN = srfAttach,wingConnector_4292052166
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052110
+	partName = Winglet
+	pos = -4.68637,6.950009,18.66986
+	rot = 0.9238799,0,0.3826841,0
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052082
+	srfN = srfAttach,wingConnector_4292052138
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052082
+	partName = Winglet
+	pos = -5.881103,6.959645,17.4751
+	rot = 0.9238803,0,0.3826835,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052054
+	srfN = srfAttach,wingConnector_4292052110
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052054
+	partName = Winglet
+	pos = -7.074792,6.949958,16.28139
+	rot = 0.9238802,0,0.3826835,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292052026
+	srfN = srfAttach,wingConnector_4292052082
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292052026
+	partName = Winglet
+	pos = -8.269505,6.959594,15.08667
+	rot = 0.92388,0,0.3826836,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051998
+	srfN = srfAttach,wingConnector_4292052054
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051998
+	partName = Winglet
+	pos = -9.461477,6.734131,13.89471
+	rot = 0,0.7071072,0,-0.707108
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051970
+	srfN = srfAttach,wingConnector_4292052026
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051970
+	partName = Winglet
+	pos = -9.461473,6.724495,12.20511
+	rot = 0,0.7071072,0,-0.7071077
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051942
+	srfN = srfAttach,wingConnector_4292051998
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051942
+	partName = Winglet
+	pos = -9.46145,6.734181,10.51695
+	rot = 0,0.7071073,0,-0.7071073
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051914
+	srfN = srfAttach,wingConnector_4292051970
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051914
+	partName = Winglet
+	pos = -9.461437,6.724545,8.827374
+	rot = 0,0.7071073,0,-0.7071073
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051886
+	srfN = srfAttach,wingConnector_4292051942
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051886
+	partName = Winglet
+	pos = -9.46145,6.720191,7.139079
+	rot = 0,0.7071071,0,-0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051858
+	srfN = srfAttach,wingConnector_4292051914
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051858
+	partName = Winglet
+	pos = -9.461455,6.710555,5.449483
+	rot = 0,0.7071073,0,-0.7071073
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051830
+	srfN = srfAttach,wingConnector_4292051886
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051830
+	partName = Winglet
+	pos = -9.461443,6.720242,3.761329
+	rot = 0,0.7071073,0,-0.7071073
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051802
+	srfN = srfAttach,wingConnector_4292051858
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051802
+	partName = Winglet
+	pos = -9.461441,6.710606,2.071729
+	rot = 0,0.7071075,0,-0.7071074
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,wingConnector_4292051830
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051774
+	partName = Winglet
+	pos = 10.08679,13.60131,0.8331633
+	rot = 6.181723E-08,0.7071068,6.181722E-08,-0.7071069
+	attRot = 0,0.7071067,0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051746
+	srfN = srfAttach,wingConnector_4292057682
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051746
+	partName = Winglet
+	pos = 10.08679,13.59167,-0.8564424
+	rot = 6.181723E-08,0.7071068,6.181723E-08,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051718
+	srfN = srfAttach,wingConnector_4292051774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051718
+	partName = Winglet
+	pos = 10.08679,13.60136,-2.5446
+	rot = 6.181725E-08,0.7071068,6.181725E-08,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051690
+	srfN = srfAttach,wingConnector_4292051746
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051690
+	partName = Winglet
+	pos = 10.08679,13.59173,-4.234196
+	rot = 6.181725E-08,0.7071069,6.181724E-08,-0.7071067
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051662
+	srfN = srfAttach,wingConnector_4292051718
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051662
+	partName = Winglet
+	pos = 10.08679,13.58737,-5.922485
+	rot = 6.181723E-08,0.7071068,6.181723E-08,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051634
+	srfN = srfAttach,wingConnector_4292051690
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051634
+	partName = Winglet
+	pos = 10.08679,13.57773,-7.612088
+	rot = 6.181727E-08,0.7071069,6.181725E-08,-0.7071067
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051606
+	srfN = srfAttach,wingConnector_4292051662
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051606
+	partName = Winglet
+	pos = 10.08679,13.58742,-9.300248
+	rot = 6.181726E-08,0.7071069,6.181725E-08,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051578
+	srfN = srfAttach,wingConnector_4292051634
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051578
+	partName = Winglet
+	pos = 10.08679,13.57779,-10.98984
+	rot = 6.181725E-08,0.7071071,6.181724E-08,-0.7071066
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051550
+	srfN = srfAttach,wingConnector_4292051606
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051550
+	partName = Winglet
+	pos = 10.08679,13.59239,-12.67824
+	rot = 3.345527E-08,0.3826837,8.076813E-08,-0.9238795
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051522
+	srfN = srfAttach,wingConnector_4292051578
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051522
+	partName = Winglet
+	pos = 8.892063,13.58276,-13.87296
+	rot = 3.345529E-08,0.3826838,8.07681E-08,-0.9238795
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051494
+	srfN = srfAttach,wingConnector_4292051550
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051494
+	partName = Winglet
+	pos = 7.698355,13.59244,-15.06667
+	rot = 3.345528E-08,0.3826838,8.076812E-08,-0.9238794
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051466
+	srfN = srfAttach,wingConnector_4292051522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051466
+	partName = Winglet
+	pos = 6.503632,13.58281,-16.2614
+	rot = 3.345531E-08,0.3826837,8.076812E-08,-0.9238795
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051438
+	srfN = srfAttach,wingConnector_4292051494
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051438
+	partName = Winglet
+	pos = 5.448734,13.57711,-17.31627
+	rot = -2.496707E-14,-1.180875E-07,8.742279E-08,-1
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051410
+	srfN = srfAttach,wingConnector_4292051466
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051410
+	partName = Winglet
+	pos = 3.75913,13.56747,-17.31627
+	rot = -9.807325E-17,1.121827E-09,8.742279E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051382
+	srfN = srfAttach,wingConnector_4292051438
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051382
+	partName = Winglet
+	pos = 2.07085,13.56312,-17.31628
+	rot = -1.075621E-14,-1.180875E-07,8.742282E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051354
+	srfN = srfAttach,wingConnector_4292051410
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051354
+	partName = Winglet
+	pos = 0.3812399,13.55348,-17.31627
+	rot = -9.807326E-17,9.052879E-08,8.74228E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051326
+	srfN = srfAttach,wingConnector_4292051382
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051326
+	partName = Winglet
+	pos = -1.306921,13.56317,-17.31627
+	rot = -1.786164E-14,-1.180875E-07,8.742276E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051298
+	srfN = srfAttach,wingConnector_4292051354
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051298
+	partName = Winglet
+	pos = -2.996527,13.55353,-17.31627
+	rot = 3.187635E-14,2.693427E-07,8.742282E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051270
+	srfN = srfAttach,wingConnector_4292051326
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051270
+	partName = Winglet
+	pos = -4.686339,13.56511,-17.31624
+	rot = -3.345524E-08,-0.3826836,8.07681E-08,-0.9238795
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051242
+	srfN = srfAttach,wingConnector_4292051298
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051242
+	partName = Winglet
+	pos = -5.88107,13.55548,-16.12152
+	rot = -3.345526E-08,-0.3826835,8.076812E-08,-0.9238796
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051214
+	srfN = srfAttach,wingConnector_4292051270
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051214
+	partName = Winglet
+	pos = -7.074773,13.56516,-14.92781
+	rot = -3.345525E-08,-0.3826835,8.076813E-08,-0.9238796
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051186
+	srfN = srfAttach,wingConnector_4292051242
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051186
+	partName = Winglet
+	pos = -8.269501,13.55553,-13.73308
+	rot = -3.345524E-08,-0.3826834,8.076811E-08,-0.9238796
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051158
+	srfN = srfAttach,wingConnector_4292051214
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051158
+	partName = Winglet
+	pos = -9.461464,13.78099,-12.54111
+	rot = -0.7071069,6.181723E-08,0.7071068,6.181723E-08
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051130
+	srfN = srfAttach,wingConnector_4292051186
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051130
+	partName = Winglet
+	pos = -9.461454,13.79063,-10.8515
+	rot = -0.7071069,6.181722E-08,0.7071069,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051102
+	srfN = srfAttach,wingConnector_4292051158
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051102
+	partName = Winglet
+	pos = -9.461449,13.78094,-9.163358
+	rot = -0.7071068,6.18172E-08,0.707107,6.181727E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051074
+	srfN = srfAttach,wingConnector_4292051130
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051074
+	partName = Winglet
+	pos = -9.461447,13.79058,-7.47375
+	rot = -0.7071066,6.181723E-08,0.7071071,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051046
+	srfN = srfAttach,wingConnector_4292051102
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051046
+	partName = Winglet
+	pos = -9.461451,13.79493,-5.785464
+	rot = -0.7071069,6.181723E-08,0.7071069,6.181727E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292051018
+	srfN = srfAttach,wingConnector_4292051074
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292051018
+	partName = Winglet
+	pos = -9.461456,13.80457,-4.095858
+	rot = -0.7071066,6.18172E-08,0.7071071,6.181726E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050990
+	srfN = srfAttach,wingConnector_4292051046
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050990
+	partName = Winglet
+	pos = -9.461446,13.79488,-2.40771
+	rot = -0.7071066,6.181723E-08,0.707107,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050962
+	srfN = srfAttach,wingConnector_4292051018
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050962
+	partName = Winglet
+	pos = -9.461452,13.80452,-0.7181076
+	rot = -0.7071066,6.181723E-08,0.7071072,6.181727E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050934
+	srfN = srfAttach,wingConnector_4292050990
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050934
+	partName = Winglet
+	pos = -9.461441,13.64683,0.7844661
+	rot = -6.181723E-08,-0.7071069,6.181723E-08,-0.7071069
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050906
+	link = wingConnector_4292050094
+	srfN = srfAttach,wingConnector_4292050962
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050906
+	partName = Winglet
+	pos = -9.461445,13.63719,2.474069
+	rot = -6.181725E-08,-0.7071068,6.181726E-08,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050878
+	srfN = srfAttach,wingConnector_4292050934
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050878
+	partName = Winglet
+	pos = -9.461438,13.64688,4.16222
+	rot = -6.181724E-08,-0.7071067,6.181725E-08,-0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050850
+	srfN = srfAttach,wingConnector_4292050906
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050850
+	partName = Winglet
+	pos = -9.461435,13.63724,5.851806
+	rot = -6.181725E-08,-0.7071068,6.181726E-08,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050822
+	srfN = srfAttach,wingConnector_4292050878
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050822
+	partName = Winglet
+	pos = -9.461441,13.63289,7.540112
+	rot = -6.181723E-08,-0.7071067,6.181725E-08,-0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050794
+	srfN = srfAttach,wingConnector_4292050850
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050794
+	partName = Winglet
+	pos = -9.461442,13.62325,9.229712
+	rot = -6.181726E-08,-0.7071068,6.181726E-08,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050766
+	srfN = srfAttach,wingConnector_4292050822
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050766
+	partName = Winglet
+	pos = -9.461439,13.63294,10.91785
+	rot = -6.181724E-08,-0.7071066,6.181728E-08,-0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050738
+	srfN = srfAttach,wingConnector_4292050794
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050738
+	partName = Winglet
+	pos = -9.461456,13.6233,12.60746
+	rot = -6.181723E-08,-0.7071066,6.181726E-08,-0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050710
+	srfN = srfAttach,wingConnector_4292050766
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050710
+	partName = Winglet
+	pos = -9.461445,13.63791,14.29585
+	rot = -8.076813E-08,-0.9238795,3.345529E-08,-0.3826838
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050682
+	srfN = srfAttach,wingConnector_4292050738
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050682
+	partName = Winglet
+	pos = -8.266719,13.62827,15.49056
+	rot = -8.076812E-08,-0.9238796,3.345529E-08,-0.3826838
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050654
+	srfN = srfAttach,wingConnector_4292050710
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050654
+	partName = Winglet
+	pos = -7.073004,13.63796,16.68427
+	rot = -8.076812E-08,-0.9238795,3.345528E-08,-0.3826838
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050626
+	srfN = srfAttach,wingConnector_4292050682
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050626
+	partName = Winglet
+	pos = -5.878277,13.62832,17.87901
+	rot = -8.076812E-08,-0.9238796,3.345529E-08,-0.382684
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050598
+	srfN = srfAttach,wingConnector_4292050654
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050598
+	partName = Winglet
+	pos = -4.823373,13.62262,18.93391
+	rot = -8.742276E-08,-1,-2.496707E-14,1.180875E-07
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050570
+	srfN = srfAttach,wingConnector_4292050626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050570
+	partName = Winglet
+	pos = -3.133788,13.61298,18.93388
+	rot = -8.742282E-08,-1,2.832364E-14,-2.693427E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050542
+	srfN = srfAttach,wingConnector_4292050598
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050542
+	partName = Winglet
+	pos = -1.445501,13.60863,18.9339
+	rot = -8.742278E-08,-1,-7.2035E-15,-9.052879E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050514
+	srfN = srfAttach,wingConnector_4292050570
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050514
+	partName = Winglet
+	pos = 0.2441072,13.59899,18.93389
+	rot = -8.742277E-08,-1,7.007354E-15,-2.097381E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050486
+	srfN = srfAttach,wingConnector_4292050542
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050486
+	partName = Winglet
+	pos = 1.932268,13.60868,18.93389
+	rot = -8.742278E-08,-1,1.76655E-14,-2.097381E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050458
+	srfN = srfAttach,wingConnector_4292050514
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050458
+	partName = Winglet
+	pos = 3.62188,13.59904,18.9339
+	rot = -8.742278E-08,-1,2.121821E-14,-2.097381E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050430
+	srfN = srfAttach,wingConnector_4292050486
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050430
+	partName = Winglet
+	pos = 5.311676,13.61062,18.93388
+	rot = -8.076812E-08,-0.9238795,-3.345524E-08,0.3826836
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050402
+	srfN = srfAttach,wingConnector_4292050458
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050402
+	partName = Winglet
+	pos = 6.506409,13.60099,17.73913
+	rot = -8.07681E-08,-0.9238796,-3.345524E-08,0.3826834
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050374
+	srfN = srfAttach,wingConnector_4292050430
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050374
+	partName = Winglet
+	pos = 7.700104,13.61067,16.54541
+	rot = -8.076811E-08,-0.9238796,-3.345522E-08,0.3826833
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050346
+	srfN = srfAttach,wingConnector_4292050402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050346
+	partName = Winglet
+	pos = 8.89484,13.60104,15.35068
+	rot = -8.076812E-08,-0.9238797,-3.345525E-08,0.3826833
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050318
+	srfN = srfAttach,wingConnector_4292050374
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050318
+	partName = Winglet
+	pos = 10.0868,13.8265,14.15873
+	rot = 0.7071068,-6.181723E-08,0.7071069,6.181725E-08
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050290
+	srfN = srfAttach,wingConnector_4292050346
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050290
+	partName = Winglet
+	pos = 10.08681,13.83614,12.46912
+	rot = 0.707107,-6.181727E-08,0.7071068,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050262
+	srfN = srfAttach,wingConnector_4292050318
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050262
+	partName = Winglet
+	pos = 10.08679,13.82645,10.78096
+	rot = 0.707107,-6.181725E-08,0.7071068,6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050234
+	srfN = srfAttach,wingConnector_4292050290
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050234
+	partName = Winglet
+	pos = 10.08677,13.83609,9.091359
+	rot = 0.707107,-6.181727E-08,0.7071068,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050206
+	srfN = srfAttach,wingConnector_4292050262
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050206
+	partName = Winglet
+	pos = 10.08678,13.84044,7.403092
+	rot = 0.7071069,-6.181725E-08,0.7071071,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050178
+	srfN = srfAttach,wingConnector_4292050234
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050178
+	partName = Winglet
+	pos = 10.08678,13.85007,5.713478
+	rot = 0.707107,-6.181727E-08,0.7071066,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050150
+	srfN = srfAttach,wingConnector_4292050206
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050150
+	partName = Winglet
+	pos = 10.08678,13.84039,4.025331
+	rot = 0.707107,-6.181725E-08,0.7071068,6.181722E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050122
+	srfN = srfAttach,wingConnector_4292050178
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050122
+	partName = Winglet
+	pos = 10.08678,13.85002,2.335735
+	rot = 0.707107,-6.181727E-08,0.7071066,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,wingConnector_4292050150
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050094
+	partName = Winglet
+	pos = -9.461432,15.38105,0.9729284
+	rot = 6.181725E-08,0.7071069,-6.181725E-08,0.7071069
+	attRot = 0,-0.7071067,-0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050066
+	srfN = srfAttach,wingConnector_4292050934
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050066
+	partName = Winglet
+	pos = -9.46143,15.37141,2.662528
+	rot = 6.181723E-08,0.7071069,-6.181726E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050038
+	srfN = srfAttach,wingConnector_4292050094
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050038
+	partName = Winglet
+	pos = -9.461429,15.3811,4.350683
+	rot = 6.181723E-08,0.7071069,-6.181727E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292050010
+	srfN = srfAttach,wingConnector_4292050066
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292050010
+	partName = Winglet
+	pos = -9.461435,15.37146,6.040279
+	rot = 6.181725E-08,0.7071069,-6.181725E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049982
+	srfN = srfAttach,wingConnector_4292050038
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049982
+	partName = Winglet
+	pos = -9.461426,15.36711,7.728589
+	rot = 6.181725E-08,0.7071069,-6.181727E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049954
+	srfN = srfAttach,wingConnector_4292050010
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049954
+	partName = Winglet
+	pos = -9.461432,15.35747,9.418164
+	rot = 6.181724E-08,0.7071069,-6.181724E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049926
+	srfN = srfAttach,wingConnector_4292049982
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049926
+	partName = Winglet
+	pos = -9.461435,15.36716,11.10632
+	rot = 6.181726E-08,0.7071069,-6.181726E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049898
+	srfN = srfAttach,wingConnector_4292049954
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049898
+	partName = Winglet
+	pos = -9.461429,15.35752,12.79593
+	rot = 6.181727E-08,0.7071068,-6.181728E-08,0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049870
+	srfN = srfAttach,wingConnector_4292049926
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049870
+	partName = Winglet
+	pos = -9.461427,15.37213,14.48433
+	rot = 8.076812E-08,0.9238794,-3.345527E-08,0.3826839
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049842
+	srfN = srfAttach,wingConnector_4292049898
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049842
+	partName = Winglet
+	pos = -8.266705,15.36249,15.67902
+	rot = 8.076813E-08,0.9238796,-3.345529E-08,0.3826838
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049814
+	srfN = srfAttach,wingConnector_4292049870
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049814
+	partName = Winglet
+	pos = -7.072985,15.37218,16.87274
+	rot = 8.076812E-08,0.9238796,-3.345529E-08,0.3826838
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049786
+	srfN = srfAttach,wingConnector_4292049842
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049786
+	partName = Winglet
+	pos = -5.878268,15.36254,18.06749
+	rot = 8.076812E-08,0.9238796,-3.345529E-08,0.382684
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049758
+	srfN = srfAttach,wingConnector_4292049814
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049758
+	partName = Winglet
+	pos = -4.823361,15.35684,19.12237
+	rot = 8.742277E-08,1,3.562521E-14,-1.180875E-07
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049730
+	srfN = srfAttach,wingConnector_4292049786
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049730
+	partName = Winglet
+	pos = -3.133774,15.3472,19.12236
+	rot = 8.74228E-08,1,-1.411278E-14,3.88552E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049702
+	srfN = srfAttach,wingConnector_4292049758
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049702
+	partName = Winglet
+	pos = -1.44549,15.34285,19.12236
+	rot = 8.742279E-08,1,3.562521E-14,-1.776921E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049674
+	srfN = srfAttach,wingConnector_4292049730
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049674
+	partName = Winglet
+	pos = 0.2441139,15.33321,19.12236
+	rot = 8.742279E-08,1,3.650787E-15,1.121827E-09
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049646
+	srfN = srfAttach,wingConnector_4292049702
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049646
+	partName = Winglet
+	pos = 1.932294,15.3429,19.12235
+	rot = 8.74228E-08,1,-1.411278E-14,3.88552E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049618
+	srfN = srfAttach,wingConnector_4292049674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049618
+	partName = Winglet
+	pos = 3.621897,15.33326,19.12236
+	rot = 8.74228E-08,1,9.807326E-17,1.121827E-09
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049590
+	srfN = srfAttach,wingConnector_4292049646
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049590
+	partName = Winglet
+	pos = 5.311691,15.34484,19.12235
+	rot = 8.076812E-08,0.9238795,3.345525E-08,-0.3826836
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049562
+	srfN = srfAttach,wingConnector_4292049618
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049562
+	partName = Winglet
+	pos = 6.50642,15.33521,17.9276
+	rot = 8.076812E-08,0.9238796,3.345525E-08,-0.3826834
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049534
+	srfN = srfAttach,wingConnector_4292049590
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049534
+	partName = Winglet
+	pos = 7.700117,15.34489,16.73388
+	rot = 8.076813E-08,0.9238796,3.345524E-08,-0.3826834
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049506
+	srfN = srfAttach,wingConnector_4292049562
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049506
+	partName = Winglet
+	pos = 8.894854,15.33526,15.53915
+	rot = 8.076811E-08,0.9238796,3.345522E-08,-0.3826834
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049478
+	srfN = srfAttach,wingConnector_4292049534
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049478
+	partName = Winglet
+	pos = 10.08681,15.56072,14.34719
+	rot = -0.7071069,6.181722E-08,-0.7071071,-6.181725E-08
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049450
+	srfN = srfAttach,wingConnector_4292049506
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049450
+	partName = Winglet
+	pos = 10.08681,15.57036,12.65758
+	rot = -0.7071069,6.181725E-08,-0.7071071,-6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049422
+	srfN = srfAttach,wingConnector_4292049478
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049422
+	partName = Winglet
+	pos = 10.0868,15.56067,10.96943
+	rot = -0.7071072,6.181729E-08,-0.7071068,-6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049394
+	srfN = srfAttach,wingConnector_4292049450
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049394
+	partName = Winglet
+	pos = 10.0868,15.57031,9.279834
+	rot = -0.707107,6.181728E-08,-0.7071068,-6.181724E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049366
+	srfN = srfAttach,wingConnector_4292049422
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049366
+	partName = Winglet
+	pos = 10.0868,15.57466,7.591561
+	rot = -0.707107,6.181728E-08,-0.7071068,-6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049338
+	srfN = srfAttach,wingConnector_4292049394
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049338
+	partName = Winglet
+	pos = 10.08679,15.5843,5.901939
+	rot = -0.707107,6.181725E-08,-0.7071068,-6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049310
+	srfN = srfAttach,wingConnector_4292049366
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049310
+	partName = Winglet
+	pos = 10.08679,15.57461,4.213801
+	rot = -0.707107,6.181726E-08,-0.7071068,-6.18172E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049282
+	srfN = srfAttach,wingConnector_4292049338
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049282
+	partName = Winglet
+	pos = 10.0868,15.58425,2.524201
+	rot = -0.7071074,6.18173E-08,-0.7071066,-6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049254
+	srfN = srfAttach,wingConnector_4292049310
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049254
+	partName = Winglet
+	pos = 10.08679,15.42656,1.021634
+	rot = 6.181724E-08,0.7071071,6.181723E-08,-0.7071069
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049226
+	srfN = srfAttach,wingConnector_4292049282
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049226
+	partName = Winglet
+	pos = 10.08679,15.41692,-0.6679811
+	rot = 6.181725E-08,0.7071071,6.181724E-08,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049198
+	srfN = srfAttach,wingConnector_4292049254
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049198
+	partName = Winglet
+	pos = 10.08679,15.42661,-2.35613
+	rot = 6.181725E-08,0.7071071,6.181723E-08,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049170
+	srfN = srfAttach,wingConnector_4292049226
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049170
+	partName = Winglet
+	pos = 10.08678,15.41697,-4.04572
+	rot = 6.181727E-08,0.7071071,6.181725E-08,-0.7071067
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049142
+	srfN = srfAttach,wingConnector_4292049198
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049142
+	partName = Winglet
+	pos = 10.08678,15.41262,-5.734007
+	rot = 6.181725E-08,0.7071071,6.181724E-08,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049114
+	srfN = srfAttach,wingConnector_4292049170
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049114
+	partName = Winglet
+	pos = 10.08679,15.40298,-7.423612
+	rot = 6.181725E-08,0.707107,6.181723E-08,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049086
+	srfN = srfAttach,wingConnector_4292049142
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049086
+	partName = Winglet
+	pos = 10.08679,15.41267,-9.111772
+	rot = 6.181727E-08,0.7071072,6.181725E-08,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049058
+	srfN = srfAttach,wingConnector_4292049114
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049058
+	partName = Winglet
+	pos = 10.08679,15.40303,-10.80136
+	rot = 6.181729E-08,0.7071073,6.181722E-08,-0.7071065
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049030
+	srfN = srfAttach,wingConnector_4292049086
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049030
+	partName = Winglet
+	pos = 10.08679,15.41764,-12.48975
+	rot = 3.345529E-08,0.3826839,8.076813E-08,-0.9238794
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292049002
+	srfN = srfAttach,wingConnector_4292049058
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292049002
+	partName = Winglet
+	pos = 8.892069,15.408,-13.68447
+	rot = 3.345527E-08,0.3826839,8.076812E-08,-0.9238797
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048974
+	srfN = srfAttach,wingConnector_4292049030
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048974
+	partName = Winglet
+	pos = 7.698351,15.41769,-14.87818
+	rot = 3.345529E-08,0.3826839,8.076812E-08,-0.9238794
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048946
+	srfN = srfAttach,wingConnector_4292049002
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048946
+	partName = Winglet
+	pos = 6.503639,15.40805,-16.07292
+	rot = 3.345528E-08,0.3826839,8.076814E-08,-0.9238797
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048918
+	srfN = srfAttach,wingConnector_4292048974
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048918
+	partName = Winglet
+	pos = 5.448738,15.40235,-17.1278
+	rot = 1.411278E-14,1.121827E-09,8.742279E-08,-1
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048890
+	srfN = srfAttach,wingConnector_4292048946
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048890
+	partName = Winglet
+	pos = 3.759148,15.39272,-17.1278
+	rot = -9.807327E-17,1.203311E-07,8.742281E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048862
+	srfN = srfAttach,wingConnector_4292048918
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048862
+	partName = Winglet
+	pos = 2.070861,15.38836,-17.1278
+	rot = 1.76655E-14,1.203311E-07,8.742278E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048834
+	srfN = srfAttach,wingConnector_4292048890
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048834
+	partName = Winglet
+	pos = 0.3812561,15.37873,-17.12779
+	rot = 7.007354E-15,2.395404E-07,8.742282E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048806
+	srfN = srfAttach,wingConnector_4292048862
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048806
+	partName = Winglet
+	pos = -1.306912,15.38841,-17.1278
+	rot = 1.411278E-14,1.203311E-07,8.74228E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048778
+	srfN = srfAttach,wingConnector_4292048834
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048778
+	partName = Winglet
+	pos = -2.996521,15.37878,-17.12778
+	rot = 3.542906E-14,3.88552E-07,8.742279E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048750
+	srfN = srfAttach,wingConnector_4292048806
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048750
+	partName = Winglet
+	pos = -4.686321,15.39036,-17.12777
+	rot = -3.345524E-08,-0.3826836,8.076813E-08,-0.9238797
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048722
+	srfN = srfAttach,wingConnector_4292048778
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048722
+	partName = Winglet
+	pos = -5.881054,15.38072,-15.93304
+	rot = -3.345522E-08,-0.3826834,8.076811E-08,-0.9238796
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048694
+	srfN = srfAttach,wingConnector_4292048750
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048694
+	partName = Winglet
+	pos = -7.074754,15.39041,-14.73932
+	rot = -3.345522E-08,-0.3826833,8.076811E-08,-0.9238799
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048666
+	srfN = srfAttach,wingConnector_4292048722
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048666
+	partName = Winglet
+	pos = -8.269482,15.38077,-13.54459
+	rot = -3.345526E-08,-0.3826834,8.076812E-08,-0.9238796
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048638
+	srfN = srfAttach,wingConnector_4292048694
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048638
+	partName = Winglet
+	pos = -9.461443,15.60624,-12.35264
+	rot = -0.7071072,6.181729E-08,0.7071068,6.181726E-08
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048610
+	srfN = srfAttach,wingConnector_4292048666
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048610
+	partName = Winglet
+	pos = -9.461439,15.61587,-10.66303
+	rot = -0.707107,6.181723E-08,0.707107,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048582
+	srfN = srfAttach,wingConnector_4292048638
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048582
+	partName = Winglet
+	pos = -9.461422,15.60619,-8.974881
+	rot = -0.707107,6.181724E-08,0.707107,6.181724E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048554
+	srfN = srfAttach,wingConnector_4292048610
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048554
+	partName = Winglet
+	pos = -9.461422,15.61582,-7.28528
+	rot = -0.707107,6.181726E-08,0.707107,6.181727E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048526
+	srfN = srfAttach,wingConnector_4292048582
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048526
+	partName = Winglet
+	pos = -9.461428,15.62018,-5.596999
+	rot = -0.707107,6.181724E-08,0.707107,6.181724E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048498
+	srfN = srfAttach,wingConnector_4292048554
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048498
+	partName = Winglet
+	pos = -9.461425,15.62981,-3.907399
+	rot = -0.7071068,6.181725E-08,0.7071072,6.181729E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048470
+	srfN = srfAttach,wingConnector_4292048526
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048470
+	partName = Winglet
+	pos = -9.461419,15.62012,-2.219249
+	rot = -0.707107,6.181727E-08,0.707107,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048442
+	srfN = srfAttach,wingConnector_4292048498
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048442
+	partName = Winglet
+	pos = -9.461427,15.62976,-0.5296529
+	rot = -0.7071071,6.181723E-08,0.7071073,6.181728E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048414
+	srfN = srfAttach,wingConnector_4292048470
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048414
+	partName = Winglet
+	pos = -9.461395,16.93255,0.6933016
+	rot = 6.181727E-08,0.707107,-6.181725E-08,0.707107
+	attRot = 0,-0.7071067,-0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048386
+	srfN = srfAttach,wingConnector_4292048442
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048386
+	partName = Winglet
+	pos = -9.461396,16.92291,2.382915
+	rot = 6.181725E-08,0.7071069,-6.181727E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048358
+	srfN = srfAttach,wingConnector_4292048414
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048358
+	partName = Winglet
+	pos = -9.461395,16.9326,4.071062
+	rot = 6.181725E-08,0.7071068,-6.181726E-08,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048330
+	srfN = srfAttach,wingConnector_4292048386
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048330
+	partName = Winglet
+	pos = -9.461381,16.92296,5.760643
+	rot = 6.181727E-08,0.707107,-6.181724E-08,0.707107
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048302
+	srfN = srfAttach,wingConnector_4292048358
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048302
+	partName = Winglet
+	pos = -9.461393,16.91861,7.448956
+	rot = 6.181724E-08,0.7071068,-6.181728E-08,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048274
+	srfN = srfAttach,wingConnector_4292048330
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048274
+	partName = Winglet
+	pos = -9.4614,16.90897,9.138551
+	rot = 6.181727E-08,0.707107,-6.181724E-08,0.707107
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048246
+	srfN = srfAttach,wingConnector_4292048302
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048246
+	partName = Winglet
+	pos = -9.461403,16.91866,10.82669
+	rot = 6.181725E-08,0.7071069,-6.181727E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048218
+	srfN = srfAttach,wingConnector_4292048274
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048218
+	partName = Winglet
+	pos = -9.461405,16.90902,12.5163
+	rot = 6.181725E-08,0.7071069,-6.181727E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048190
+	srfN = srfAttach,wingConnector_4292048246
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048190
+	partName = Winglet
+	pos = -9.461395,16.92363,14.20468
+	rot = 8.076813E-08,0.9238794,-3.345527E-08,0.3826839
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048162
+	srfN = srfAttach,wingConnector_4292048218
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048162
+	partName = Winglet
+	pos = -8.266658,16.91399,15.39938
+	rot = 8.07681E-08,0.9238794,-3.345526E-08,0.3826835
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048134
+	srfN = srfAttach,wingConnector_4292048190
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048134
+	partName = Winglet
+	pos = -7.072944,16.92368,16.59308
+	rot = 8.076813E-08,0.9238796,-3.345527E-08,0.3826838
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048106
+	srfN = srfAttach,wingConnector_4292048162
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048106
+	partName = Winglet
+	pos = -5.878234,16.91405,17.78788
+	rot = 8.076812E-08,0.9238794,-3.345528E-08,0.3826839
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048078
+	srfN = srfAttach,wingConnector_4292048134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048078
+	partName = Winglet
+	pos = -4.823323,16.90834,18.84275
+	rot = 8.742279E-08,1,3.20725E-14,-1.180875E-07
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048050
+	srfN = srfAttach,wingConnector_4292048106
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048050
+	partName = Winglet
+	pos = -3.133739,16.8987,18.84272
+	rot = 8.74228E-08,1,-7.007354E-15,9.052879E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292048022
+	srfN = srfAttach,wingConnector_4292048078
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292048022
+	partName = Winglet
+	pos = -1.445457,16.89435,18.84272
+	rot = 8.742279E-08,1,2.496707E-14,-2.670991E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047994
+	srfN = srfAttach,wingConnector_4292048050
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047994
+	partName = Winglet
+	pos = 0.244154,16.88472,18.84273
+	rot = 8.742281E-08,1,9.807327E-17,9.052879E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047966
+	srfN = srfAttach,wingConnector_4292048022
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047966
+	partName = Winglet
+	pos = 1.932323,16.8944,18.84273
+	rot = 8.742281E-08,1,9.807327E-17,-5.848282E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047938
+	srfN = srfAttach,wingConnector_4292047994
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047938
+	partName = Winglet
+	pos = 3.621937,16.88477,18.84274
+	rot = 8.742282E-08,1,-1.056007E-14,1.203311E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047910
+	srfN = srfAttach,wingConnector_4292047966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047910
+	partName = Winglet
+	pos = 5.311722,16.89635,18.84272
+	rot = 8.076812E-08,0.9238795,3.345527E-08,-0.3826838
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047882
+	srfN = srfAttach,wingConnector_4292047938
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047882
+	partName = Winglet
+	pos = 6.506464,16.88671,17.64796
+	rot = 8.076813E-08,0.9238797,3.345529E-08,-0.3826839
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047854
+	srfN = srfAttach,wingConnector_4292047910
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047854
+	partName = Winglet
+	pos = 7.700151,16.89639,16.45423
+	rot = 8.076813E-08,0.9238799,3.345527E-08,-0.3826835
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047826
+	srfN = srfAttach,wingConnector_4292047882
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047826
+	partName = Winglet
+	pos = 8.894876,16.88676,15.25951
+	rot = 8.076811E-08,0.9238796,3.345522E-08,-0.3826834
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047798
+	srfN = srfAttach,wingConnector_4292047854
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047798
+	partName = Winglet
+	pos = 10.08685,17.11222,14.06757
+	rot = -0.7071069,6.181725E-08,-0.7071071,-6.181729E-08
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047770
+	srfN = srfAttach,wingConnector_4292047826
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047770
+	partName = Winglet
+	pos = 10.08682,17.12186,12.37796
+	rot = -0.707107,6.181726E-08,-0.707107,-6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047742
+	srfN = srfAttach,wingConnector_4292047798
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047742
+	partName = Winglet
+	pos = 10.08683,17.11217,10.68981
+	rot = -0.707107,6.181726E-08,-0.7071066,-6.181722E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047714
+	srfN = srfAttach,wingConnector_4292047770
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047714
+	partName = Winglet
+	pos = 10.08682,17.12181,9.00022
+	rot = -0.707107,6.181727E-08,-0.7071065,-6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047686
+	srfN = srfAttach,wingConnector_4292047742
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047686
+	partName = Winglet
+	pos = 10.08682,17.12616,7.311936
+	rot = -0.707107,6.181727E-08,-0.707107,-6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047658
+	srfN = srfAttach,wingConnector_4292047714
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047658
+	partName = Winglet
+	pos = 10.08682,17.1358,5.622326
+	rot = -0.707107,6.181728E-08,-0.7071065,-6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047630
+	srfN = srfAttach,wingConnector_4292047686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047630
+	partName = Winglet
+	pos = 10.08681,17.12611,3.934172
+	rot = -0.707107,6.181725E-08,-0.7071065,-6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047602
+	srfN = srfAttach,wingConnector_4292047658
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047602
+	partName = Winglet
+	pos = 10.08681,17.13575,2.244588
+	rot = -0.7071075,6.18173E-08,-0.7071066,-6.181723E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047574
+	srfN = srfAttach,wingConnector_4292047630
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047574
+	partName = Winglet
+	pos = 10.0868,16.97806,0.7420072
+	rot = 6.181728E-08,0.7071072,6.181727E-08,-0.7071068
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047546
+	link = wingConnector_4292046734
+	srfN = srfAttach,wingConnector_4292047602
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047546
+	partName = Winglet
+	pos = 10.08681,16.96842,-0.947605
+	rot = 6.181725E-08,0.707107,6.181725E-08,-0.707107
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047518
+	srfN = srfAttach,wingConnector_4292047574
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047518
+	partName = Winglet
+	pos = 10.0868,16.97811,-2.635753
+	rot = 6.181726E-08,0.7071071,6.181725E-08,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047490
+	srfN = srfAttach,wingConnector_4292047546
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047490
+	partName = Winglet
+	pos = 10.0868,16.96847,-4.325325
+	rot = 6.181729E-08,0.7071072,6.181723E-08,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047462
+	srfN = srfAttach,wingConnector_4292047518
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047462
+	partName = Winglet
+	pos = 10.0868,16.96412,-6.013639
+	rot = 6.181725E-08,0.7071071,6.181725E-08,-0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047434
+	srfN = srfAttach,wingConnector_4292047490
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047434
+	partName = Winglet
+	pos = 10.0868,16.95448,-7.703214
+	rot = 6.181729E-08,0.7071072,6.181723E-08,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047406
+	srfN = srfAttach,wingConnector_4292047462
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047406
+	partName = Winglet
+	pos = 10.0868,16.96417,-9.391367
+	rot = 6.18173E-08,0.7071072,6.181725E-08,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047378
+	srfN = srfAttach,wingConnector_4292047434
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047378
+	partName = Winglet
+	pos = 10.08681,16.95453,-11.08097
+	rot = 6.181726E-08,0.7071072,6.181723E-08,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047350
+	srfN = srfAttach,wingConnector_4292047406
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047350
+	partName = Winglet
+	pos = 10.0868,16.96914,-12.76937
+	rot = 3.345527E-08,0.3826837,8.076811E-08,-0.9238792
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047322
+	srfN = srfAttach,wingConnector_4292047378
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047322
+	partName = Winglet
+	pos = 8.892073,16.9595,-13.96408
+	rot = 3.345528E-08,0.3826837,8.07681E-08,-0.9238792
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047294
+	srfN = srfAttach,wingConnector_4292047350
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047294
+	partName = Winglet
+	pos = 7.698351,16.96919,-15.15778
+	rot = 3.345526E-08,0.3826837,8.076809E-08,-0.9238791
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047266
+	srfN = srfAttach,wingConnector_4292047322
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047266
+	partName = Winglet
+	pos = 6.503639,16.95955,-16.35255
+	rot = 3.34553E-08,0.3826838,8.076808E-08,-0.9238791
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047238
+	srfN = srfAttach,wingConnector_4292047294
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047238
+	partName = Winglet
+	pos = 5.448742,16.95385,-17.40742
+	rot = -2.851978E-14,-1.776921E-07,8.742278E-08,-1
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047210
+	srfN = srfAttach,wingConnector_4292047266
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047210
+	partName = Winglet
+	pos = 3.759155,16.94422,-17.40742
+	rot = 4.963992E-14,5.077613E-07,8.742278E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047182
+	srfN = srfAttach,wingConnector_4292047238
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047182
+	partName = Winglet
+	pos = 2.070875,16.93986,-17.40742
+	rot = -4.273064E-14,-3.267037E-07,8.742283E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047154
+	srfN = srfAttach,wingConnector_4292047210
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047154
+	partName = Winglet
+	pos = 0.3812675,16.93023,-17.4074
+	rot = 2.121821E-14,2.693427E-07,8.742276E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047126
+	srfN = srfAttach,wingConnector_4292047182
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047126
+	partName = Winglet
+	pos = -1.306901,16.93991,-17.40742
+	rot = 2.832364E-14,1.203311E-07,8.742282E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047098
+	srfN = srfAttach,wingConnector_4292047154
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047098
+	partName = Winglet
+	pos = -2.996517,16.93028,-17.4074
+	rot = 3.542906E-14,5.077613E-07,8.742279E-08,-1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047070
+	srfN = srfAttach,wingConnector_4292047126
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047070
+	partName = Winglet
+	pos = -4.686313,16.94186,-17.40738
+	rot = -3.34553E-08,-0.3826841,8.076815E-08,-0.9238799
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047042
+	srfN = srfAttach,wingConnector_4292047098
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047042
+	partName = Winglet
+	pos = -5.881055,16.93222,-16.21264
+	rot = -3.345525E-08,-0.3826835,8.076812E-08,-0.9238799
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292047014
+	srfN = srfAttach,wingConnector_4292047070
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292047014
+	partName = Winglet
+	pos = -7.074739,16.94191,-15.01893
+	rot = -3.345525E-08,-0.3826835,8.076815E-08,-0.9238801
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046986
+	srfN = srfAttach,wingConnector_4292047042
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046986
+	partName = Winglet
+	pos = -8.269482,16.93227,-13.82421
+	rot = -3.345525E-08,-0.3826835,8.076815E-08,-0.9238801
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046958
+	srfN = srfAttach,wingConnector_4292047014
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046958
+	partName = Winglet
+	pos = -9.461441,17.15774,-12.63226
+	rot = -0.7071072,6.18173E-08,0.7071068,6.181723E-08
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046930
+	srfN = srfAttach,wingConnector_4292046986
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046930
+	partName = Winglet
+	pos = -9.461428,17.16737,-10.94264
+	rot = -0.7071066,6.181723E-08,0.707107,6.181726E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046902
+	srfN = srfAttach,wingConnector_4292046958
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046902
+	partName = Winglet
+	pos = -9.461405,17.15769,-9.254493
+	rot = -0.7071069,6.181725E-08,0.7071069,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046874
+	srfN = srfAttach,wingConnector_4292046930
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046874
+	partName = Winglet
+	pos = -9.461407,17.16732,-7.564885
+	rot = -0.7071066,6.181723E-08,0.707107,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046846
+	srfN = srfAttach,wingConnector_4292046902
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046846
+	partName = Winglet
+	pos = -9.461395,17.17168,-5.876616
+	rot = -0.7071069,6.181726E-08,0.7071069,6.181726E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046818
+	srfN = srfAttach,wingConnector_4292046874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046818
+	partName = Winglet
+	pos = -9.461403,17.18131,-4.187008
+	rot = -0.7071065,6.181722E-08,0.707107,6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046790
+	srfN = srfAttach,wingConnector_4292046846
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046790
+	partName = Winglet
+	pos = -9.461404,17.17163,-2.498862
+	rot = -0.7071069,6.181726E-08,0.7071069,6.181726E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046762
+	srfN = srfAttach,wingConnector_4292046818
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046762
+	partName = Winglet
+	pos = -9.46141,17.18126,-0.8092732
+	rot = -0.7071065,6.18172E-08,0.707107,6.181727E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,wingConnector_4292046790
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046734
+	partName = Winglet
+	pos = 10.08679,18.71228,0.5535375
+	rot = -6.181725E-08,-0.707107,-6.181723E-08,0.707107
+	attRot = 0,-0.7071067,-0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046706
+	srfN = srfAttach,wingConnector_4292047574
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046706
+	partName = Winglet
+	pos = 10.0868,18.70264,-1.136071
+	rot = -6.181727E-08,-0.7071072,-6.181726E-08,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046678
+	srfN = srfAttach,wingConnector_4292046734
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046678
+	partName = Winglet
+	pos = 10.08679,18.71233,-2.824217
+	rot = -6.181726E-08,-0.7071071,-6.181725E-08,0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046650
+	srfN = srfAttach,wingConnector_4292046706
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046650
+	partName = Winglet
+	pos = 10.08681,18.70269,-4.513794
+	rot = -6.181726E-08,-0.7071071,-6.181725E-08,0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046622
+	srfN = srfAttach,wingConnector_4292046678
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046622
+	partName = Winglet
+	pos = 10.08678,18.69834,-6.202097
+	rot = -6.181727E-08,-0.7071072,-6.181726E-08,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046594
+	srfN = srfAttach,wingConnector_4292046650
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046594
+	partName = Winglet
+	pos = 10.08678,18.68871,-7.89169
+	rot = -6.181724E-08,-0.707107,-6.181727E-08,0.707107
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046566
+	srfN = srfAttach,wingConnector_4292046622
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046566
+	partName = Winglet
+	pos = 10.08679,18.69839,-9.579845
+	rot = -6.181727E-08,-0.7071071,-6.181723E-08,0.7071069
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046538
+	srfN = srfAttach,wingConnector_4292046594
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046538
+	partName = Winglet
+	pos = 10.08678,18.68876,-11.26943
+	rot = -6.181729E-08,-0.7071072,-6.181726E-08,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046510
+	srfN = srfAttach,wingConnector_4292046566
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046510
+	partName = Winglet
+	pos = 10.08677,18.70336,-12.95784
+	rot = -3.345526E-08,-0.3826837,-8.076809E-08,0.9238792
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046482
+	srfN = srfAttach,wingConnector_4292046538
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046482
+	partName = Winglet
+	pos = 8.89205,18.69373,-14.15254
+	rot = -3.345528E-08,-0.3826837,-8.07681E-08,0.9238792
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046454
+	srfN = srfAttach,wingConnector_4292046510
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046454
+	partName = Winglet
+	pos = 7.698339,18.70341,-15.34626
+	rot = -3.345527E-08,-0.3826837,-8.07681E-08,0.9238791
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046426
+	srfN = srfAttach,wingConnector_4292046482
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046426
+	partName = Winglet
+	pos = 6.503628,18.69378,-16.54103
+	rot = -3.345528E-08,-0.3826838,-8.076808E-08,0.9238791
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046398
+	srfN = srfAttach,wingConnector_4292046454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046398
+	partName = Winglet
+	pos = 5.448721,18.68808,-17.59589
+	rot = 2.496707E-14,2.969014E-07,-8.742275E-08,0.9999999
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046370
+	srfN = srfAttach,wingConnector_4292046426
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046370
+	partName = Winglet
+	pos = 3.759141,18.67844,-17.59588
+	rot = 3.650787E-15,-1.121827E-09,-8.742279E-08,1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046342
+	srfN = srfAttach,wingConnector_4292046398
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046342
+	partName = Winglet
+	pos = 2.070872,18.67409,-17.59588
+	rot = 7.2035E-15,-1.121827E-09,-8.742278E-08,1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046314
+	srfN = srfAttach,wingConnector_4292046370
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046314
+	partName = Winglet
+	pos = 0.3812571,18.66445,-17.59586
+	rot = 2.496707E-14,2.969014E-07,-8.742276E-08,0.9999999
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046286
+	srfN = srfAttach,wingConnector_4292046342
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046286
+	partName = Winglet
+	pos = -1.306919,18.67414,-17.59585
+	rot = -7.007354E-15,-2.693427E-07,-8.74228E-08,1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046258
+	srfN = srfAttach,wingConnector_4292046314
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046258
+	partName = Winglet
+	pos = -2.996536,18.6645,-17.59588
+	rot = -1.411278E-14,-1.121827E-09,-8.74228E-08,1
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046230
+	srfN = srfAttach,wingConnector_4292046286
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046230
+	partName = Winglet
+	pos = -4.686333,18.67608,-17.59584
+	rot = 3.345527E-08,0.3826838,-8.07681E-08,0.9238795
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046202
+	srfN = srfAttach,wingConnector_4292046258
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046202
+	partName = Winglet
+	pos = -5.881078,18.66644,-16.40113
+	rot = 3.345526E-08,0.3826836,-8.076812E-08,0.9238797
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046174
+	srfN = srfAttach,wingConnector_4292046230
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046174
+	partName = Winglet
+	pos = -7.074762,18.67613,-15.2074
+	rot = 3.345524E-08,0.3826834,-8.076813E-08,0.92388
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046146
+	srfN = srfAttach,wingConnector_4292046202
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046146
+	partName = Winglet
+	pos = -8.269499,18.6665,-14.01266
+	rot = 3.345527E-08,0.3826835,-8.076815E-08,0.9238799
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046118
+	srfN = srfAttach,wingConnector_4292046174
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046118
+	partName = Winglet
+	pos = -9.461454,18.89196,-12.82072
+	rot = 0.707107,-6.181729E-08,-0.7071068,-6.181722E-08
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046090
+	srfN = srfAttach,wingConnector_4292046146
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046090
+	partName = Winglet
+	pos = -9.461452,18.90159,-11.1311
+	rot = 0.7071069,-6.181721E-08,-0.7071069,-6.181727E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046062
+	srfN = srfAttach,wingConnector_4292046118
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046062
+	partName = Winglet
+	pos = -9.461427,18.89191,-9.442959
+	rot = 0.7071069,-6.181723E-08,-0.7071069,-6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046034
+	srfN = srfAttach,wingConnector_4292046090
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046034
+	partName = Winglet
+	pos = -9.461418,18.90154,-7.753359
+	rot = 0.7071065,-6.18172E-08,-0.707107,-6.181727E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292046006
+	srfN = srfAttach,wingConnector_4292046062
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292046006
+	partName = Winglet
+	pos = -9.461407,18.9059,-6.065084
+	rot = 0.7071069,-6.181723E-08,-0.7071069,-6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045978
+	srfN = srfAttach,wingConnector_4292046034
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045978
+	partName = Winglet
+	pos = -9.461422,18.91553,-4.37546
+	rot = 0.7071065,-6.18172E-08,-0.707107,-6.181727E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045950
+	srfN = srfAttach,wingConnector_4292046006
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045950
+	partName = Winglet
+	pos = -9.461425,18.90585,-2.687337
+	rot = 0.7071069,-6.181722E-08,-0.7071069,-6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045922
+	srfN = srfAttach,wingConnector_4292045978
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045922
+	partName = Winglet
+	pos = -9.461428,18.91548,-0.9977373
+	rot = 0.7071064,-6.181722E-08,-0.7071071,-6.181729E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045894
+	srfN = srfAttach,wingConnector_4292045950
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045894
+	partName = Winglet
+	pos = -9.461401,18.7578,0.5048451
+	rot = 6.181721E-08,0.7071068,-6.181727E-08,0.707107
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045866
+	srfN = srfAttach,wingConnector_4292045922
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045866
+	partName = Winglet
+	pos = -9.461399,18.74816,2.194448
+	rot = 6.181725E-08,0.7071068,-6.181725E-08,0.707107
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045838
+	srfN = srfAttach,wingConnector_4292045894
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045838
+	partName = Winglet
+	pos = -9.461399,18.75784,3.882602
+	rot = 6.181725E-08,0.7071067,-6.181725E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045810
+	srfN = srfAttach,wingConnector_4292045866
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045810
+	partName = Winglet
+	pos = -9.461397,18.74821,5.572174
+	rot = 6.181723E-08,0.7071067,-6.181728E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045782
+	srfN = srfAttach,wingConnector_4292045838
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045782
+	partName = Winglet
+	pos = -9.461393,18.74385,7.260476
+	rot = 6.181725E-08,0.7071067,-6.181725E-08,0.7071071
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045754
+	srfN = srfAttach,wingConnector_4292045810
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045754
+	partName = Winglet
+	pos = -9.461382,18.73422,8.950072
+	rot = 6.18172E-08,0.7071064,-6.181727E-08,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045726
+	srfN = srfAttach,wingConnector_4292045782
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045726
+	partName = Winglet
+	pos = -9.461397,18.74391,10.63821
+	rot = 6.181723E-08,0.7071068,-6.181728E-08,0.707107
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045698
+	srfN = srfAttach,wingConnector_4292045754
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045698
+	partName = Winglet
+	pos = -9.461409,18.73427,12.32781
+	rot = 6.181725E-08,0.7071068,-6.18173E-08,0.7071072
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045670
+	srfN = srfAttach,wingConnector_4292045726
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045670
+	partName = Winglet
+	pos = -9.461386,18.74888,14.01619
+	rot = 8.076812E-08,0.9238791,-3.345529E-08,0.3826841
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045642
+	srfN = srfAttach,wingConnector_4292045698
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045642
+	partName = Winglet
+	pos = -8.266652,18.73924,15.21091
+	rot = 8.07681E-08,0.9238794,-3.345529E-08,0.3826838
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045614
+	srfN = srfAttach,wingConnector_4292045670
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045614
+	partName = Winglet
+	pos = -7.07294,18.74893,16.4046
+	rot = 8.07681E-08,0.9238793,-3.34553E-08,0.382684
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045586
+	srfN = srfAttach,wingConnector_4292045642
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045586
+	partName = Winglet
+	pos = -5.878228,18.73929,17.59937
+	rot = 8.076817E-08,0.9238797,-3.345529E-08,0.3826839
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045558
+	srfN = srfAttach,wingConnector_4292045614
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045558
+	partName = Winglet
+	pos = -4.823336,18.73359,18.65427
+	rot = 8.742279E-08,1,1.786164E-14,-5.848282E-08
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045530
+	srfN = srfAttach,wingConnector_4292045586
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045530
+	partName = Winglet
+	pos = -3.133755,18.72395,18.65425
+	rot = 8.742282E-08,1,-2.832364E-14,1.203311E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045502
+	srfN = srfAttach,wingConnector_4292045558
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045502
+	partName = Winglet
+	pos = -1.445473,18.7196,18.65425
+	rot = 8.742279E-08,1,1.786164E-14,1.203311E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045474
+	srfN = srfAttach,wingConnector_4292045530
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045474
+	partName = Winglet
+	pos = 0.2441463,18.70996,18.65426
+	rot = 8.742278E-08,1,-3.898178E-14,5.077613E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045446
+	srfN = srfAttach,wingConnector_4292045502
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045446
+	partName = Winglet
+	pos = 1.932324,18.71965,18.65425
+	rot = 8.742283E-08,1,-3.45464E-15,-5.848282E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045418
+	srfN = srfAttach,wingConnector_4292045474
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045418
+	partName = Winglet
+	pos = 3.621924,18.71001,18.65425
+	rot = 8.74228E-08,1,-7.007354E-15,1.799358E-07
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045390
+	srfN = srfAttach,wingConnector_4292045446
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045390
+	partName = Winglet
+	pos = 5.311718,18.72159,18.65425
+	rot = 8.076813E-08,0.9238799,3.34552E-08,-0.3826833
+	attRot = -0.3826834,0,0.9238795,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045362
+	srfN = srfAttach,wingConnector_4292045418
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045362
+	partName = Winglet
+	pos = 6.506449,18.71196,17.45948
+	rot = 8.076812E-08,0.9238796,3.345525E-08,-0.3826834
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045334
+	srfN = srfAttach,wingConnector_4292045390
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045334
+	partName = Winglet
+	pos = 7.70014,18.72164,16.26576
+	rot = 8.076812E-08,0.9238799,3.345525E-08,-0.3826835
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045306
+	srfN = srfAttach,wingConnector_4292045362
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045306
+	partName = Winglet
+	pos = 8.894861,18.71201,15.07103
+	rot = 8.076812E-08,0.9238799,3.345523E-08,-0.3826833
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045278
+	srfN = srfAttach,wingConnector_4292045334
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045278
+	partName = Winglet
+	pos = 10.08682,18.93747,13.8791
+	rot = -0.7071068,6.181723E-08,-0.7071072,-6.181727E-08
+	attRot = 0,-0.3826835,0,0.9238795
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045250
+	srfN = srfAttach,wingConnector_4292045306
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045250
+	partName = Winglet
+	pos = 10.08683,18.9471,12.18949
+	rot = -0.7071068,6.181723E-08,-0.707107,-6.181727E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045222
+	srfN = srfAttach,wingConnector_4292045278
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045222
+	partName = Winglet
+	pos = 10.08681,18.93742,10.50133
+	rot = -0.7071068,6.181722E-08,-0.707107,-6.181726E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045194
+	srfN = srfAttach,wingConnector_4292045250
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045194
+	partName = Winglet
+	pos = 10.08679,18.94705,8.811749
+	rot = -0.7071068,6.181727E-08,-0.7071067,-6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045166
+	srfN = srfAttach,wingConnector_4292045222
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045166
+	partName = Winglet
+	pos = 10.0868,18.95141,7.123466
+	rot = -0.7071069,6.181723E-08,-0.7071069,-6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045138
+	srfN = srfAttach,wingConnector_4292045194
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045138
+	partName = Winglet
+	pos = 10.0868,18.96104,5.433853
+	rot = -0.7071068,6.181726E-08,-0.7071067,-6.181726E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045110
+	srfN = srfAttach,wingConnector_4292045166
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045110
+	partName = Winglet
+	pos = 10.0868,18.95136,3.745707
+	rot = -0.707107,6.181727E-08,-0.7071066,-6.181725E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = wingConnector_4292045082
+	srfN = srfAttach,wingConnector_4292045138
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = wingConnector_4292045082
+	partName = Winglet
+	pos = 10.08679,18.96099,2.056125
+	rot = -0.7071069,6.181727E-08,-0.7071069,-6.181721E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,wingConnector_4292045110
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}

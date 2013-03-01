@@ -58,16 +58,16 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.18.4
-		UT = 533036689.470521
-		activeVessel = 9
+		UT = 535023717.617881
+		activeVessel = 19
 		CREW
 		{
 			name = Jebediah Kerman
 			brave = 0.5
 			dumb = 0.5
 			badS = True
-			state = 0
-			ToD = 518740057.240863
+			state = 3
+			ToD = 535030363.75841
 			idx = 0
 		}
 		CREW
@@ -106,9 +106,9 @@ GAME
 			brave = 0.1047897
 			dumb = 0.3571638
 			badS = False
-			state = 0
-			ToD = 518734868.680852
-			idx = 1
+			state = 3
+			ToD = 535029785.758961
+			idx = -1
 		}
 		CREW
 		{
@@ -116,9 +116,9 @@ GAME
 			brave = 0.8572462
 			dumb = 0.06835997
 			badS = False
-			state = 0
-			ToD = 501821564.911542
-			idx = 0
+			state = 3
+			ToD = 535029612.419126
+			idx = -1
 		}
 		CREW
 		{
@@ -137,8 +137,8 @@ GAME
 			dumb = 0.9169786
 			badS = False
 			state = 0
-			ToD = 446283881.686128
-			idx = 1
+			ToD = 535023134.398552
+			idx = 0
 		}
 		CREW
 		{
@@ -166,8 +166,8 @@ GAME
 			brave = 0.6619964
 			dumb = 0.5462156
 			badS = False
-			state = 0
-			ToD = 436310410.769384
+			state = 3
+			ToD = 535030363.75841
 			idx = 1
 		}
 		CREW
@@ -177,8 +177,8 @@ GAME
 			dumb = 0.732707
 			badS = False
 			state = 0
-			ToD = 434860817.055438
-			idx = 2
+			ToD = 535023134.398552
+			idx = 1
 		}
 		CREW
 		{
@@ -187,8 +187,8 @@ GAME
 			dumb = 0.974695
 			badS = False
 			state = 0
-			ToD = 433880417.175987
-			idx = 1
+			ToD = 535023134.398552
+			idx = 3
 		}
 		CREW
 		{
@@ -197,8 +197,8 @@ GAME
 			dumb = 0.6635894
 			badS = False
 			state = 0
-			ToD = 435997530.850934
-			idx = 0
+			ToD = 535023134.398552
+			idx = 4
 		}
 		CREW
 		{
@@ -207,8 +207,8 @@ GAME
 			dumb = 0.9169786
 			badS = False
 			state = 0
-			ToD = 435997530.850934
-			idx = 1
+			ToD = 535022945.498733
+			idx = 2
 		}
 		CREW
 		{
@@ -217,8 +217,8 @@ GAME
 			dumb = 0.96852
 			badS = False
 			state = 0
-			ToD = 433716016.88914
-			idx = 1
+			ToD = 535022945.498733
+			idx = 3
 		}
 		CREW
 		{
@@ -227,8 +227,8 @@ GAME
 			dumb = 0.7359314
 			badS = False
 			state = 0
-			ToD = 433716016.88914
-			idx = 2
+			ToD = 535022945.498733
+			idx = 4
 		}
 		CREW
 		{
@@ -237,8 +237,8 @@ GAME
 			dumb = 0.77378
 			badS = False
 			state = 0
-			ToD = 433710579.758213
-			idx = 2
+			ToD = 535022945.498733
+			idx = 4
 		}
 		CREW
 		{
@@ -247,8 +247,8 @@ GAME
 			dumb = 0.3470839
 			badS = False
 			state = 0
-			ToD = 0
-			idx = 0
+			ToD = 535023030.058652
+			idx = 1
 		}
 		CREW
 		{
@@ -257,8 +257,8 @@ GAME
 			dumb = 0.4649271
 			badS = False
 			state = 0
-			ToD = 0
-			idx = 1
+			ToD = 535023030.058652
+			idx = 2
 		}
 		CREW
 		{
@@ -267,8 +267,18 @@ GAME
 			dumb = 0.9249843
 			badS = False
 			state = 0
-			ToD = 0
-			idx = 2
+			ToD = 535023030.058652
+			idx = 3
+		}
+		CREW
+		{
+			name = Samming Kerman
+			brave = 0.3269133
+			dumb = 0.2406871
+			badS = False
+			state = 0
+			ToD = 535023030.058652
+			idx = 4
 		}
 		VESSEL
 		{
@@ -4976,13 +4986,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 94.7696703909991
+				LPE = 128.858724648736
 				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 533036651.590557
+				EPH = 535023252.118325
 				REF = 2
 				OBJ = 0
 			}
@@ -7371,13 +7381,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 12838969068.5067
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 94.7696703847721
+				LPE = 128.858823588926
 				LAN = 0
-				MNA = 3.14159265358979
-				EPH = 533036651.590557
+				MNA = -8.40714670366795
+				EPH = 535023252.118325
 				REF = 2
 				OBJ = 0
 			}
@@ -9962,10 +9972,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 94.76715516603
+				LPE = 66.6814314234266
 				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 533036651.590557
+				EPH = 535023252.118325
 				REF = 3
 				OBJ = 0
 			}
@@ -11590,13 +11600,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 12838969152.4296
+				SMA = 7674763.08120669
 				ECC = 1
 				INC = NaN
-				LPE = 94.7696704968235
+				LPE = 128.859399380737
 				LAN = 0
 				MNA = 3.14159265358979
-				EPH = 533036651.590557
+				EPH = 535023252.118325
 				REF = 2
 				OBJ = 0
 			}
@@ -14752,13 +14762,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 7676155.47730605
 				ECC = 1
 				INC = NaN
-				LPE = 94.7696685540503
+				LPE = 128.845011970362
 				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 533036651.590557
+				MNA = 3.14159265358979
+				EPH = 535023252.118325
 				REF = 2
 				OBJ = 1
 			}
@@ -15205,8 +15215,8 @@ GAME
 			prst = False
 			eva = False
 			ref = 234803034
-			cPch = -0.784
-			cHdg = -0.418
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
@@ -29668,13 +29678,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 8752834669.44407
 				ECC = 1
 				INC = NaN
-				LPE = 130.879125070354
+				LPE = 39.2232476678666
 				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 533036651.590557
+				MNA = 3.14159265358979
+				EPH = 535023252.118325
 				REF = 6
 				OBJ = 0
 			}
