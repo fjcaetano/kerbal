@@ -1,0 +1,1788 @@
+ship = Vyrus
+version = 0.18.4
+type = SPH
+PART
+{
+	part = Mark2Cockpit_4294525612
+	partName = CommandPod
+	pos = -0.007328652,5.334218,0.2836587
+	rot = 0.7071068,4.504016E-15,-4.496405E-15,0.7071068
+	attRot = 0,6.364255E-15,5.381201E-18,0.9999995
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Romfarer.LazorSystem_4294525526
+	link = SpaceBuiltIdentifier_4294525476
+	link = xenonTank Medium_4294525450
+	link = MMI Large Battery_4294525312
+	link = MMI Large Battery_4294525134
+	attN = top,advSasModule_4294525336
+	attN = bottom,xenonTank Medium_4294525450
+	EVENTS
+	{
+		MakeReference
+		{
+			active = True
+			guiActive = True
+			guiIcon = Control From Here
+			guiName = Control From Here
+			category = Control From Here
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+		RenameVessel
+		{
+			active = True
+			guiActive = True
+			guiIcon = Rename Vessel
+			guiName = Rename Vessel
+			category = Rename Vessel
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CrewManifestModule
+		isEnabled = True
+		EVENTS
+		{
+			FillModule
+			{
+				active = True
+				guiActive = True
+				guiIcon = Add Crew
+				guiName = Add Crew
+				category = Add Crew
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RemoveFromModule
+			{
+				active = True
+				guiActive = True
+				guiIcon = Remove Crew
+				guiName = Remove Crew
+				category = Remove Crew
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Romfarer.LazorSystem_4294525526
+	partName = LazorSystem
+	pos = 0.005776443,4.695144,0.9132196
+	rot = 1,4.371138E-08,-3.69356E-14,-4.768372E-07
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 0
+	sqor = 1
+	attm = 1
+	cData = H
+	link = advSasModule_4294525336
+	srfN = srfAttach,Mark2Cockpit_4294525612
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleMouseLook
+		{
+			actionGroup = Custom01
+		}
+		ToggleColor
+		{
+			actionGroup = Custom02
+		}
+	}
+}
+PART
+{
+	part = SpaceBuiltIdentifier_4294525476
+	partName = Part
+	pos = 0.02258494,4.715145,-0.5961525
+	rot = 0.5000001,0.4999999,0.4999999,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,Mark2Cockpit_4294525612
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = SpaceBuilt18
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = xenonTank Medium_4294525450
+	partName = Part
+	pos = -0.007328652,5.334218,-0.9660242
+	rot = 0.7071068,2.117582E-21,-2.624644E-21,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = mumech.mechjebrad_4294525424
+	link = fuelTankSmall_4294525368
+	attN = top,Mark2Cockpit_4294525612
+	attN = bottom,fuelTankSmall_4294525368
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = mumech.mechjebrad_4294525424
+	partName = MuMechJeb
+	pos = -0.007328861,5.918481,-0.8794053
+	rot = 0.7071068,8.432163E-09,8.432163E-09,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,xenonTank Medium_4294525450
+	EVENTS
+	{
+		MakeReference
+		{
+			active = True
+			guiActive = True
+			guiIcon = Control From Here
+			guiName = Control From Here
+			category = Control From Here
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+		RenameVessel
+		{
+			active = True
+			guiActive = True
+			guiIcon = Rename Vessel
+			guiName = Rename Vessel
+			category = Rename Vessel
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+		MechJebLua
+		{
+			active = False
+			guiActive = False
+			guiIcon = 
+			guiName = 
+			category = 
+			guiActiveUnfocused = False
+			unfocusedRange = 0
+			externalToEVAOnly = False
+		}
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = fuelTankSmall_4294525368
+	partName = Part
+	pos = -0.007328652,5.334217,-1.802204
+	rot = 0.7071068,1.694066E-21,-3.059327E-21,0.7071068
+	attRot = 0,0,0,0.9999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = RCS-ION-Block_4294524628
+	link = RCS-ION-Block_4294524588
+	link = HybridEngine.medium_4294524324
+	attN = top,xenonTank Medium_4294525450
+	attN = bottom,HybridEngine.medium_4294524324
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = advSasModule_4294525336
+	partName = AdvSASModule
+	pos = -0.007328652,5.334218,1.420183
+	rot = 0.7071068,1.204046E-14,-4.496406E-15,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = RCS-ION-Block_4294524956
+	link = RCS-ION-Block_4294524916
+	link = strutConnectorMedium_4294524548
+	link = strutConnectorMedium_4294524500
+	link = dockingPort3_4294524214
+	attN = bottom,Romfarer.LazorSystem_4294525526
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = MMI Large Battery_4294525312
+	partName = Part
+	pos = 0.6119884,5.334218,-0.02002555
+	rot = -0.7071066,-3.090861E-08,-3.090861E-08,-0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = longAntenna_4294525270
+	link = RomfarerHSTWlaser_4294525210
+	link = lightnav.blue_4294525158
+	link = solarPanels3.large_4294524876
+	link = rtg.large_4294524680
+	link = Romfarer.Lazor.Magenta_4294524420
+	link = Romfarer.Lazor.Yellow_4294524356
+	sym = MMI Large Battery_4294525134
+	srfN = srfAttach,Mark2Cockpit_4294525612
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = longAntenna_4294525270
+	partName = RemoteTechAntenna
+	pos = 0.8776889,5.334218,1.17864
+	rot = 0.5000001,0.5000001,0.4999997,0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = longAntenna_4294525092
+	srfN = srfAttach,MMI Large Battery_4294525312
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRtModeAnimation
+		isEnabled = True
+		animState = 0
+		EVENTS
+		{
+			EventToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Mode1
+				guiName = Deploy antenna
+				category = Mode1
+				guiActiveUnfocused = True
+				unfocusedRange = 0
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = Custom10
+			}
+			Mode1Action
+			{
+				actionGroup = None
+			}
+			Mode0Action
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = RomfarerHSTWlaser_4294525210
+	partName = hstwLaser
+	pos = 0.993474,5.904468,0.008742481
+	rot = -1.726814E-07,1,1.11186E-21,1.764309E-07
+	attRot = 1.668383E-15,2.980233E-08,0.5000001,0.8660255
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 1
+	sqor = 1
+	attm = 1
+	sym = RomfarerHSTWlaser_4294525032
+	srfN = srfAttach,MMI Large Battery_4294525312
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleFire
+		{
+			actionGroup = None
+		}
+	}
+	MODULE
+	{
+		name = LazorControlT1
+		isEnabled = True
+		EVENTS
+		{
+			Aim
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = LazorTriggerContinous
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = lightnav.blue_4294525158
+	partName = navLight
+	pos = 0.9462999,5.334218,1.197388
+	rot = 8.940697E-08,0.7071068,-2.252008E-15,-0.7071068
+	attRot = 0,0.7071068,-4.214685E-08,0.7071068
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 2
+	sqor = 1
+	attm = 1
+	sym = lightnav.blue_4294524980
+	srfN = srfAttach,MMI Large Battery_4294525312
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = MMI Large Battery_4294525134
+	partName = Part
+	pos = -0.6266459,5.334218,-0.02002555
+	rot = 1.270549E-21,0.7071068,0.7071068,-8.470329E-22
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = longAntenna_4294525092
+	link = RomfarerHSTWlaser_4294525032
+	link = lightnav.blue_4294524980
+	link = solarPanels3.large_4294524778
+	link = rtg.large_4294524654
+	link = Romfarer.Lazor.Red_4294524452
+	link = Romfarer.Lazor.Blue_4294524388
+	sym = MMI Large Battery_4294525312
+	srfN = srfAttach,Mark2Cockpit_4294525612
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = longAntenna_4294525092
+	partName = RemoteTechAntenna
+	pos = -0.8923468,5.334218,1.17864
+	rot = 0.5000004,-0.4999998,-0.4999998,0.5000002
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = longAntenna_4294525270
+	srfN = srfAttach,MMI Large Battery_4294525134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRtModeAnimation
+		isEnabled = True
+		animState = 0
+		EVENTS
+		{
+			EventToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Mode1
+				guiName = Deploy antenna
+				category = Mode1
+				guiActiveUnfocused = True
+				unfocusedRange = 0
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = Custom10
+			}
+			Mode1Action
+			{
+				actionGroup = None
+			}
+			Mode0Action
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = RomfarerHSTWlaser_4294525032
+	partName = hstwLaser
+	pos = -1.008133,5.904468,0.008741528
+	rot = 1.726814E-07,1,-1.11186E-21,-1.764309E-07
+	attRot = 1.668383E-15,2.980233E-08,0.5000001,0.8660255
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 3
+	sqor = 1
+	attm = 1
+	sym = RomfarerHSTWlaser_4294525210
+	srfN = srfAttach,MMI Large Battery_4294525134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleFire
+		{
+			actionGroup = None
+		}
+	}
+	MODULE
+	{
+		name = LazorControlT1
+		isEnabled = True
+		EVENTS
+		{
+			Aim
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = LazorTriggerContinous
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = lightnav.blue_4294524980
+	partName = navLight
+	pos = -0.9609569,5.334218,1.19739
+	rot = -1.490116E-07,0.7071068,-1.490116E-07,-0.7071068
+	attRot = 0,0.7071068,-4.214685E-08,0.7071068
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 4
+	sqor = 1
+	attm = 1
+	sym = lightnav.blue_4294525158
+	srfN = srfAttach,MMI Large Battery_4294525134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = RCS-ION-Block_4294524956
+	partName = Part
+	pos = 0.6545528,5.333475,1.409895
+	rot = -3.090866E-08,0.7071067,0.7071068,-3.090857E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = RCS-ION-Block_4294524916
+	srfN = srfAttach,advSasModule_4294525336
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FXModuleAnimateThrottle
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = RCS-ION-Block_4294524916
+	partName = Part
+	pos = -0.6692104,5.333475,1.409895
+	rot = -0.7071068,1.308102E-14,-1.308863E-14,-0.7071067
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = RCS-ION-Block_4294524956
+	srfN = srfAttach,advSasModule_4294525336
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FXModuleAnimateThrottle
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = solarPanels3.large_4294524876
+	partName = Part
+	pos = 1.288888,5.334218,-0.02157766
+	rot = -3.090861E-08,0.7071068,0.7071068,-3.090861E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = solarPanels3.large_4294524778
+	srfN = srfAttach,MMI Large Battery_4294525312
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom10
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = solarPanels3.large_4294524778
+	partName = Part
+	pos = -1.303547,5.334218,-0.02157766
+	rot = -0.7071068,-1.694066E-21,2.910849E-21,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = solarPanels3.large_4294524876
+	srfN = srfAttach,MMI Large Battery_4294525134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom10
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg.large_4294524680
+	partName = Part
+	pos = 0.9248399,5.334218,-1.872289
+	rot = -0.5000001,-0.5000002,0.5000002,0.4999996
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg.large_4294524654
+	srfN = srfAttach,MMI Large Battery_4294525312
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg.large_4294524654
+	partName = Part
+	pos = -0.9394989,5.334218,-1.87229
+	rot = 0.5,-0.5,0.5,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg.large_4294524680
+	srfN = srfAttach,MMI Large Battery_4294525134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = RCS-ION-Block_4294524628
+	partName = Part
+	pos = 0.6486957,5.332898,-2.349109
+	rot = -7.351385E-08,0,1,-5.960469E-08
+	attRot = 0.5,-0.4999999,0.5,0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = RCS-ION-Block_4294524588
+	srfN = srfAttach,fuelTankSmall_4294525368
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FXModuleAnimateThrottle
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = RCS-ION-Block_4294524588
+	partName = Part
+	pos = -0.6633533,5.332898,-2.349109
+	rot = 1,-5.960464E-08,-2.980233E-08,3.794998E-22
+	attRot = -0.5,0.4999999,-0.5,0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = RCS-ION-Block_4294524628
+	srfN = srfAttach,fuelTankSmall_4294525368
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FXModuleAnimateThrottle
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnectorMedium_4294524548
+	partName = StrutConnector
+	pos = 0.5833992,5.492504,1.322875
+	rot = -0.09229596,0.7010574,0.7010574,-0.09229594
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: Mark2Cockpit_0; pos: -0.01187969,-0.1017156,0.02060396; dir: -0.1137251,-0.9737364,0.1972439
+	sym = strutConnectorMedium_4294524500
+	srfN = srfAttach,advSasModule_4294525336
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnectorMedium_4294524500
+	partName = StrutConnector
+	pos = -0.5980564,5.492503,1.322875
+	rot = -0.7010575,0.09229596,0.09229597,-0.7010574
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: Mark2Cockpit_0; pos: -0.01187967,-0.1017156,-0.02060366; dir: -0.1137249,-0.9737359,-0.1972434
+	sym = strutConnectorMedium_4294524548
+	srfN = srfAttach,advSasModule_4294525336
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Romfarer.Lazor.Red_4294524452
+	partName = LazorAimable
+	pos = -0.9246839,5.112167,0.9864537
+	rot = 1,-4.383474E-08,-1.029025E-14,1.192093E-07
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,MMI Large Battery_4294525134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Romfarer.Lazor.Magenta_4294524420
+	partName = LazorAimable
+	pos = 0.9035127,5.112167,1.032761
+	rot = 1,-5.500679E-11,-1.72222E-14,1.192093E-07
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,MMI Large Battery_4294525312
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Romfarer.Lazor.Blue_4294524388
+	partName = LazorAimable
+	pos = -1.119216,5.343293,1.068295
+	rot = 0.687878,-0.6878784,-0.1637792,0.1637791
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,MMI Large Battery_4294525134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Romfarer.Lazor.Yellow_4294524356
+	partName = LazorAimable
+	pos = 1.124826,5.330286,1.028142
+	rot = 0.6878781,0.6878783,0.1637791,0.1637793
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,MMI Large Battery_4294525312
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = HybridEngine.medium_4294524324
+	partName = Part
+	pos = -0.007328652,5.334217,-2.784572
+	rot = 0.7071068,-4.235165E-22,-9.421587E-22,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 5
+	sqor = 1
+	attm = 0
+	link = lightnav.red_4294524262
+	link = lightnav.red_4294524238
+	attN = top,fuelTankSmall_4294525368
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FXModuleAnimateThrottle
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = lightnav.red_4294524262
+	partName = navLight
+	pos = -0.558755,5.334217,-3.086084
+	rot = -0.5,0.5000001,0.5,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 6
+	sqor = 1
+	attm = 1
+	sym = lightnav.red_4294524238
+	srfN = srfAttach,HybridEngine.medium_4294524324
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = lightnav.red_4294524238
+	partName = navLight
+	pos = 0.5440978,5.334217,-3.086084
+	rot = -0.4999998,-0.5000001,0.5000001,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 7
+	sqor = 1
+	attm = 1
+	sym = lightnav.red_4294524262
+	srfN = srfAttach,HybridEngine.medium_4294524324
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort3_4294524214
+	partName = Part
+	pos = -0.03747695,5.320129,1.603061
+	rot = 0.7071068,7.357936E-16,-3.240331E-15,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = miniFuelTank_4294524174
+	srfN = srfAttach,advSasModule_4294525336
+	attN = top,miniFuelTank_4294524174
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = Custom09
+			}
+			DecoupleAction
+			{
+				actionGroup = Custom09
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = miniFuelTank_4294524174
+	partName = Part
+	pos = -0.03747695,5.320129,1.924747
+	rot = -8.432173E-09,0.7071068,0.7071068,8.432168E-09
+	attRot = -0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = KWsrbUllage_4294524146
+	link = KWsrbUllage_4294524084
+	attN = bottom,dockingPort3_4294524214
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = KWsrbUllage_4294524146
+	partName = Part
+	pos = -0.3719636,5.320129,2.087629
+	rot = -0.6755903,-3.439786E-15,-1.984706E-15,-0.7372774
+	attRot = 5.041949E-15,0.04361938,-2.599922E-09,-0.9990482
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	attm = 1
+	srfN = srfAttach,miniFuelTank_4294524174
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = Custom09
+			}
+		}
+	}
+}
+PART
+{
+	part = KWsrbUllage_4294524084
+	partName = Part
+	pos = 0.2962191,5.320129,2.088448
+	rot = -5.694802E-08,-0.6755903,-0.7372773,-6.214784E-08
+	attRot = 5.86513E-15,0.04361938,-2.599913E-09,-0.9990482
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = 0
+	attm = 1
+	srfN = srfAttach,miniFuelTank_4294524174
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = Custom09
+			}
+		}
+	}
+}
