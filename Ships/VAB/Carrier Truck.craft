@@ -1,0 +1,397 @@
+ship = Carrier Truck
+version = 0.18.4
+type = VAB
+PART
+{
+	part = probeCoreOcto_4294677922
+	partName = RemoteTechSPU
+	pos = 2.829929,8.84968,1.856731
+	rot = 0.5,0.5,-0.5,0.5
+	attRot = 0.4999999,0.4999999,-0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = LargeWarehouse_4294677894
+	attN = bottom,LargeWarehouse_4294677894
+	EVENTS
+	{
+		toggleGUI
+		{
+			active = True
+			guiActive = True
+			guiIcon = Hide menus
+			guiName = Hide menus
+			category = Hide menus
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+		MakeReference
+		{
+			active = True
+			guiActive = True
+			guiIcon = Control From Here
+			guiName = Control From Here
+			category = Control From Here
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+		RenameVessel
+		{
+			active = True
+			guiActive = True
+			guiIcon = Rename Vessel
+			guiName = Rename Vessel
+			category = Rename Vessel
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = LargeWarehouse_4294677894
+	partName = Part
+	pos = -1.107157,8.849679,1.856731
+	rot = 0.5,0.5,-0.5,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = MerlinSPSys_4294677868
+	link = Romfarer.LazorSystem_4294677838
+	link = Romfarer.Lazor.Yellow_4294677788
+	link = Cart_4294677756
+	link = Cart_4294661592
+	attN = top,probeCoreOcto_4294677922
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = MerlinSPSys_4294677868
+	partName = Part
+	pos = 2.30561,10.05709,1.856731
+	rot = 0.5,-0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,LargeWarehouse_4294677894
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCleverResourceTransfer
+		isEnabled = True
+		EVENTS
+		{
+			ToggleResourceTransfer
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle Transfer
+				guiName = Toggle Transfer
+				category = Toggle Transfer
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RemoteEvent
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Romfarer.LazorSystem_4294677838
+	partName = LazorSystem
+	pos = 0.9942451,10.07709,1.856731
+	rot = 0,-0.7071068,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = V
+	srfN = srfAttach,LargeWarehouse_4294677894
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleMouseLook
+		{
+			actionGroup = Custom01
+		}
+		ToggleColor
+		{
+			actionGroup = Custom02
+		}
+	}
+}
+PART
+{
+	part = Romfarer.Lazor.Yellow_4294677788
+	partName = LazorAimable
+	pos = 1.661173,10.04459,1.856731
+	rot = 0,-0.7071068,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,LargeWarehouse_4294677894
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Cart_4294677756
+	partName = Part
+	pos = 2.245295,7.517272,1.856731
+	rot = 1.972532E-07,-0.7071068,-2.086163E-07,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,LargeWarehouse_4294677894
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCleverLegacyCart
+		isEnabled = True
+		EVENTS
+		{
+			ToggleSteeringEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Steering
+				guiName = Enable Steering
+				category = Enable Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleMotorEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Motor
+				guiName = Enable Motor
+				category = Enable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleHandbrake
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Handbrake On
+				guiName = Turn Handbrake On
+				category = Turn Handbrake On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleCruiseControl
+			{
+				active = True
+				guiActive = True
+				guiIcon = Cruise Control
+				guiName = Cruise Control
+				category = Cruise Control
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleLights
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Lights On
+				guiName = Turn Lights On
+				category = Turn Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleWheelsDeployed
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Wheels
+				guiName = Deploy Wheels
+				category = Deploy Wheels
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Cart_4294661592
+	partName = Part
+	pos = -4.071571,7.517271,1.856731
+	rot = -6.923744E-08,0.7071068,1.192093E-07,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,LargeWarehouse_4294677894
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCleverLegacyCart
+		isEnabled = True
+		EVENTS
+		{
+			ToggleSteeringEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Steering
+				guiName = Enable Steering
+				category = Enable Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleMotorEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Motor
+				guiName = Enable Motor
+				category = Enable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleHandbrake
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Handbrake On
+				guiName = Turn Handbrake On
+				category = Turn Handbrake On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleCruiseControl
+			{
+				active = True
+				guiActive = True
+				guiIcon = Cruise Control
+				guiName = Cruise Control
+				category = Cruise Control
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleLights
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Lights On
+				guiName = Turn Lights On
+				category = Turn Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleWheelsDeployed
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Wheels
+				guiName = Deploy Wheels
+				category = Deploy Wheels
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
