@@ -1,33 +1,33 @@
-ship = Jupiter
+ship = Hyperion
 version = 0.18.4
 type = SPH
 PART
 {
-	part = mk2LanderCabin_4293210064
+	part = mk2LanderCabin_4294792590
 	partName = CommandPod
-	pos = 0.5382813,13.38695,0.2381931
-	rot = 0,0,0,1
-	attRot = -0.7071067,0,0,0.7071067
+	pos = 1.082109,19.81694,-1.726231
+	rot = -0.7071068,0,0,0.7071068
+	attRot = -0.9999999,0,0,0
 	mir = 1,1,1
 	istg = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = strutCube_4293209998
-	link = EngineerChipFlight_4293209944
-	link = mumech.mechjebAR202_4293209768
-	link = quantumStrutCore_4293208620
-	link = QuantumStrut_4293208442
-	link = QuantumStrut_4293208404
-	link = Romfarer.Lazor.Blue_4293206360
-	link = Romfarer.Lazor.Green_4293206328
-	link = Romfarer.Lazor.Magenta_4293206296
-	link = Romfarer.Lazor.Red_4293206264
-	link = Romfarer.Lazor.Yellow_4293206232
-	link = klfAntenna_4293205882
-	attN = bottom,strutCube_4293209998
-	attN = top,quantumStrutCore_4293208620
+	link = strutCube_4294792524
+	link = EngineerChipFlight_4294792470
+	link = mumech.mechjebAR202_4294792294
+	link = quantumStrutCore_4294791146
+	link = QuantumStrut_4294790968
+	link = QuantumStrut_4294790930
+	link = Romfarer.Lazor.Blue_4294788886
+	link = Romfarer.Lazor.Green_4294788854
+	link = Romfarer.Lazor.Magenta_4294788822
+	link = Romfarer.Lazor.Red_4294788790
+	link = Romfarer.Lazor.Yellow_4294788758
+	link = klfAntenna_4294788408
+	attN = bottom,strutCube_4294792524
+	attN = top,quantumStrutCore_4294791146
 	EVENTS
 	{
 		MakeReference
@@ -104,10 +104,10 @@ PART
 }
 PART
 {
-	part = strutCube_4293209998
+	part = strutCube_4294792524
 	partName = Part
-	pos = 0.5382813,12.85464,0.2381932
-	rot = 0,0,0,1
+	pos = 1.082109,19.81694,-1.193921
+	rot = -0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -115,8 +115,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = KW3mtankL4_4293209978
-	attN = top,mk2LanderCabin_4293210064
+	link = KW3mtankL4_4294792504
+	attN = top,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -126,10 +126,10 @@ PART
 }
 PART
 {
-	part = KW3mtankL4_4293209978
+	part = KW3mtankL4_4294792504
 	partName = Part
-	pos = 0.5236144,10.86964,0.3437328
-	rot = 0.7071068,0,0,0.7071068
+	pos = 1.067442,19.92248,0.7910781
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -137,25 +137,24 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = KW3mRCSfuel_4293209916
-	link = leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
-	link = dockingPort2_4293208700
-	link = dockingPort2_4293208660
-	link = QuantumStrut_4293208594
-	link = QuantumStrut_4293208556
-	link = QuantumStrut_4293208518
-	link = QuantumStrut_4293208480
-	link = LargeWarehouse_4293208214
-	link = LargeWarehouse_4293207598
-	link = lightnav.red_4293206626
-	link = lightnav.red_4293206602
-	link = telescopicLadder_4293206578
-	link = MerlinSPSys_4293205988
-	link = Romfarer.LazorSystem_4293205958
-	link = SpaceBuiltIdentifier_4293205908
-	srfN = srfAttach,strutCube_4293209998
-	attN = top,KW3mRCSfuel_4293209916
-	attN = bottom,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
+	link = KW3mRCSfuel_4294792442
+	link = leucome.1X-2000.ZPFTR.Fuel.5mSA_4294792410
+	link = dockingPort2_4294791226
+	link = dockingPort2_4294791186
+	link = QuantumStrut_4294791120
+	link = QuantumStrut_4294791082
+	link = QuantumStrut_4294791044
+	link = QuantumStrut_4294791006
+	link = LargeWarehouse_4294790740
+	link = LargeWarehouse_4294790124
+	link = lightnav.red_4294789152
+	link = lightnav.red_4294789128
+	link = telescopicLadder_4294789104
+	link = MerlinSPSys_4294788514
+	link = Romfarer.LazorSystem_4294788484
+	srfN = srfAttach,strutCube_4294792524
+	attN = top,KW3mRCSfuel_4294792442
+	attN = bottom,leucome.1X-2000.ZPFTR.Fuel.5mSA_4294792410
 	EVENTS
 	{
 	}
@@ -165,10 +164,10 @@ PART
 }
 PART
 {
-	part = EngineerChipFlight_4293209944
+	part = EngineerChipFlight_4294792470
 	partName = Part
-	pos = -0.6078985,13.61002,0.3616024
-	rot = -0.5,0.5,-0.5,-0.5
+	pos = -0.06407058,19.94035,-1.949301
+	rot = 0,0,-0.7071068,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -176,7 +175,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,mk2LanderCabin_4293210064
+	srfN = srfAttach,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -219,10 +218,10 @@ PART
 }
 PART
 {
-	part = KW3mRCSfuel_4293209916
+	part = KW3mRCSfuel_4294792442
 	partName = Part
-	pos = 0.5236144,10.86963,8.593827
-	rot = -0.7071068,0,0,-0.7071068
+	pos = 1.067442,28.17257,0.7910891
+	rot = 0,0,0,-1
 	attRot = 0,0,0,0.9999999
 	mir = 1,1,1
 	istg = 0
@@ -230,13 +229,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = FLY.RCSBlock_4293209724
-	link = FLY.RCSBlock_4293209596
-	link = FLY.RCSBlock_4293209468
-	link = FLY.RCSBlock_4293209340
-	link = largeAdapter_4293093372
-	attN = top,largeAdapter_4293093372
-	attN = bottom,KW3mtankL4_4293209978
+	link = largeAdapter_4294788272
+	attN = top,largeAdapter_4294788272
+	attN = bottom,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -246,10 +241,10 @@ PART
 }
 PART
 {
-	part = leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
+	part = leucome.1X-2000.ZPFTR.Fuel.5mSA_4294792410
 	partName = Part
-	pos = 0.5236144,10.86964,-13.06878
-	rot = -0.7071068,0,0,-0.7071068
+	pos = 1.067442,6.509962,0.7910774
+	rot = 0,0,0,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 1
@@ -257,17 +252,13 @@ PART
 	sidx = 0
 	sqor = 1
 	attm = 0
-	link = FLY.RCSBlock_4293209212
-	link = FLY.RCSBlock_4293209084
-	link = FLY.RCSBlock_4293208956
-	link = FLY.RCSBlock_4293208828
-	link = QuantumStrut_4293208366
-	link = QuantumStrut_4293208328
-	link = QuantumStrut_4293208290
-	link = QuantumStrut_4293208252
-	link = spotLight2_4293206686
-	link = spotLight2_4293206656
-	attN = top,KW3mtankL4_4293209978
+	link = QuantumStrut_4294790892
+	link = QuantumStrut_4294790854
+	link = QuantumStrut_4294790816
+	link = QuantumStrut_4294790778
+	link = spotLight2_4294789212
+	link = spotLight2_4294789182
+	attN = top,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -413,10 +404,10 @@ PART
 }
 PART
 {
-	part = mumech.mechjebAR202_4293209768
+	part = mumech.mechjebAR202_4294792294
 	partName = MuMechJebAR202
-	pos = 1.799929,13.72501,0.2430425
-	rot = -0.09229591,0.7010574,0.7010574,-0.09229591
+	pos = 2.343757,19.82179,-2.064291
+	rot = 0,0.9914449,0,-0.1305261
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -424,7 +415,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,mk2LanderCabin_4293210064
+	srfN = srfAttach,mk2LanderCabin_4294792590
 	EVENTS
 	{
 		MakeReference
@@ -479,10 +470,10 @@ PART
 }
 PART
 {
-	part = FLY.RCSBlock_4293209724
+	part = dockingPort2_4294791226
 	partName = Part
-	pos = 0.5236144,12.68114,9.330266
-	rot = -0.5000001,0.5000001,0.5000001,-0.5000001
+	pos = 1.067442,24.21762,-1.020031
+	rot = -1.402347E-07,-0.7071068,0.7071068,-1.402347E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -490,947 +481,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,KW3mRCSfuel_4293209916
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Forward
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Lateral
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-}
-PART
-{
-	part = FLY.RCSBlock_4293209596
-	partName = Part
-	pos = 2.337701,10.86963,9.330287
-	rot = 3.090862E-08,-0.7071068,-0.7071068,3.090862E-08
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	sym = FLY.RCSBlock_4293209468
-	srfN = srfAttach,KW3mRCSfuel_4293209916
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Forward
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Lateral
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-}
-PART
-{
-	part = FLY.RCSBlock_4293209468
-	partName = Part
-	pos = -1.290472,10.86963,9.330287
-	rot = 0.7071068,0,0,0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	sym = FLY.RCSBlock_4293209596
-	srfN = srfAttach,KW3mRCSfuel_4293209916
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Forward
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Lateral
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-}
-PART
-{
-	part = FLY.RCSBlock_4293209340
-	partName = Part
-	pos = 0.5236154,9.058516,9.231966
-	rot = 0.4999999,0.5000002,0.5000002,0.4999999
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,KW3mRCSfuel_4293209916
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Forward
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Lateral
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-}
-PART
-{
-	part = FLY.RCSBlock_4293209212
-	partName = Part
-	pos = 3.604769,10.86964,-17.79731
-	rot = -5.93008E-08,-0.7071068,0.7071068,2.516444E-09
-	attRot = 0,-0.9999999,5.960464E-08,-1.776357E-15
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	sym = FLY.RCSBlock_4293209084
-	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Forward
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Lateral
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-}
-PART
-{
-	part = FLY.RCSBlock_4293209084
-	partName = Part
-	pos = -2.55754,10.86964,-17.79731
-	rot = 0.7071068,-2.839218E-08,-2.839218E-08,-0.7071068
-	attRot = 0,0.9999999,-5.960464E-08,-1.776357E-15
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	sym = FLY.RCSBlock_4293209212
-	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Forward
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Lateral
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-}
-PART
-{
-	part = FLY.RCSBlock_4293208956
-	partName = Part
-	pos = 0.5236144,13.91646,-17.82283
-	rot = -0.5000001,0.5000001,-0.5000001,0.5000001
-	attRot = 0,0.9999999,-5.960464E-08,-1.776357E-15
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Forward
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Lateral
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-}
-PART
-{
-	part = FLY.RCSBlock_4293208828
-	partName = Part
-	pos = 0.5236154,7.820164,-17.79704
-	rot = 0.5000001,0.5000002,-0.5000002,-0.4999998
-	attRot = 0,0.9999999,-5.960464E-08,-1.776357E-15
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Forward
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Extend Lateral
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Custom10
-			}
-		}
-	}
-}
-PART
-{
-	part = dockingPort2_4293208700
-	partName = Part
-	pos = 0.5236144,12.68075,4.638877
-	rot = -1.983218E-07,-1,0,0
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,KW3mtankL4_4293209978
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -1583,10 +634,10 @@ PART
 }
 PART
 {
-	part = dockingPort2_4293208660
+	part = dockingPort2_4294791186
 	partName = Part
-	pos = 0.5236154,9.058506,4.438958
-	rot = 1,8.742285E-08,0,0
+	pos = 1.067443,24.0177,2.602213
+	rot = 0.7071068,6.181729E-08,-6.181729E-08,0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -1594,7 +645,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,KW3mtankL4_4293209978
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -1747,10 +798,10 @@ PART
 }
 PART
 {
-	part = quantumStrutCore_4293208620
+	part = quantumStrutCore_4294791146
 	partName = Part
-	pos = 0.5382813,14.33791,0.238193
-	rot = 0,0,0,-1
+	pos = 1.082109,19.81694,-2.677191
+	rot = 0.7071068,0,0,-0.7071068
 	attRot = -0.7071068,0,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -1758,8 +809,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = HL.PartyStarter_4293205822
-	attN = bottom,mk2LanderCabin_4293210064
+	link = HL.PartyStarter_4294788348
+	attN = bottom,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -1837,10 +888,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208594
+	part = QuantumStrut_4294791120
 	partName = Part
-	pos = 1.431752,12.44258,4.569417
-	rot = 0.0871558,-0.9961948,0,-2.235174E-08
+	pos = 1.97558,24.14816,-0.7818618
+	rot = 0.06162847,-0.7044161,0.7044161,0.06162844
 	attRot = 3.133299E-17,2.0386E-08,0.3420202,0.9396927
 	mir = 1,1,1
 	istg = 0
@@ -1848,8 +899,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208556
-	srfN = srfAttach,KW3mtankL4_4293209978
+	sym = QuantumStrut_4294791082
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -1905,10 +956,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208556
+	part = QuantumStrut_4294791082
 	partName = Part
-	pos = -0.3845245,12.44258,4.569417
-	rot = -0.0871558,-0.9961948,0,2.235174E-08
+	pos = 0.1593034,24.14816,-0.7818618
+	rot = -0.06162847,-0.7044161,0.7044161,-0.06162844
 	attRot = -3.133299E-17,-2.0386E-08,-0.3420202,0.9396927
 	mir = 1,1,1
 	istg = 0
@@ -1916,8 +967,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208594
-	srfN = srfAttach,KW3mtankL4_4293209978
+	sym = QuantumStrut_4294791120
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -1973,10 +1024,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208518
+	part = QuantumStrut_4294791044
 	partName = Part
-	pos = 1.431817,9.296585,4.292437
-	rot = -0.9961948,0.08715574,-2.235174E-08,0
+	pos = 1.975645,23.87118,2.364134
+	rot = -0.7044161,0.0616284,-0.06162843,-0.7044161
 	attRot = 3.133299E-17,-2.0386E-08,-0.3420202,0.9396927
 	mir = 1,1,1
 	istg = 0
@@ -1984,8 +1035,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208480
-	srfN = srfAttach,KW3mtankL4_4293209978
+	sym = QuantumStrut_4294791006
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -2041,10 +1092,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208480
+	part = QuantumStrut_4294791006
 	partName = Part
-	pos = -0.3845885,9.296585,4.292437
-	rot = 0.9961948,0.08715574,-2.235174E-08,0
+	pos = 0.1592394,23.87118,2.364134
+	rot = 0.7044161,0.0616284,-0.06162843,0.7044161
 	attRot = -3.133299E-17,2.0386E-08,0.3420202,0.9396927
 	mir = 1,1,1
 	istg = 0
@@ -2052,8 +1103,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208518
-	srfN = srfAttach,KW3mtankL4_4293209978
+	sym = QuantumStrut_4294791044
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -2109,10 +1160,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208442
+	part = QuantumStrut_4294790968
 	partName = Part
-	pos = 0.9757024,13.50416,-0.7977871
-	rot = -0.7984963,-0.3309563,0.4909436,0.1088395
+	pos = 1.51953,18.78096,-1.843441
+	rot = -0.6415833,0.1131281,0.581171,-0.487661
 	attRot = 2.784842E-17,-3.202556E-08,-0.5372998,0.8433915
 	mir = 1,1,1
 	istg = 0
@@ -2120,8 +1171,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208404
-	srfN = srfAttach,mk2LanderCabin_4293210064
+	sym = QuantumStrut_4294790930
+	srfN = srfAttach,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -2177,10 +1228,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208404
+	part = QuantumStrut_4294790930
 	partName = Part
-	pos = 0.1008604,13.50416,-0.7977871
-	rot = 0.7984963,-0.3309563,0.4909436,-0.1088395
+	pos = 0.6446883,18.78096,-1.843441
+	rot = 0.6415833,0.1131281,0.581171,0.487661
 	attRot = -2.784842E-17,3.202556E-08,0.5372998,0.8433915
 	mir = 1,1,1
 	istg = 0
@@ -2188,8 +1239,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208442
-	srfN = srfAttach,mk2LanderCabin_4293210064
+	sym = QuantumStrut_4294790968
+	srfN = srfAttach,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -2245,10 +1296,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208366
+	part = QuantumStrut_4294790892
 	partName = Part
-	pos = -0.7812104,13.12966,-7.314956
-	rot = -0.2500001,-0.4330129,-0.7499999,-0.4330128
+	pos = -0.2373825,12.26379,-1.468942
+	rot = 0.1294095,-0.8365164,-0.2241437,-0.482963
 	attRot = 0.4999999,0.5,0.4999999,0.4999999
 	mir = 1,1,1
 	istg = 0
@@ -2256,8 +1307,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208328
-	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
+	sym = QuantumStrut_4294790854
+	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4294792410
 	EVENTS
 	{
 	}
@@ -2313,10 +1364,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208328
+	part = QuantumStrut_4294790854
 	partName = Part
-	pos = 1.828439,13.12966,-7.314956
-	rot = 0.2500001,-0.4330129,-0.7499999,0.4330128
+	pos = 2.372267,12.26379,-1.468942
+	rot = -0.1294095,-0.8365164,-0.2241437,0.482963
 	attRot = -0.4999999,-0.5,-0.4999999,0.4999999
 	mir = 1,1,1
 	istg = 0
@@ -2324,8 +1375,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208366
-	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
+	sym = QuantumStrut_4294790892
+	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4294792410
 	EVENTS
 	{
 	}
@@ -2381,10 +1432,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208290
+	part = QuantumStrut_4294790816
 	partName = Part
-	pos = -0.7976173,8.581194,-7.314955
-	rot = -0.6123725,0.3535534,0,-0.7071068
+	pos = -0.2537894,12.26379,3.079524
+	rot = 0.06698725,0.25,-0.25,-0.9330127
 	attRot = 0,-4.214685E-08,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -2392,8 +1443,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208252
-	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
+	sym = QuantumStrut_4294790778
+	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4294792410
 	EVENTS
 	{
 	}
@@ -2449,10 +1500,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208252
+	part = QuantumStrut_4294790778
 	partName = Part
-	pos = 1.844846,8.581194,-7.314955
-	rot = 0.6123725,0.3535534,0,0.7071068
+	pos = 2.388674,12.26379,3.079524
+	rot = -0.06698725,0.25,-0.25,0.9330127
 	attRot = 0,4.214685E-08,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -2460,8 +1511,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208290
-	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
+	sym = QuantumStrut_4294790816
+	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4294792410
 	EVENTS
 	{
 	}
@@ -2517,10 +1568,10 @@ PART
 }
 PART
 {
-	part = LargeWarehouse_4293208214
+	part = LargeWarehouse_4294790740
 	partName = Part
-	pos = 3.598275,10.86964,-2.395316
-	rot = 3.090862E-08,-0.7071068,-0.7071068,3.090862E-08
+	pos = 4.142103,17.18343,0.7910779
+	rot = 0,-1,0,4.371139E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2528,21 +1579,21 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = crewCabin_4293208188
-	link = largeSolarPanel.XXL_4293207862
-	link = QuantumStrut_4293207798
-	link = QuantumStrut_4293207760
-	link = QuantumStrut_4293207722
-	link = QuantumStrut_4293207684
-	link = lightnav.blue_4293207646
-	link = lightnav.blue_4293207622
-	link = MMI Large Battery_4293206982
-	link = launchClamp1_4293206094
-	link = advSasModule_4293205770
-	sym = LargeWarehouse_4293207598
-	srfN = srfAttach,KW3mtankL4_4293209978
-	attN = top,crewCabin_4293208188
-	attN = bottom,advSasModule_4293205770
+	link = crewCabin_4294790714
+	link = largeSolarPanel.XXL_4294790388
+	link = QuantumStrut_4294790324
+	link = QuantumStrut_4294790286
+	link = QuantumStrut_4294790248
+	link = QuantumStrut_4294790210
+	link = lightnav.blue_4294790172
+	link = lightnav.blue_4294790148
+	link = MMI Large Battery_4294789508
+	link = launchClamp1_4294788620
+	link = advSasModule_4294788296
+	sym = LargeWarehouse_4294790124
+	srfN = srfAttach,KW3mtankL4_4294792504
+	attN = top,crewCabin_4294790714
+	attN = bottom,advSasModule_4294788296
 	EVENTS
 	{
 	}
@@ -2552,10 +1603,10 @@ PART
 }
 PART
 {
-	part = crewCabin_4293208188
+	part = crewCabin_4294790714
 	partName = Part
-	pos = 3.598275,10.86964,2.341604
-	rot = -0.7071069,4.214685E-08,4.214685E-08,-0.7071068
+	pos = 4.142103,21.92035,0.7910783
+	rot = -8.940697E-08,5.960464E-08,0,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2563,11 +1614,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = crewCabin_4293208138
-	link = launchClamp1_4293206898
-	sym = crewCabin_4293207572
-	attN = top,crewCabin_4293208138
-	attN = bottom,LargeWarehouse_4293208214
+	link = crewCabin_4294790664
+	link = launchClamp1_4294789424
+	sym = crewCabin_4294790098
+	attN = top,crewCabin_4294790664
+	attN = bottom,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -2610,10 +1661,10 @@ PART
 }
 PART
 {
-	part = crewCabin_4293208138
+	part = crewCabin_4294790664
 	partName = Part
-	pos = 3.598275,10.86964,4.315418
-	rot = -0.7071067,4.214684E-08,4.214685E-08,-0.7071069
+	pos = 4.142103,23.89416,0.7910783
+	rot = 1.788139E-07,5.960464E-08,3.552714E-15,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2621,16 +1672,14 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = rocketNoseCone_4293208088
-	link = dockingPort2_4293208064
-	link = QuantumStrut_4293208024
-	link = QuantumStrut_4293207986
-	link = QuantumStrut_4293207948
-	link = lightnav.blue_4293207910
-	link = lightnav.blue_4293207886
-	sym = crewCabin_4293207522
-	attN = top,rocketNoseCone_4293208088
-	attN = bottom,crewCabin_4293208188
+	link = dockingPort2_4294790590
+	link = QuantumStrut_4294790550
+	link = QuantumStrut_4294790512
+	link = QuantumStrut_4294790474
+	link = lightnav.blue_4294790436
+	link = lightnav.blue_4294790412
+	sym = crewCabin_4294790048
+	attN = bottom,crewCabin_4294790714
 	EVENTS
 	{
 	}
@@ -2673,32 +1722,10 @@ PART
 }
 PART
 {
-	part = rocketNoseCone_4293208088
-	partName = Strut
-	pos = 3.598275,10.86964,5.30231
-	rot = -0.7071069,5.719319E-14,5.836562E-14,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	sym = rocketNoseCone_4293207472
-	attN = bottom,crewCabin_4293208138
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = dockingPort2_4293208064
+	part = dockingPort2_4294790590
 	partName = Part
-	pos = 4.748829,10.86963,4.321228
-	rot = -0.7071072,-0.7071065,-2.980232E-08,5.960464E-08
+	pos = 5.292657,23.89997,0.7910888
+	rot = -0.5000004,-0.4999998,0.4999997,-0.5000002
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2706,8 +1733,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = dockingPort2_4293207448
-	srfN = srfAttach,crewCabin_4293208138
+	link = dockingPort2_4294504772
+	sym = dockingPort2_4294789974
+	srfN = srfAttach,crewCabin_4294790664
 	EVENTS
 	{
 	}
@@ -2860,10 +1888,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293208024
+	part = QuantumStrut_4294790550
 	partName = Part
-	pos = 4.752643,10.86964,3.682808
-	rot = -0.7010583,-0.7010564,-0.09229469,-0.09229875
+	pos = 5.296471,23.26155,0.7910783
+	rot = -0.430458,-0.5609838,0.4304596,-0.5609882
 	attRot = -0.1305262,0,0,0.9914449
 	mir = 1,1,1
 	istg = 0
@@ -2871,8 +1899,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207408
-	srfN = srfAttach,crewCabin_4293208138
+	sym = QuantumStrut_4294789934
+	srfN = srfAttach,crewCabin_4294790664
 	EVENTS
 	{
 	}
@@ -2928,10 +1956,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207986
+	part = QuantumStrut_4294790512
 	partName = Part
-	pos = 4.74674,10.86964,4.965638
-	rot = -0.7044172,-0.704415,0.06162769,0.06162971
+	pos = 5.290567,24.54438,0.7910783
+	rot = -0.541677,-0.4545192,0.541674,-0.4545194
 	attRot = 0.08715575,0,0,0.9961947
 	mir = 1,1,1
 	istg = 0
@@ -2939,8 +1967,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207370
-	srfN = srfAttach,crewCabin_4293208138
+	sym = QuantumStrut_4294789896
+	srfN = srfAttach,crewCabin_4294790664
 	EVENTS
 	{
 	}
@@ -2996,10 +2024,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207948
+	part = QuantumStrut_4294790474
 	partName = Part
-	pos = 3.022224,11.86739,3.587638
-	rot = -0.8660251,0.5000007,-2.384186E-07,8.642673E-07
+	pos = 3.566052,23.16638,-0.206671
+	rot = -0.6123728,0.3535537,-0.3535541,-0.6123714
 	attRot = 0,-4.214685E-08,-0.7071067,0.7071067
 	mir = 1,1,1
 	istg = 0
@@ -3007,8 +2035,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207332
-	srfN = srfAttach,crewCabin_4293208138
+	sym = QuantumStrut_4294789858
+	srfN = srfAttach,crewCabin_4294790664
 	EVENTS
 	{
 	}
@@ -3064,10 +2092,10 @@ PART
 }
 PART
 {
-	part = lightnav.blue_4293207910
+	part = lightnav.blue_4294790436
 	partName = navLight
-	pos = 3.598275,12.03679,5.14194
-	rot = -0.7071069,-0.7071068,-2.980232E-08,-5.662441E-07
+	pos = 4.142103,24.72069,-0.3760712
+	rot = -0.4999997,-0.5,0.5,-0.5000005
 	attRot = 0,0.7071068,-4.214685E-08,0.7071068
 	mir = 1,1,1
 	istg = 1
@@ -3075,8 +2103,8 @@ PART
 	sidx = 1
 	sqor = 1
 	attm = 1
-	sym = lightnav.blue_4293207294
-	srfN = srfAttach,crewCabin_4293208138
+	sym = lightnav.blue_4294789820
+	srfN = srfAttach,crewCabin_4294790664
 	EVENTS
 	{
 	}
@@ -3086,10 +2114,10 @@ PART
 }
 PART
 {
-	part = lightnav.blue_4293207886
+	part = lightnav.blue_4294790412
 	partName = navLight
-	pos = 3.598275,9.699785,5.089818
-	rot = 0.7071067,-0.7071069,9.834766E-07,-1.192093E-07
+	pos = 4.142103,24.66856,1.960933
+	rot = 0.5,-0.4999994,0.5000008,0.4999999
 	attRot = 0,0.7071068,-4.214685E-08,0.7071068
 	mir = 1,1,1
 	istg = 1
@@ -3097,8 +2125,8 @@ PART
 	sidx = 2
 	sqor = 1
 	attm = 1
-	sym = lightnav.blue_4293207270
-	srfN = srfAttach,crewCabin_4293208138
+	sym = lightnav.blue_4294789796
+	srfN = srfAttach,crewCabin_4294790664
 	EVENTS
 	{
 	}
@@ -3108,10 +2136,10 @@ PART
 }
 PART
 {
-	part = largeSolarPanel.XXL_4293207862
+	part = largeSolarPanel.XXL_4294790388
 	partName = Part
-	pos = 4.812792,10.86964,-1.251199
-	rot = -1.123824E-08,-0.7071069,-0.7071068,-1.123822E-08
+	pos = 5.35662,18.32755,0.7910781
+	rot = -1.24345E-14,-1,8.940697E-08,-1.589326E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3119,8 +2147,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = largeSolarPanel.XXL_4293207246
-	srfN = srfAttach,LargeWarehouse_4293208214
+	sym = largeSolarPanel.XXL_4294789772
+	srfN = srfAttach,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -3179,10 +2207,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207798
+	part = QuantumStrut_4294790324
 	partName = Part
-	pos = 3.598275,12.07747,0.4724129
-	rot = -0.7071069,0.7071066,0,5.960464E-08
+	pos = 4.142103,20.05116,-0.4167515
+	rot = -0.5000002,0.4999999,-0.4999999,-0.5000001
 	attRot = 0,-4.214685E-08,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -3190,8 +2218,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207182
-	srfN = srfAttach,LargeWarehouse_4293208214
+	sym = QuantumStrut_4294789708
+	srfN = srfAttach,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -3247,10 +2275,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207760
+	part = QuantumStrut_4294790286
 	partName = Part
-	pos = 3.598275,12.07883,-5.28815
-	rot = -0.707107,0.7071066,0,0
+	pos = 4.142103,14.2906,-0.4181118
+	rot = -0.5000002,0.4999999,-0.4999999,-0.5000002
 	attRot = 0,-4.214685E-08,-0.7071067,0.7071067
 	mir = 1,1,1
 	istg = 0
@@ -3258,8 +2286,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207144
-	srfN = srfAttach,LargeWarehouse_4293208214
+	sym = QuantumStrut_4294789670
+	srfN = srfAttach,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -3315,10 +2343,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207722
+	part = QuantumStrut_4294790248
 	partName = Part
-	pos = 3.598275,9.660556,-5.34142
-	rot = -0.707107,0.7071066,0,0
+	pos = 4.142103,14.23732,2.000163
+	rot = -0.5000002,0.4999999,-0.4999999,-0.5000002
 	attRot = 0,4.214685E-08,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -3326,8 +2354,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207106
-	srfN = srfAttach,LargeWarehouse_4293208214
+	sym = QuantumStrut_4294789632
+	srfN = srfAttach,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -3383,10 +2411,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207684
+	part = QuantumStrut_4294790210
 	partName = Part
-	pos = 3.598275,9.661636,0.523593
-	rot = -0.707107,0.7071066,0,0
+	pos = 4.142103,20.10234,1.999082
+	rot = -0.5000002,0.4999999,-0.4999999,-0.5000002
 	attRot = 0,4.214685E-08,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -3394,8 +2422,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207068
-	srfN = srfAttach,LargeWarehouse_4293208214
+	sym = QuantumStrut_4294789594
+	srfN = srfAttach,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -3451,10 +2479,10 @@ PART
 }
 PART
 {
-	part = lightnav.blue_4293207646
+	part = lightnav.blue_4294790172
 	partName = navLight
-	pos = 3.598275,12.09634,-5.970857
-	rot = -0.7071068,-0.7071068,0,5.960464E-08
+	pos = 4.142103,13.60789,-0.4356222
+	rot = -0.5000001,-0.5,0.5,-0.5
 	attRot = 0,0.7071068,-4.214685E-08,0.7071068
 	mir = 1,1,1
 	istg = 1
@@ -3462,8 +2490,8 @@ PART
 	sidx = 3
 	sqor = 1
 	attm = 1
-	sym = lightnav.blue_4293207030
-	srfN = srfAttach,LargeWarehouse_4293208214
+	sym = lightnav.blue_4294789556
+	srfN = srfAttach,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -3473,10 +2501,10 @@ PART
 }
 PART
 {
-	part = lightnav.blue_4293207622
+	part = lightnav.blue_4294790148
 	partName = navLight
-	pos = 3.598275,9.643436,-5.938176
-	rot = 0.5000001,-0.5000002,-0.5000002,0.4999998
+	pos = 4.142103,13.64057,2.017282
+	rot = 1.788139E-07,-0.707107,0,0.7071066
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 1
@@ -3484,8 +2512,8 @@ PART
 	sidx = 4
 	sqor = 1
 	attm = 1
-	sym = lightnav.blue_4293207006
-	srfN = srfAttach,LargeWarehouse_4293208214
+	sym = lightnav.blue_4294789532
+	srfN = srfAttach,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -3495,10 +2523,10 @@ PART
 }
 PART
 {
-	part = LargeWarehouse_4293207598
+	part = LargeWarehouse_4294790124
 	partName = Part
-	pos = -2.551049,10.86964,-2.395316
-	rot = 0.7071068,0,0,0.7071068
+	pos = -2.007221,17.18343,0.7910779
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3506,21 +2534,21 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = crewCabin_4293207572
-	link = largeSolarPanel.XXL_4293207246
-	link = QuantumStrut_4293207182
-	link = QuantumStrut_4293207144
-	link = QuantumStrut_4293207106
-	link = QuantumStrut_4293207068
-	link = lightnav.blue_4293207030
-	link = lightnav.blue_4293207006
-	link = MMI Large Battery_4293206940
-	link = launchClamp1_4293206200
-	link = SpaceDock_4293205796
-	sym = LargeWarehouse_4293208214
-	srfN = srfAttach,KW3mtankL4_4293209978
-	attN = top,crewCabin_4293207572
-	attN = bottom,SpaceDock_4293205796
+	link = crewCabin_4294790098
+	link = largeSolarPanel.XXL_4294789772
+	link = QuantumStrut_4294789708
+	link = QuantumStrut_4294789670
+	link = QuantumStrut_4294789632
+	link = QuantumStrut_4294789594
+	link = lightnav.blue_4294789556
+	link = lightnav.blue_4294789532
+	link = MMI Large Battery_4294789466
+	link = launchClamp1_4294788726
+	link = SpaceDock_4294788322
+	sym = LargeWarehouse_4294790740
+	srfN = srfAttach,KW3mtankL4_4294792504
+	attN = top,crewCabin_4294790098
+	attN = bottom,SpaceDock_4294788322
 	EVENTS
 	{
 	}
@@ -3530,10 +2558,10 @@ PART
 }
 PART
 {
-	part = crewCabin_4293207572
+	part = crewCabin_4294790098
 	partName = Part
-	pos = -2.551049,10.86964,2.341604
-	rot = -0.7071068,-4.214685E-08,-4.214684E-08,-0.7071068
+	pos = -2.007221,21.92035,0.7910783
+	rot = 0,-5.960464E-08,3.552714E-15,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3541,11 +2569,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = crewCabin_4293207522
-	link = launchClamp1_4293206792
-	sym = crewCabin_4293208188
-	attN = top,crewCabin_4293207522
-	attN = bottom,LargeWarehouse_4293207598
+	link = crewCabin_4294790048
+	link = launchClamp1_4294789318
+	sym = crewCabin_4294790714
+	attN = top,crewCabin_4294790048
+	attN = bottom,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -3588,10 +2616,10 @@ PART
 }
 PART
 {
-	part = crewCabin_4293207522
+	part = crewCabin_4294790048
 	partName = Part
-	pos = -2.551049,10.86964,4.315418
-	rot = -0.7071066,-4.214684E-08,-4.214685E-08,-0.707107
+	pos = -2.007221,23.89416,0.7910783
+	rot = 2.682209E-07,-5.960464E-08,-3.552714E-15,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3599,16 +2627,14 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = rocketNoseCone_4293207472
-	link = dockingPort2_4293207448
-	link = QuantumStrut_4293207408
-	link = QuantumStrut_4293207370
-	link = QuantumStrut_4293207332
-	link = lightnav.blue_4293207294
-	link = lightnav.blue_4293207270
-	sym = crewCabin_4293208138
-	attN = top,rocketNoseCone_4293207472
-	attN = bottom,crewCabin_4293207572
+	link = dockingPort2_4294789974
+	link = QuantumStrut_4294789934
+	link = QuantumStrut_4294789896
+	link = QuantumStrut_4294789858
+	link = lightnav.blue_4294789820
+	link = lightnav.blue_4294789796
+	sym = crewCabin_4294790664
+	attN = bottom,crewCabin_4294790098
 	EVENTS
 	{
 	}
@@ -3651,32 +2677,10 @@ PART
 }
 PART
 {
-	part = rocketNoseCone_4293207472
-	partName = Strut
-	pos = -2.551049,10.86964,5.30231
-	rot = -0.7071068,-2.541099E-21,-5.024294E-15,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	sym = rocketNoseCone_4293208088
-	attN = bottom,crewCabin_4293207522
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = dockingPort2_4293207448
+	part = dockingPort2_4294789974
 	partName = Part
-	pos = -3.7016,10.86963,4.321218
-	rot = -0.7071067,0.707107,0,-1.132488E-06
+	pos = -3.157772,23.89996,0.7910888
+	rot = -0.4999991,0.5000002,-0.5000002,-0.5000007
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3684,8 +2688,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = dockingPort2_4293208064
-	srfN = srfAttach,crewCabin_4293207522
+	sym = dockingPort2_4294790590
+	srfN = srfAttach,crewCabin_4294790048
 	EVENTS
 	{
 	}
@@ -3838,10 +2842,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207408
+	part = QuantumStrut_4294789934
 	partName = Part
-	pos = -3.705416,10.86964,3.682808
-	rot = 0.701058,-0.7010567,-0.09229544,0.09229839
+	pos = -3.161588,23.26155,0.7910783
+	rot = 0.430458,-0.5609847,0.4304592,0.5609877
 	attRot = -0.1305262,0,0,0.9914449
 	mir = 1,1,1
 	istg = 0
@@ -3849,8 +2853,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293208024
-	srfN = srfAttach,crewCabin_4293207522
+	sym = QuantumStrut_4294790550
+	srfN = srfAttach,crewCabin_4294790048
 	EVENTS
 	{
 	}
@@ -3906,10 +2910,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207370
+	part = QuantumStrut_4294789896
 	partName = Part
-	pos = -3.699511,10.86964,4.965618
-	rot = 0.704417,-0.7044152,0.06162786,-0.06162935
+	pos = -3.155683,24.54436,0.7910783
+	rot = 0.5416766,-0.4545193,0.5416743,0.4545195
 	attRot = 0.08715575,0,0,0.9961947
 	mir = 1,1,1
 	istg = 0
@@ -3917,8 +2921,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207986
-	srfN = srfAttach,crewCabin_4293207522
+	sym = QuantumStrut_4294790512
+	srfN = srfAttach,crewCabin_4294790048
 	EVENTS
 	{
 	}
@@ -3974,10 +2978,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207332
+	part = QuantumStrut_4294789858
 	partName = Part
-	pos = -1.974995,11.86739,3.587638
-	rot = 0.8660256,0.5,0,2.980232E-08
+	pos = -1.431167,23.16638,-0.206671
+	rot = 0.6123725,0.3535534,-0.3535534,0.6123725
 	attRot = 0,-4.214685E-08,-0.7071067,0.7071067
 	mir = 1,1,1
 	istg = 0
@@ -3985,8 +2989,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207948
-	srfN = srfAttach,crewCabin_4293207522
+	sym = QuantumStrut_4294790474
+	srfN = srfAttach,crewCabin_4294790048
 	EVENTS
 	{
 	}
@@ -4042,10 +3046,10 @@ PART
 }
 PART
 {
-	part = lightnav.blue_4293207294
+	part = lightnav.blue_4294789820
 	partName = navLight
-	pos = -2.551049,12.03679,5.14194
-	rot = 1.192093E-07,-7.450581E-07,-0.7071067,-0.7071069
+	pos = -2.007221,24.72069,-0.3760712
+	rot = 0.5000002,-0.5000005,-0.4999994,-0.5000001
 	attRot = 0,0.7071068,-4.214685E-08,0.7071068
 	mir = 1,1,1
 	istg = 1
@@ -4053,8 +3057,8 @@ PART
 	sidx = 5
 	sqor = 1
 	attm = 1
-	sym = lightnav.blue_4293207910
-	srfN = srfAttach,crewCabin_4293207522
+	sym = lightnav.blue_4294790436
+	srfN = srfAttach,crewCabin_4294790048
 	EVENTS
 	{
 	}
@@ -4064,10 +3068,10 @@ PART
 }
 PART
 {
-	part = lightnav.blue_4293207270
+	part = lightnav.blue_4294789796
 	partName = navLight
-	pos = -2.551049,9.699785,5.089818
-	rot = -3.278255E-07,5.960464E-08,-0.7071068,0.7071068
+	pos = -2.007221,24.66856,1.960933
+	rot = -0.5000003,-0.5,-0.5000001,0.4999997
 	attRot = 0,0.7071068,-4.214685E-08,0.7071068
 	mir = 1,1,1
 	istg = 1
@@ -4075,8 +3079,8 @@ PART
 	sidx = 6
 	sqor = 1
 	attm = 1
-	sym = lightnav.blue_4293207886
-	srfN = srfAttach,crewCabin_4293207522
+	sym = lightnav.blue_4294790412
+	srfN = srfAttach,crewCabin_4294790048
 	EVENTS
 	{
 	}
@@ -4086,10 +3090,10 @@ PART
 }
 PART
 {
-	part = largeSolarPanel.XXL_4293207246
+	part = largeSolarPanel.XXL_4294789772
 	partName = Part
-	pos = -3.765569,10.86964,-1.251199
-	rot = 0.7071068,4.214685E-08,4.214685E-08,0.7071069
+	pos = -3.221741,18.32755,0.7910781
+	rot = -8.940697E-08,5.960464E-08,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4097,8 +3101,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = largeSolarPanel.XXL_4293207862
-	srfN = srfAttach,LargeWarehouse_4293207598
+	sym = largeSolarPanel.XXL_4294790388
+	srfN = srfAttach,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -4157,10 +3161,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207182
+	part = QuantumStrut_4294789708
 	partName = Part
-	pos = -2.551049,12.07747,0.4724129
-	rot = -0.7071069,-0.7071068,0,8.940697E-08
+	pos = -2.007221,20.05116,-0.4167515
+	rot = -0.5000002,-0.5,0.5,-0.5000001
 	attRot = 0,-4.214685E-08,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -4168,8 +3172,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207798
-	srfN = srfAttach,LargeWarehouse_4293207598
+	sym = QuantumStrut_4294790324
+	srfN = srfAttach,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -4225,10 +3229,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207144
+	part = QuantumStrut_4294789670
 	partName = Part
-	pos = -2.551049,12.07883,-5.28815
-	rot = 0.7071068,0.7071068,0,0
+	pos = -2.007221,14.2906,-0.4181118
+	rot = 0.5,0.5,-0.5,0.5
 	attRot = 0,-4.214685E-08,-0.7071067,0.7071067
 	mir = 1,1,1
 	istg = 0
@@ -4236,8 +3240,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207760
-	srfN = srfAttach,LargeWarehouse_4293207598
+	sym = QuantumStrut_4294790286
+	srfN = srfAttach,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -4293,10 +3297,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207106
+	part = QuantumStrut_4294789632
 	partName = Part
-	pos = -2.551049,9.660556,-5.34142
-	rot = -0.7071068,-0.7071068,0,0
+	pos = -2.007221,14.23732,2.000163
+	rot = -0.5,-0.5,0.5,-0.5
 	attRot = 0,4.214685E-08,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -4304,8 +3308,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207722
-	srfN = srfAttach,LargeWarehouse_4293207598
+	sym = QuantumStrut_4294790248
+	srfN = srfAttach,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -4361,10 +3365,10 @@ PART
 }
 PART
 {
-	part = QuantumStrut_4293207068
+	part = QuantumStrut_4294789594
 	partName = Part
-	pos = -2.551049,9.661636,0.523593
-	rot = -0.7071068,-0.7071068,0,0
+	pos = -2.007221,20.10234,1.999082
+	rot = -0.5,-0.5,0.5,-0.5
 	attRot = 0,4.214685E-08,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -4372,8 +3376,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = QuantumStrut_4293207684
-	srfN = srfAttach,LargeWarehouse_4293207598
+	sym = QuantumStrut_4294790210
+	srfN = srfAttach,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -4429,10 +3433,10 @@ PART
 }
 PART
 {
-	part = lightnav.blue_4293207030
+	part = lightnav.blue_4294789556
 	partName = navLight
-	pos = -2.551049,12.09634,-5.970857
-	rot = 0,0,0.7071068,0.7071068
+	pos = -2.007221,13.60789,-0.4356222
+	rot = -0.5,0.5,0.5,0.5
 	attRot = 0,0.7071068,-4.214685E-08,0.7071068
 	mir = 1,1,1
 	istg = 1
@@ -4440,8 +3444,8 @@ PART
 	sidx = 7
 	sqor = 1
 	attm = 1
-	sym = lightnav.blue_4293207646
-	srfN = srfAttach,LargeWarehouse_4293207598
+	sym = lightnav.blue_4294790172
+	srfN = srfAttach,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -4451,10 +3455,10 @@ PART
 }
 PART
 {
-	part = lightnav.blue_4293207006
+	part = lightnav.blue_4294789532
 	partName = navLight
-	pos = -2.551049,9.643436,-5.938176
-	rot = 0.5000002,-0.4999999,-0.4999999,0.5000002
+	pos = -2.007221,13.64057,2.017282
+	rot = 0,-0.7071066,0,0.707107
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 1
@@ -4462,8 +3466,8 @@ PART
 	sidx = 8
 	sqor = 1
 	attm = 1
-	sym = lightnav.blue_4293207622
-	srfN = srfAttach,LargeWarehouse_4293207598
+	sym = lightnav.blue_4294790148
+	srfN = srfAttach,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -4473,10 +3477,10 @@ PART
 }
 PART
 {
-	part = MMI Large Battery_4293206982
+	part = MMI Large Battery_4294789508
 	partName = Part
-	pos = 3.598275,12.0782,-4.900451
-	rot = -0.5000001,-0.5000001,-0.5000001,-0.5
+	pos = 4.142103,14.67829,-0.4174824
+	rot = -5.960464E-08,-0.7071069,0,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4484,8 +3488,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = MMI Large Battery_4293206940
-	srfN = srfAttach,LargeWarehouse_4293208214
+	sym = MMI Large Battery_4294789466
+	srfN = srfAttach,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -4495,10 +3499,10 @@ PART
 }
 PART
 {
-	part = MMI Large Battery_4293206940
+	part = MMI Large Battery_4294789466
 	partName = Part
-	pos = -2.551049,12.0782,-4.900451
-	rot = -0.5000001,-0.5000001,-0.5000001,-0.5000001
+	pos = -2.007221,14.67829,-0.4174824
+	rot = 0,-0.7071068,0,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4506,8 +3510,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = MMI Large Battery_4293206982
-	srfN = srfAttach,LargeWarehouse_4293207598
+	sym = MMI Large Battery_4294789508
+	srfN = srfAttach,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -4517,10 +3521,10 @@ PART
 }
 PART
 {
-	part = launchClamp1_4293206898
+	part = launchClamp1_4294789424
 	partName = Strut
-	pos = 5.554029,10.86964,0.9085534
-	rot = -0.5000002,0.5000001,0.4999997,-0.5000002
+	pos = 6.097857,20.4873,0.7910781
+	rot = 0,0.7071066,-2.980232E-07,-0.707107
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4528,8 +3532,8 @@ PART
 	sidx = 0
 	sqor = 0
 	attm = 1
-	sym = launchClamp1_4293206792
-	srfN = srfAttach,crewCabin_4293208188
+	sym = launchClamp1_4294789318
+	srfN = srfAttach,crewCabin_4294790714
 	EVENTS
 	{
 	}
@@ -4540,9 +3544,9 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.069593
-		height = 10.26839
-		towerRot = -2.086162E-06,-9.685749E-07,0.7071077,0.707106
+		scaleFactor = 8.381214
+		height = 21.14745
+		towerRot = -1.685873E-07,1.192092E-07,-2.95028E-07,1
 		EVENTS
 		{
 			Release
@@ -4615,10 +3619,10 @@ PART
 }
 PART
 {
-	part = launchClamp1_4293206792
+	part = launchClamp1_4294789318
 	partName = Strut
-	pos = -4.5068,10.86964,0.9085534
-	rot = 0.4999999,0.5000004,0.5000002,0.4999998
+	pos = -3.962972,20.4873,0.7910781
+	rot = 2.980232E-08,0.7071072,-1.788139E-07,0.7071065
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4626,8 +3630,8 @@ PART
 	sidx = 1
 	sqor = 0
 	attm = 1
-	sym = launchClamp1_4293206898
-	srfN = srfAttach,crewCabin_4293207572
+	sym = launchClamp1_4294789424
+	srfN = srfAttach,crewCabin_4294790098
 	EVENTS
 	{
 	}
@@ -4638,9 +3642,9 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.069593
-		height = 10.26838
-		towerRot = 2.026557E-06,-4.619359E-07,-0.7071069,0.7071067
+		scaleFactor = 8.381212
+		height = 21.14745
+		towerRot = -2.107344E-07,-6.854532E-07,4.214684E-07,1
 		EVENTS
 		{
 			Release
@@ -4713,10 +3717,10 @@ PART
 }
 PART
 {
-	part = spotLight2_4293206686
+	part = spotLight2_4294789212
 	partName = Part
-	pos = 1.890328,12.23635,-7.345666
-	rot = -0.2705981,-0.6532816,0.6532816,0.270598
+	pos = 2.434156,12.23308,-0.5756322
+	rot = -0.3826834,0,0.9238796,-8.940697E-08
 	attRot = 0,-0.9999999,5.960464E-08,-1.776357E-15
 	mir = 1,1,1
 	istg = 0
@@ -4724,8 +3728,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = spotLight2_4293206656
-	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
+	sym = spotLight2_4294789182
+	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4294792410
 	EVENTS
 	{
 	}
@@ -4781,10 +3785,10 @@ PART
 }
 PART
 {
-	part = spotLight2_4293206656
+	part = spotLight2_4294789182
 	partName = Part
-	pos = -0.8430995,12.23635,-7.345666
-	rot = 0.2705981,-0.6532816,0.6532816,-0.2705981
+	pos = -0.2992716,12.23308,-0.5756322
+	rot = 0.3826835,0,0.9238796,0
 	attRot = 0,0.9999999,-5.960464E-08,-1.776357E-15
 	mir = 1,1,1
 	istg = 0
@@ -4792,8 +3796,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = spotLight2_4293206686
-	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4293209884
+	sym = spotLight2_4294789212
+	srfN = srfAttach,leucome.1X-2000.ZPFTR.Fuel.5mSA_4294792410
 	EVENTS
 	{
 	}
@@ -4849,10 +3853,10 @@ PART
 }
 PART
 {
-	part = lightnav.red_4293206626
+	part = lightnav.red_4294789152
 	partName = navLight
-	pos = 0.3375514,12.6995,0.6044729
-	rot = -0.4999999,-0.5000002,-0.5000002,-0.4999999
+	pos = 0.8813792,20.18322,-1.038782
+	rot = 0,-0.707107,0,-0.7071066
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 1
@@ -4860,8 +3864,8 @@ PART
 	sidx = 9
 	sqor = 1
 	attm = 1
-	sym = lightnav.red_4293206602
-	srfN = srfAttach,KW3mtankL4_4293209978
+	sym = lightnav.red_4294789128
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -4871,10 +3875,10 @@ PART
 }
 PART
 {
-	part = lightnav.red_4293206602
+	part = lightnav.red_4294789128
 	partName = navLight
-	pos = 0.7096773,12.6995,0.6044729
-	rot = -0.5000001,-0.5000001,-0.5000001,-0.5000001
+	pos = 1.253505,20.18322,-1.038782
+	rot = 0,-0.7071068,0,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 1
@@ -4882,8 +3886,8 @@ PART
 	sidx = 10
 	sqor = 1
 	attm = 1
-	sym = lightnav.red_4293206626
-	srfN = srfAttach,KW3mtankL4_4293209978
+	sym = lightnav.red_4294789152
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -4893,10 +3897,10 @@ PART
 }
 PART
 {
-	part = telescopicLadder_4293206578
+	part = telescopicLadder_4294789104
 	partName = Part
-	pos = 0.5236144,12.68104,-3.164042
-	rot = -0.7071068,0,0.7071068,0
+	pos = 1.067442,16.4147,-1.020322
+	rot = -0.5,0.5,0.5,-0.5
 	attRot = 0.7071067,7.486784E-23,7.486784E-23,-0.7071067
 	mir = 1,1,1
 	istg = 0
@@ -4904,7 +3908,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,KW3mtankL4_4293209978
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -4960,10 +3964,10 @@ PART
 }
 PART
 {
-	part = Romfarer.Lazor.Blue_4293206360
+	part = Romfarer.Lazor.Blue_4294788886
 	partName = LazorAimable
-	pos = 0.5382813,14.03857,1.334373
-	rot = 3.090862E-08,-0.7071068,-0.7071068,-3.090862E-08
+	pos = 1.082109,20.91312,-2.377851
+	rot = 4.371139E-08,-1,0,0
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4971,7 +3975,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,mk2LanderCabin_4293210064
+	srfN = srfAttach,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -4981,10 +3985,10 @@ PART
 }
 PART
 {
-	part = Romfarer.Lazor.Green_4293206328
+	part = Romfarer.Lazor.Green_4294788854
 	partName = LazorAimable
-	pos = -0.02138954,14.02057,1.180823
-	rot = -0.6830128,0.183012,-0.183012,-0.683013
+	pos = 0.5224383,20.75957,-2.359851
+	rot = 1.788139E-07,0,-0.258818,-0.9659261
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4992,7 +3996,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,mk2LanderCabin_4293210064
+	srfN = srfAttach,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -5002,10 +4006,10 @@ PART
 }
 PART
 {
-	part = Romfarer.Lazor.Magenta_4293206296
+	part = Romfarer.Lazor.Magenta_4294788822
 	partName = LazorAimable
-	pos = 1.047372,13.98536,1.210023
-	rot = -0.6830124,-0.1830139,0.1830138,-0.6830124
+	pos = 1.5912,20.78877,-2.324641
+	rot = 0,-7.450581E-08,0.2588207,-0.9659254
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5013,7 +4017,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,mk2LanderCabin_4293210064
+	srfN = srfAttach,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -5023,10 +4027,10 @@ PART
 }
 PART
 {
-	part = Romfarer.Lazor.Red_4293206264
+	part = Romfarer.Lazor.Red_4294788790
 	partName = LazorAimable
-	pos = -0.4049146,14.00107,0.7968823
-	rot = -0.6123722,0.3535537,-0.3535537,-0.6123723
+	pos = 0.1389133,20.37563,-2.340351
+	rot = 2.980232E-08,0,-0.5000004,-0.8660251
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5034,7 +4038,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,mk2LanderCabin_4293210064
+	srfN = srfAttach,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -5044,10 +4048,10 @@ PART
 }
 PART
 {
-	part = Romfarer.Lazor.Yellow_4293206232
+	part = Romfarer.Lazor.Yellow_4294788758
 	partName = LazorAimable
-	pos = 1.39678,13.94287,0.9435831
-	rot = -0.6123725,-0.3535531,0.353553,-0.6123728
+	pos = 1.940608,20.52233,-2.282151
+	rot = 2.086163E-07,-5.960464E-08,0.4999995,-0.8660257
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5055,7 +4059,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,mk2LanderCabin_4293210064
+	srfN = srfAttach,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -5065,10 +4069,10 @@ PART
 }
 PART
 {
-	part = launchClamp1_4293206200
+	part = launchClamp1_4294788726
 	partName = Strut
-	pos = -4.566994,10.86964,-6.283736
-	rot = -0.5000001,-0.5000001,-0.5000001,-0.5000001
+	pos = -4.023167,13.29501,0.7910776
+	rot = 0,-0.7071068,0,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5076,8 +4080,8 @@ PART
 	sidx = 2
 	sqor = 0
 	attm = 1
-	sym = launchClamp1_4293206094
-	srfN = srfAttach,LargeWarehouse_4293207598
+	sym = launchClamp1_4294788620
+	srfN = srfAttach,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -5088,9 +4092,9 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.069593
-		height = 10.26838
-		towerRot = 0,0,-0.7071069,0.7071066
+		scaleFactor = 5.530744
+		height = 13.95516
+		towerRot = 0,0,1.264405E-07,1
 		EVENTS
 		{
 			Release
@@ -5163,10 +4167,10 @@ PART
 }
 PART
 {
-	part = launchClamp1_4293206094
+	part = launchClamp1_4294788620
 	partName = Strut
-	pos = 5.614223,10.86964,-6.283736
-	rot = -0.5000001,0.5,0.5,-0.5000001
+	pos = 6.158051,13.29501,0.7910776
+	rot = 0,0.7071068,0,-0.7071069
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5174,8 +4178,8 @@ PART
 	sidx = 3
 	sqor = 0
 	attm = 1
-	sym = launchClamp1_4293206200
-	srfN = srfAttach,LargeWarehouse_4293208214
+	sym = launchClamp1_4294788726
+	srfN = srfAttach,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -5186,9 +4190,9 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.069593
-		height = 10.26838
-		towerRot = -0.0001223087,-9.095668E-05,0.7071111,0.7071025
+		scaleFactor = 5.530744
+		height = 13.95516
+		towerRot = 2.84217E-14,-0.0003215074,-2.528811E-07,1
 		EVENTS
 		{
 			Release
@@ -5261,10 +4265,10 @@ PART
 }
 PART
 {
-	part = MerlinSPSys_4293205988
+	part = MerlinSPSys_4294788514
 	partName = Part
-	pos = 0.5236144,12.69109,-1.518281
-	rot = -8.432164E-09,0.7071068,0.7071068,-8.432164E-09
+	pos = 1.067442,18.06046,-1.030372
+	rot = 0,1,0,-1.192488E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5272,7 +4276,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,KW3mtankL4_4293209978
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -5315,10 +4319,10 @@ PART
 }
 PART
 {
-	part = Romfarer.LazorSystem_4293205958
+	part = Romfarer.LazorSystem_4294788484
 	partName = LazorSystem
-	pos = 0.5236144,12.70093,-2.300359
-	rot = -1.192488E-08,1,0,0
+	pos = 1.067442,17.27839,-1.040212
+	rot = -8.432164E-09,0.7071068,-0.7071068,-8.432164E-09
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 1
@@ -5327,7 +4331,7 @@ PART
 	sqor = 1
 	attm = 1
 	cData = H
-	srfN = srfAttach,KW3mtankL4_4293209978
+	srfN = srfAttach,KW3mtankL4_4294792504
 	EVENTS
 	{
 	}
@@ -5345,10 +4349,10 @@ PART
 }
 PART
 {
-	part = SpaceBuiltIdentifier_4293205908
+	part = klfAntenna_4294788408
 	partName = Part
-	pos = 0.5236144,12.68584,-4.149962
-	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	pos = 1.082109,18.98427,-2.386021
+	rot = 3.090862E-08,-0.7071068,0.7071068,3.090862E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5356,39 +4360,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,KW3mtankL4_4293209978
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = SpaceBuilt18
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = klfAntenna_4293205882
-	partName = Part
-	pos = 0.5382813,14.04674,-0.5944773
-	rot = 4.371139E-08,-1,0,0
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,mk2LanderCabin_4293210064
+	srfN = srfAttach,mk2LanderCabin_4294792590
 	EVENTS
 	{
 	}
@@ -5409,10 +4381,10 @@ PART
 }
 PART
 {
-	part = HL.PartyStarter_4293205822
+	part = HL.PartyStarter_4294788348
 	partName = Part
-	pos = 0.5382813,14.83371,0.2684321
-	rot = -1.192488E-08,1,0,0
+	pos = 1.082109,19.84718,-3.172991
+	rot = -8.432163E-09,0.7071068,-0.7071068,-8.432163E-09
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5420,7 +4392,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,quantumStrutCore_4293208620
+	srfN = srfAttach,quantumStrutCore_4294791146
 	EVENTS
 	{
 	}
@@ -5441,10 +4413,10 @@ PART
 }
 PART
 {
-	part = SpaceDock_4293205796
+	part = SpaceDock_4294788322
 	partName = Part
-	pos = -2.551049,10.86963,-6.238206
-	rot = -0.7071068,0,0,-0.7071068
+	pos = -2.007221,13.34054,0.7910881
+	rot = 0,0,0,-1
 	attRot = -0.7071068,0,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -5452,7 +4424,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	attN = top,LargeWarehouse_4293207598
+	attN = top,LargeWarehouse_4294790124
 	EVENTS
 	{
 	}
@@ -5474,10 +4446,10 @@ PART
 }
 PART
 {
-	part = advSasModule_4293205770
+	part = advSasModule_4294788296
 	partName = AdvSASModule
-	pos = 3.598275,10.86964,-6.344355
-	rot = -0.7071068,0,0,-0.7071068
+	pos = 4.142103,13.23439,0.7910776
+	rot = 0,0,0,-1
 	attRot = -0.7071068,0,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -5485,7 +4457,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	attN = top,LargeWarehouse_4293208214
+	attN = top,LargeWarehouse_4294790740
 	EVENTS
 	{
 	}
@@ -5495,10 +4467,10 @@ PART
 }
 PART
 {
-	part = largeAdapter_4293093372
+	part = largeAdapter_4294788272
 	partName = Strut
-	pos = 0.5236144,10.86963,10.09883
-	rot = 0.7071068,0,0,0.7071068
+	pos = 1.067442,29.67758,0.7910891
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5506,9 +4478,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = dockingPort1_4293084176
-	attN = top,dockingPort1_4293084176
-	attN = bottom,KW3mRCSfuel_4293209916
+	attN = bottom,KW3mRCSfuel_4294792442
 	EVENTS
 	{
 	}
@@ -5518,18 +4488,18 @@ PART
 }
 PART
 {
-	part = dockingPort1_4293084176
+	part = dockingPort2_4294504772
 	partName = Part
-	pos = 0.5236144,10.86963,10.85414
-	rot = 0.7071068,0,0,0.7071068
-	attRot = 0,0,0,1
+	pos = 5.574949,23.91085,0.7898178
+	rot = -0.5000003,0.4999995,0.4999994,0.5000009
+	attRot = -0.9999999,0,0,0
 	mir = 1,1,1
 	istg = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	attm = 0
-	attN = bottom,largeAdapter_4293093372
+	attm = 1
+	srfN = srfAttach,dockingPort2_4294790590
 	EVENTS
 	{
 	}
@@ -5641,35 +4611,6 @@ PART
 				actionGroup = None
 			}
 			DecoupleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle
-				guiName = Open Shield
-				category = Toggle
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
 			{
 				actionGroup = None
 			}
