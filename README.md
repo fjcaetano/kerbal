@@ -1,4 +1,7 @@
-# This is my save for the [Kebal Space Program](https://www.kerbalspaceprogram.com/).
+Kerbal
+======
+
+This is my save for the [Kebal Space Program](https://www.kerbalspaceprogram.com/).
 
 I'm currently using the 0.18.4 version (latest).
 
@@ -18,7 +21,8 @@ Mods being used:
 - [Prometheus](http://kerbalspaceport.com/0-18-2-prometheus-solar-rover-v5-0/)
 - [Nautilus](http://kerbalspaceport.com/0-18-1-mpss-nautilus/)
 
-# Ships & Flights In Progress
+Ships & Flights In Progress
+---------------------------
 
 ## Icarus
 The Icarus was my first satellite that I managed to put in orbit. It's orbiting eliptically at ~ 45º with Pe = 108.976Km and Ap = 604.739Km.
@@ -32,20 +36,20 @@ The Kerbal Space Station aka KSS is orbiting at 90º at 300Km. It's orbit was ca
 
 It can support up to 20 Kerbals, though, currently 15 is the suggested number since it's the capability of it's safe return module (Kilton).
 
-The current crew:
+	Current crew:
 
-- Jebediah Kerman
-- Flavio Kaetano (that's me!)
-- Barrod Kerman
-- Alvis Kerman
-- Shepcas Kerman
-- Dercan Kerman
+	- Jebediah Kerman
+	- Flavio Kaetano (that's me!)
+	- Barrod Kerman
+	- Alvis Kerman
+	- Shepcas Kerman
+	- Dercan Kerman
 
-Old crew (successfully returned):
+	Old crew (successfully returned):
 
-- Bob Kerman
-- Mactrey Kerman
-- Dercan Kerman
+	- Bob Kerman
+	- Mactrey Kerman
+	- Dercan Kerman
 
 The KSS is composed of the following modules:
 
@@ -70,11 +74,11 @@ The Kommbot I is the communications module. It connects the KSS to the Skynet re
 
 The MunBase is located at the coordinates 0º 41' 50" N, 22º 50' 34" E of the Mun at 300m of the Neil Armstrong memorial (almost pure luck).
 
-Crew:
+	Crew:
 
-- Barrod Kerman
-- Mactrey Kerman
-- Bob Kerman
+	- Barrod Kerman
+	- Mactrey Kerman
+	- Bob Kerman
 
 ### Kolumbus II
 The Kolumbus II is a Skynet Mission control. It has a 9000 Km anthena which can retransmit the signal to over half the Mun.
