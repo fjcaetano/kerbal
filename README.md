@@ -20,11 +20,11 @@ Mods being used:
 - [DEMV Mk5](http://kerbalspaceport.com/0-18-demv-mk-5-ant/)
 - [Prometheus](http://kerbalspaceport.com/0-18-2-prometheus-solar-rover-v5-0/)
 - [Nautilus](http://kerbalspaceport.com/0-18-1-mpss-nautilus/)
-
 Ships & Flights In Progress
 ===========================
 
-## Icarus
+Icarus
+------
 
 The Icarus was my first satellite that I managed to put in orbit. It's orbiting eliptically at ~ 45º with Pe = 108.976Km and Ap = 604.739Km.
 
@@ -136,7 +136,7 @@ Was KSS first safe return module. It had 7 seats for Kerbal spacemen and enough 
 
 Safely returned home with Bob, Mactrey and Dercan Kerman who were too terrified to keep in space.
 
-## MünRover II
+## MünRover I
 
 This ship was a rover landed on the Mün. Unfortunately, it's rear propeller broke on the landing, but it was still drivable through RCS.
 
