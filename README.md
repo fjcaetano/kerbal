@@ -20,11 +20,10 @@ Mods being used:
 - [DEMV Mk5](http://kerbalspaceport.com/0-18-demv-mk-5-ant/)
 - [Prometheus](http://kerbalspaceport.com/0-18-2-prometheus-solar-rover-v5-0/)
 - [Nautilus](http://kerbalspaceport.com/0-18-1-mpss-nautilus/)
-Ships & Flights In Progress
-===========================
 
-Icarus
-------
+# Ships & Flights In Progress
+
+## Icarus
 
 The Icarus was my first satellite that I managed to put in orbit. It's orbiting eliptically at ~ 45º with Pe = 108.976Km and Ap = 604.739Km.
 
@@ -33,6 +32,10 @@ It's self sufficient in matters of electricity and it has enough fuel to return 
 It's ugly and useless, but it's up there for sentimental values.
 
 ## The KSS
+	
+The Kerbal Space Station aka KSS is orbiting at 90º at 300Km. It's orbit was calculated to match with the Mün's orbit and it serve as a pitstop in the trajectory.
+
+It can support up to 20 Kerbals, though, currently 15 is the suggested number since it's the capability of it's safe return module (Kilton).
 
 	Current crew:
 
@@ -48,10 +51,6 @@ It's ugly and useless, but it's up there for sentimental values.
 	- Bob Kerman
 	- Mactrey Kerman
 	- Dercan Kerman
-	
-The Kerbal Space Station aka KSS is orbiting at 90º at 300Km. It's orbit was calculated to match with the Mün's orbit and it serve as a pitstop in the trajectory.
-
-It can support up to 20 Kerbals, though, currently 15 is the suggested number since it's the capability of it's safe return module (Kilton).
 
 ### The Core
 
@@ -77,13 +76,13 @@ The Kommbot I is the communications module. It connects the KSS to the Skynet re
 
 ## MunBase
 
+The MunBase is located at the coordinates 0º 41' 50" N, 22º 50' 34" E of the Mun at 300m of the Neil Armstrong memorial (almost pure luck).
+
 	Crew:
 
 	- Barrod Kerman
 	- Mactrey Kerman
 	- Bob Kerman
-
-The MunBase is located at the coordinates 0º 41' 50" N, 22º 50' 34" E of the Mun at 300m of the Neil Armstrong memorial (almost pure luck).
 
 ### Kolumbus II
 
